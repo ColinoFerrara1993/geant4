@@ -1,0 +1,20 @@
+#**************
+#**
+#** Demonstrates the basic functionality of this example
+#**
+#**************
+
+/run/verbose 1
+/control/verbose 1
+
+
+/run/initialize
+
+/run/printProgress 100000
+
+/vis/disable
+
+/LXe/pmtThreshold 1
+/electricfield/update
+/field/update
+/run/beamOn 100000000
