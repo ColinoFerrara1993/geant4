@@ -401,13 +401,13 @@ CMakeFiles/LXe_n.dir/LXe.cc.o: /lustrehome/daymos93/programs/clhep/clhep-install
 CMakeFiles/LXe_n.dir/LXe.cc.o: /lustrehome/daymos93/programs/clhep/clhep-install/include/CLHEP/Vector/TwoVector.icc
 CMakeFiles/LXe_n.dir/LXe.cc.o: /lustrehome/daymos93/programs/clhep/clhep-install/include/CLHEP/Vector/ZMxpv.h
 CMakeFiles/LXe_n.dir/LXe.cc.o: /lustrehome/daymos93/programs/clhep/clhep-install/include/CLHEP/Vector/defs.h
-CMakeFiles/LXe_n.dir/LXe.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/LXe.cc
-CMakeFiles/LXe_n.dir/LXe.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/ElectricFieldSetup.hh
-CMakeFiles/LXe_n.dir/LXe.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/F03FieldSetup.hh
-CMakeFiles/LXe_n.dir/LXe.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/LXeActionInitialization.hh
-CMakeFiles/LXe_n.dir/LXe.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/LXeDetectorConstruction.hh
-CMakeFiles/LXe_n.dir/LXe.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/LXeDetectorMessenger.hh
-CMakeFiles/LXe_n.dir/LXe.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/LXeSteppingAction.hh
+CMakeFiles/LXe_n.dir/LXe.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/LXe.cc
+CMakeFiles/LXe_n.dir/LXe.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/ElectricFieldSetup.hh
+CMakeFiles/LXe_n.dir/LXe.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/F03FieldSetup.hh
+CMakeFiles/LXe_n.dir/LXe.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/LXeActionInitialization.hh
+CMakeFiles/LXe_n.dir/LXe.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/LXeDetectorConstruction.hh
+CMakeFiles/LXe_n.dir/LXe.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/LXeDetectorMessenger.hh
+CMakeFiles/LXe_n.dir/LXe.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/LXeSteppingAction.hh
 
 CMakeFiles/LXe_n.dir/src/ElectricFieldMessenger.cc.o: /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/G4ApplicationState.hh
 CMakeFiles/LXe_n.dir/src/ElectricFieldMessenger.cc.o: /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/G4ElectricField.hh
@@ -444,9 +444,9 @@ CMakeFiles/LXe_n.dir/src/ElectricFieldMessenger.cc.o: /lustrehome/daymos93/progr
 CMakeFiles/LXe_n.dir/src/ElectricFieldMessenger.cc.o: /lustrehome/daymos93/programs/clhep/clhep-install/include/CLHEP/Vector/ThreeVector.h
 CMakeFiles/LXe_n.dir/src/ElectricFieldMessenger.cc.o: /lustrehome/daymos93/programs/clhep/clhep-install/include/CLHEP/Vector/ThreeVector.icc
 CMakeFiles/LXe_n.dir/src/ElectricFieldMessenger.cc.o: /lustrehome/daymos93/programs/clhep/clhep-install/include/CLHEP/Vector/defs.h
-CMakeFiles/LXe_n.dir/src/ElectricFieldMessenger.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/ElectricFieldMessenger.hh
-CMakeFiles/LXe_n.dir/src/ElectricFieldMessenger.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/ElectricFieldSetup.hh
-CMakeFiles/LXe_n.dir/src/ElectricFieldMessenger.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/src/ElectricFieldMessenger.cc
+CMakeFiles/LXe_n.dir/src/ElectricFieldMessenger.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/ElectricFieldMessenger.hh
+CMakeFiles/LXe_n.dir/src/ElectricFieldMessenger.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/ElectricFieldSetup.hh
+CMakeFiles/LXe_n.dir/src/ElectricFieldMessenger.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/src/ElectricFieldMessenger.cc
 
 CMakeFiles/LXe_n.dir/src/ElectricFieldSetup.cc.o: /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/G4AffineTransform.hh
 CMakeFiles/LXe_n.dir/src/ElectricFieldSetup.cc.o: /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/G4AffineTransform.icc
@@ -606,9 +606,9 @@ CMakeFiles/LXe_n.dir/src/ElectricFieldSetup.cc.o: /lustrehome/daymos93/programs/
 CMakeFiles/LXe_n.dir/src/ElectricFieldSetup.cc.o: /lustrehome/daymos93/programs/clhep/clhep-install/include/CLHEP/Vector/ThreeVector.icc
 CMakeFiles/LXe_n.dir/src/ElectricFieldSetup.cc.o: /lustrehome/daymos93/programs/clhep/clhep-install/include/CLHEP/Vector/ZMxpv.h
 CMakeFiles/LXe_n.dir/src/ElectricFieldSetup.cc.o: /lustrehome/daymos93/programs/clhep/clhep-install/include/CLHEP/Vector/defs.h
-CMakeFiles/LXe_n.dir/src/ElectricFieldSetup.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/ElectricFieldMessenger.hh
-CMakeFiles/LXe_n.dir/src/ElectricFieldSetup.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/ElectricFieldSetup.hh
-CMakeFiles/LXe_n.dir/src/ElectricFieldSetup.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/src/ElectricFieldSetup.cc
+CMakeFiles/LXe_n.dir/src/ElectricFieldSetup.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/ElectricFieldMessenger.hh
+CMakeFiles/LXe_n.dir/src/ElectricFieldSetup.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/ElectricFieldSetup.hh
+CMakeFiles/LXe_n.dir/src/ElectricFieldSetup.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/src/ElectricFieldSetup.cc
 
 CMakeFiles/LXe_n.dir/src/F03FieldMessenger.cc.o: /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/G4ApplicationState.hh
 CMakeFiles/LXe_n.dir/src/F03FieldMessenger.cc.o: /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/G4EnvironmentUtils.hh
@@ -642,9 +642,9 @@ CMakeFiles/LXe_n.dir/src/F03FieldMessenger.cc.o: /lustrehome/daymos93/programs/c
 CMakeFiles/LXe_n.dir/src/F03FieldMessenger.cc.o: /lustrehome/daymos93/programs/clhep/clhep-install/include/CLHEP/Vector/ThreeVector.h
 CMakeFiles/LXe_n.dir/src/F03FieldMessenger.cc.o: /lustrehome/daymos93/programs/clhep/clhep-install/include/CLHEP/Vector/ThreeVector.icc
 CMakeFiles/LXe_n.dir/src/F03FieldMessenger.cc.o: /lustrehome/daymos93/programs/clhep/clhep-install/include/CLHEP/Vector/defs.h
-CMakeFiles/LXe_n.dir/src/F03FieldMessenger.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/F03FieldMessenger.hh
-CMakeFiles/LXe_n.dir/src/F03FieldMessenger.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/F03FieldSetup.hh
-CMakeFiles/LXe_n.dir/src/F03FieldMessenger.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/src/F03FieldMessenger.cc
+CMakeFiles/LXe_n.dir/src/F03FieldMessenger.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/F03FieldMessenger.hh
+CMakeFiles/LXe_n.dir/src/F03FieldMessenger.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/F03FieldSetup.hh
+CMakeFiles/LXe_n.dir/src/F03FieldMessenger.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/src/F03FieldMessenger.cc
 
 CMakeFiles/LXe_n.dir/src/F03FieldSetup.cc.o: /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/G4AffineTransform.hh
 CMakeFiles/LXe_n.dir/src/F03FieldSetup.cc.o: /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/G4AffineTransform.icc
@@ -796,9 +796,9 @@ CMakeFiles/LXe_n.dir/src/F03FieldSetup.cc.o: /lustrehome/daymos93/programs/clhep
 CMakeFiles/LXe_n.dir/src/F03FieldSetup.cc.o: /lustrehome/daymos93/programs/clhep/clhep-install/include/CLHEP/Vector/ThreeVector.icc
 CMakeFiles/LXe_n.dir/src/F03FieldSetup.cc.o: /lustrehome/daymos93/programs/clhep/clhep-install/include/CLHEP/Vector/ZMxpv.h
 CMakeFiles/LXe_n.dir/src/F03FieldSetup.cc.o: /lustrehome/daymos93/programs/clhep/clhep-install/include/CLHEP/Vector/defs.h
-CMakeFiles/LXe_n.dir/src/F03FieldSetup.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/F03FieldMessenger.hh
-CMakeFiles/LXe_n.dir/src/F03FieldSetup.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/F03FieldSetup.hh
-CMakeFiles/LXe_n.dir/src/F03FieldSetup.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/src/F03FieldSetup.cc
+CMakeFiles/LXe_n.dir/src/F03FieldSetup.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/F03FieldMessenger.hh
+CMakeFiles/LXe_n.dir/src/F03FieldSetup.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/F03FieldSetup.hh
+CMakeFiles/LXe_n.dir/src/F03FieldSetup.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/src/F03FieldSetup.cc
 
 CMakeFiles/LXe_n.dir/src/LXeAccelerator.cc.o: /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/G4AffineTransform.hh
 CMakeFiles/LXe_n.dir/src/LXeAccelerator.cc.o: /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/G4AffineTransform.icc
@@ -1148,12 +1148,12 @@ CMakeFiles/LXe_n.dir/src/LXeAccelerator.cc.o: /lustrehome/daymos93/programs/clhe
 CMakeFiles/LXe_n.dir/src/LXeAccelerator.cc.o: /lustrehome/daymos93/programs/clhep/clhep-install/include/CLHEP/Vector/ThreeVector.icc
 CMakeFiles/LXe_n.dir/src/LXeAccelerator.cc.o: /lustrehome/daymos93/programs/clhep/clhep-install/include/CLHEP/Vector/ZMxpv.h
 CMakeFiles/LXe_n.dir/src/LXeAccelerator.cc.o: /lustrehome/daymos93/programs/clhep/clhep-install/include/CLHEP/Vector/defs.h
-CMakeFiles/LXe_n.dir/src/LXeAccelerator.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/ElectricFieldSetup.hh
-CMakeFiles/LXe_n.dir/src/LXeAccelerator.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/F03FieldSetup.hh
-CMakeFiles/LXe_n.dir/src/LXeAccelerator.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/LXeAccelerator.hh
-CMakeFiles/LXe_n.dir/src/LXeAccelerator.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/LXeDetectorConstruction.hh
-CMakeFiles/LXe_n.dir/src/LXeAccelerator.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/LXeDetectorMessenger.hh
-CMakeFiles/LXe_n.dir/src/LXeAccelerator.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/src/LXeAccelerator.cc
+CMakeFiles/LXe_n.dir/src/LXeAccelerator.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/ElectricFieldSetup.hh
+CMakeFiles/LXe_n.dir/src/LXeAccelerator.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/F03FieldSetup.hh
+CMakeFiles/LXe_n.dir/src/LXeAccelerator.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/LXeAccelerator.hh
+CMakeFiles/LXe_n.dir/src/LXeAccelerator.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/LXeDetectorConstruction.hh
+CMakeFiles/LXe_n.dir/src/LXeAccelerator.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/LXeDetectorMessenger.hh
+CMakeFiles/LXe_n.dir/src/LXeAccelerator.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/src/LXeAccelerator.cc
 
 CMakeFiles/LXe_n.dir/src/LXeActionInitialization.cc.o: /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/G4Allocator.hh
 CMakeFiles/LXe_n.dir/src/LXeActionInitialization.cc.o: /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/G4AllocatorPool.hh
@@ -1367,19 +1367,19 @@ CMakeFiles/LXe_n.dir/src/LXeActionInitialization.cc.o: /lustrehome/daymos93/prog
 CMakeFiles/LXe_n.dir/src/LXeActionInitialization.cc.o: /lustrehome/daymos93/programs/clhep/clhep-install/include/CLHEP/Vector/TwoVector.icc
 CMakeFiles/LXe_n.dir/src/LXeActionInitialization.cc.o: /lustrehome/daymos93/programs/clhep/clhep-install/include/CLHEP/Vector/ZMxpv.h
 CMakeFiles/LXe_n.dir/src/LXeActionInitialization.cc.o: /lustrehome/daymos93/programs/clhep/clhep-install/include/CLHEP/Vector/defs.h
-CMakeFiles/LXe_n.dir/src/LXeActionInitialization.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/ElectricFieldSetup.hh
-CMakeFiles/LXe_n.dir/src/LXeActionInitialization.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/F03FieldSetup.hh
-CMakeFiles/LXe_n.dir/src/LXeActionInitialization.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/LXeActionInitialization.hh
-CMakeFiles/LXe_n.dir/src/LXeActionInitialization.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/LXeDetectorConstruction.hh
-CMakeFiles/LXe_n.dir/src/LXeActionInitialization.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/LXeDetectorMessenger.hh
-CMakeFiles/LXe_n.dir/src/LXeActionInitialization.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/LXeEventAction.hh
-CMakeFiles/LXe_n.dir/src/LXeActionInitialization.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/LXeEventMessenger.hh
-CMakeFiles/LXe_n.dir/src/LXeActionInitialization.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/LXePrimaryGeneratorAction.hh
-CMakeFiles/LXe_n.dir/src/LXeActionInitialization.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/LXeRunAction.hh
-CMakeFiles/LXe_n.dir/src/LXeActionInitialization.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/LXeStackingAction.hh
-CMakeFiles/LXe_n.dir/src/LXeActionInitialization.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/LXeSteppingAction.hh
-CMakeFiles/LXe_n.dir/src/LXeActionInitialization.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/LXeTrackingAction.hh
-CMakeFiles/LXe_n.dir/src/LXeActionInitialization.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/src/LXeActionInitialization.cc
+CMakeFiles/LXe_n.dir/src/LXeActionInitialization.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/ElectricFieldSetup.hh
+CMakeFiles/LXe_n.dir/src/LXeActionInitialization.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/F03FieldSetup.hh
+CMakeFiles/LXe_n.dir/src/LXeActionInitialization.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/LXeActionInitialization.hh
+CMakeFiles/LXe_n.dir/src/LXeActionInitialization.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/LXeDetectorConstruction.hh
+CMakeFiles/LXe_n.dir/src/LXeActionInitialization.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/LXeDetectorMessenger.hh
+CMakeFiles/LXe_n.dir/src/LXeActionInitialization.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/LXeEventAction.hh
+CMakeFiles/LXe_n.dir/src/LXeActionInitialization.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/LXeEventMessenger.hh
+CMakeFiles/LXe_n.dir/src/LXeActionInitialization.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/LXePrimaryGeneratorAction.hh
+CMakeFiles/LXe_n.dir/src/LXeActionInitialization.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/LXeRunAction.hh
+CMakeFiles/LXe_n.dir/src/LXeActionInitialization.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/LXeStackingAction.hh
+CMakeFiles/LXe_n.dir/src/LXeActionInitialization.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/LXeSteppingAction.hh
+CMakeFiles/LXe_n.dir/src/LXeActionInitialization.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/LXeTrackingAction.hh
+CMakeFiles/LXe_n.dir/src/LXeActionInitialization.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/src/LXeActionInitialization.cc
 
 CMakeFiles/LXe_n.dir/src/LXeDetectorConstruction.cc.o: /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/G4AffineTransform.hh
 CMakeFiles/LXe_n.dir/src/LXeDetectorConstruction.cc.o: /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/G4AffineTransform.icc
@@ -1741,23 +1741,23 @@ CMakeFiles/LXe_n.dir/src/LXeDetectorConstruction.cc.o: /lustrehome/daymos93/prog
 CMakeFiles/LXe_n.dir/src/LXeDetectorConstruction.cc.o: /lustrehome/daymos93/programs/clhep/clhep-install/include/CLHEP/Vector/TwoVector.icc
 CMakeFiles/LXe_n.dir/src/LXeDetectorConstruction.cc.o: /lustrehome/daymos93/programs/clhep/clhep-install/include/CLHEP/Vector/ZMxpv.h
 CMakeFiles/LXe_n.dir/src/LXeDetectorConstruction.cc.o: /lustrehome/daymos93/programs/clhep/clhep-install/include/CLHEP/Vector/defs.h
-CMakeFiles/LXe_n.dir/src/LXeDetectorConstruction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/ElectricFieldSetup.hh
-CMakeFiles/LXe_n.dir/src/LXeDetectorConstruction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/F03FieldSetup.hh
-CMakeFiles/LXe_n.dir/src/LXeDetectorConstruction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/LXeAccelerator.hh
-CMakeFiles/LXe_n.dir/src/LXeDetectorConstruction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/LXeDetectorConstruction.hh
-CMakeFiles/LXe_n.dir/src/LXeDetectorConstruction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/LXeDetectorMessenger.hh
-CMakeFiles/LXe_n.dir/src/LXeDetectorConstruction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/LXeMainVolume.hh
-CMakeFiles/LXe_n.dir/src/LXeDetectorConstruction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/LXeModule1.hh
-CMakeFiles/LXe_n.dir/src/LXeDetectorConstruction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/LXeModule2.hh
-CMakeFiles/LXe_n.dir/src/LXeDetectorConstruction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/LXeModule3.hh
-CMakeFiles/LXe_n.dir/src/LXeDetectorConstruction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/LXeModuleCCL.hh
-CMakeFiles/LXe_n.dir/src/LXeDetectorConstruction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/LXePMTHit.hh
-CMakeFiles/LXe_n.dir/src/LXeDetectorConstruction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/LXePMTSD.hh
-CMakeFiles/LXe_n.dir/src/LXeDetectorConstruction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/LXeScintHit.hh
-CMakeFiles/LXe_n.dir/src/LXeDetectorConstruction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/LXeScintSD.hh
-CMakeFiles/LXe_n.dir/src/LXeDetectorConstruction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/LXeSteppingAction.hh
-CMakeFiles/LXe_n.dir/src/LXeDetectorConstruction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/LXeWLSSlab.hh
-CMakeFiles/LXe_n.dir/src/LXeDetectorConstruction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/src/LXeDetectorConstruction.cc
+CMakeFiles/LXe_n.dir/src/LXeDetectorConstruction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/ElectricFieldSetup.hh
+CMakeFiles/LXe_n.dir/src/LXeDetectorConstruction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/F03FieldSetup.hh
+CMakeFiles/LXe_n.dir/src/LXeDetectorConstruction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/LXeAccelerator.hh
+CMakeFiles/LXe_n.dir/src/LXeDetectorConstruction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/LXeDetectorConstruction.hh
+CMakeFiles/LXe_n.dir/src/LXeDetectorConstruction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/LXeDetectorMessenger.hh
+CMakeFiles/LXe_n.dir/src/LXeDetectorConstruction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/LXeMainVolume.hh
+CMakeFiles/LXe_n.dir/src/LXeDetectorConstruction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/LXeModule1.hh
+CMakeFiles/LXe_n.dir/src/LXeDetectorConstruction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/LXeModule2.hh
+CMakeFiles/LXe_n.dir/src/LXeDetectorConstruction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/LXeModule3.hh
+CMakeFiles/LXe_n.dir/src/LXeDetectorConstruction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/LXeModuleCCL.hh
+CMakeFiles/LXe_n.dir/src/LXeDetectorConstruction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/LXePMTHit.hh
+CMakeFiles/LXe_n.dir/src/LXeDetectorConstruction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/LXePMTSD.hh
+CMakeFiles/LXe_n.dir/src/LXeDetectorConstruction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/LXeScintHit.hh
+CMakeFiles/LXe_n.dir/src/LXeDetectorConstruction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/LXeScintSD.hh
+CMakeFiles/LXe_n.dir/src/LXeDetectorConstruction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/LXeSteppingAction.hh
+CMakeFiles/LXe_n.dir/src/LXeDetectorConstruction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/LXeWLSSlab.hh
+CMakeFiles/LXe_n.dir/src/LXeDetectorConstruction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/src/LXeDetectorConstruction.cc
 
 CMakeFiles/LXe_n.dir/src/LXeDetectorMessenger.cc.o: /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/G4AffineTransform.hh
 CMakeFiles/LXe_n.dir/src/LXeDetectorMessenger.cc.o: /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/G4AffineTransform.icc
@@ -2047,11 +2047,11 @@ CMakeFiles/LXe_n.dir/src/LXeDetectorMessenger.cc.o: /lustrehome/daymos93/program
 CMakeFiles/LXe_n.dir/src/LXeDetectorMessenger.cc.o: /lustrehome/daymos93/programs/clhep/clhep-install/include/CLHEP/Vector/ThreeVector.icc
 CMakeFiles/LXe_n.dir/src/LXeDetectorMessenger.cc.o: /lustrehome/daymos93/programs/clhep/clhep-install/include/CLHEP/Vector/ZMxpv.h
 CMakeFiles/LXe_n.dir/src/LXeDetectorMessenger.cc.o: /lustrehome/daymos93/programs/clhep/clhep-install/include/CLHEP/Vector/defs.h
-CMakeFiles/LXe_n.dir/src/LXeDetectorMessenger.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/ElectricFieldSetup.hh
-CMakeFiles/LXe_n.dir/src/LXeDetectorMessenger.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/F03FieldSetup.hh
-CMakeFiles/LXe_n.dir/src/LXeDetectorMessenger.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/LXeDetectorConstruction.hh
-CMakeFiles/LXe_n.dir/src/LXeDetectorMessenger.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/LXeDetectorMessenger.hh
-CMakeFiles/LXe_n.dir/src/LXeDetectorMessenger.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/src/LXeDetectorMessenger.cc
+CMakeFiles/LXe_n.dir/src/LXeDetectorMessenger.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/ElectricFieldSetup.hh
+CMakeFiles/LXe_n.dir/src/LXeDetectorMessenger.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/F03FieldSetup.hh
+CMakeFiles/LXe_n.dir/src/LXeDetectorMessenger.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/LXeDetectorConstruction.hh
+CMakeFiles/LXe_n.dir/src/LXeDetectorMessenger.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/LXeDetectorMessenger.hh
+CMakeFiles/LXe_n.dir/src/LXeDetectorMessenger.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/src/LXeDetectorMessenger.cc
 
 CMakeFiles/LXe_n.dir/src/LXeEventAction.cc.o: /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/G4AffineTransform.hh
 CMakeFiles/LXe_n.dir/src/LXeEventAction.cc.o: /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/G4AffineTransform.icc
@@ -2514,18 +2514,18 @@ CMakeFiles/LXe_n.dir/src/LXeEventAction.cc.o: /lustrehome/daymos93/programs/clhe
 CMakeFiles/LXe_n.dir/src/LXeEventAction.cc.o: /lustrehome/daymos93/programs/clhep/clhep-install/include/CLHEP/Vector/ThreeVector.icc
 CMakeFiles/LXe_n.dir/src/LXeEventAction.cc.o: /lustrehome/daymos93/programs/clhep/clhep-install/include/CLHEP/Vector/ZMxpv.h
 CMakeFiles/LXe_n.dir/src/LXeEventAction.cc.o: /lustrehome/daymos93/programs/clhep/clhep-install/include/CLHEP/Vector/defs.h
-CMakeFiles/LXe_n.dir/src/LXeEventAction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/ElectricFieldSetup.hh
-CMakeFiles/LXe_n.dir/src/LXeEventAction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/F03FieldSetup.hh
-CMakeFiles/LXe_n.dir/src/LXeEventAction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/LXeDetectorConstruction.hh
-CMakeFiles/LXe_n.dir/src/LXeEventAction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/LXeDetectorMessenger.hh
-CMakeFiles/LXe_n.dir/src/LXeEventAction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/LXeEventAction.hh
-CMakeFiles/LXe_n.dir/src/LXeEventAction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/LXeEventMessenger.hh
-CMakeFiles/LXe_n.dir/src/LXeEventAction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/LXeHistoManager.hh
-CMakeFiles/LXe_n.dir/src/LXeEventAction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/LXePMTHit.hh
-CMakeFiles/LXe_n.dir/src/LXeEventAction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/LXeRun.hh
-CMakeFiles/LXe_n.dir/src/LXeEventAction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/LXeScintHit.hh
-CMakeFiles/LXe_n.dir/src/LXeEventAction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/LXeTrajectory.hh
-CMakeFiles/LXe_n.dir/src/LXeEventAction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/src/LXeEventAction.cc
+CMakeFiles/LXe_n.dir/src/LXeEventAction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/ElectricFieldSetup.hh
+CMakeFiles/LXe_n.dir/src/LXeEventAction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/F03FieldSetup.hh
+CMakeFiles/LXe_n.dir/src/LXeEventAction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/LXeDetectorConstruction.hh
+CMakeFiles/LXe_n.dir/src/LXeEventAction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/LXeDetectorMessenger.hh
+CMakeFiles/LXe_n.dir/src/LXeEventAction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/LXeEventAction.hh
+CMakeFiles/LXe_n.dir/src/LXeEventAction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/LXeEventMessenger.hh
+CMakeFiles/LXe_n.dir/src/LXeEventAction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/LXeHistoManager.hh
+CMakeFiles/LXe_n.dir/src/LXeEventAction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/LXePMTHit.hh
+CMakeFiles/LXe_n.dir/src/LXeEventAction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/LXeRun.hh
+CMakeFiles/LXe_n.dir/src/LXeEventAction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/LXeScintHit.hh
+CMakeFiles/LXe_n.dir/src/LXeEventAction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/LXeTrajectory.hh
+CMakeFiles/LXe_n.dir/src/LXeEventAction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/src/LXeEventAction.cc
 
 CMakeFiles/LXe_n.dir/src/LXeEventMessenger.cc.o: /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/G4ApplicationState.hh
 CMakeFiles/LXe_n.dir/src/LXeEventMessenger.cc.o: /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/G4EnvironmentUtils.hh
@@ -2552,9 +2552,9 @@ CMakeFiles/LXe_n.dir/src/LXeEventMessenger.cc.o: /lustrehome/daymos93/programs/G
 CMakeFiles/LXe_n.dir/src/LXeEventMessenger.cc.o: /lustrehome/daymos93/programs/clhep/clhep-install/include/CLHEP/Vector/ThreeVector.h
 CMakeFiles/LXe_n.dir/src/LXeEventMessenger.cc.o: /lustrehome/daymos93/programs/clhep/clhep-install/include/CLHEP/Vector/ThreeVector.icc
 CMakeFiles/LXe_n.dir/src/LXeEventMessenger.cc.o: /lustrehome/daymos93/programs/clhep/clhep-install/include/CLHEP/Vector/defs.h
-CMakeFiles/LXe_n.dir/src/LXeEventMessenger.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/LXeEventAction.hh
-CMakeFiles/LXe_n.dir/src/LXeEventMessenger.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/LXeEventMessenger.hh
-CMakeFiles/LXe_n.dir/src/LXeEventMessenger.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/src/LXeEventMessenger.cc
+CMakeFiles/LXe_n.dir/src/LXeEventMessenger.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/LXeEventAction.hh
+CMakeFiles/LXe_n.dir/src/LXeEventMessenger.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/LXeEventMessenger.hh
+CMakeFiles/LXe_n.dir/src/LXeEventMessenger.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/src/LXeEventMessenger.cc
 
 CMakeFiles/LXe_n.dir/src/LXeHistoManager.cc.o: /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/G4AnalysisManagerState.hh
 CMakeFiles/LXe_n.dir/src/LXeHistoManager.cc.o: /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/G4AnalysisUtilities.hh
@@ -2731,8 +2731,8 @@ CMakeFiles/LXe_n.dir/src/LXeHistoManager.cc.o: /lustrehome/daymos93/programs/Gea
 CMakeFiles/LXe_n.dir/src/LXeHistoManager.cc.o: /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/tools/wroot/to
 CMakeFiles/LXe_n.dir/src/LXeHistoManager.cc.o: /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/tools/wroot/tree
 CMakeFiles/LXe_n.dir/src/LXeHistoManager.cc.o: /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/tools/wroot/wbuf
-CMakeFiles/LXe_n.dir/src/LXeHistoManager.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/LXeHistoManager.hh
-CMakeFiles/LXe_n.dir/src/LXeHistoManager.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/src/LXeHistoManager.cc
+CMakeFiles/LXe_n.dir/src/LXeHistoManager.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/LXeHistoManager.hh
+CMakeFiles/LXe_n.dir/src/LXeHistoManager.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/src/LXeHistoManager.cc
 
 CMakeFiles/LXe_n.dir/src/LXeMainVolume.cc.o: /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/G4AffineTransform.hh
 CMakeFiles/LXe_n.dir/src/LXeMainVolume.cc.o: /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/G4AffineTransform.icc
@@ -2875,12 +2875,12 @@ CMakeFiles/LXe_n.dir/src/LXeMainVolume.cc.o: /lustrehome/daymos93/programs/clhep
 CMakeFiles/LXe_n.dir/src/LXeMainVolume.cc.o: /lustrehome/daymos93/programs/clhep/clhep-install/include/CLHEP/Vector/ThreeVector.icc
 CMakeFiles/LXe_n.dir/src/LXeMainVolume.cc.o: /lustrehome/daymos93/programs/clhep/clhep-install/include/CLHEP/Vector/ZMxpv.h
 CMakeFiles/LXe_n.dir/src/LXeMainVolume.cc.o: /lustrehome/daymos93/programs/clhep/clhep-install/include/CLHEP/Vector/defs.h
-CMakeFiles/LXe_n.dir/src/LXeMainVolume.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/ElectricFieldSetup.hh
-CMakeFiles/LXe_n.dir/src/LXeMainVolume.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/F03FieldSetup.hh
-CMakeFiles/LXe_n.dir/src/LXeMainVolume.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/LXeDetectorConstruction.hh
-CMakeFiles/LXe_n.dir/src/LXeMainVolume.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/LXeDetectorMessenger.hh
-CMakeFiles/LXe_n.dir/src/LXeMainVolume.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/LXeMainVolume.hh
-CMakeFiles/LXe_n.dir/src/LXeMainVolume.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/src/LXeMainVolume.cc
+CMakeFiles/LXe_n.dir/src/LXeMainVolume.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/ElectricFieldSetup.hh
+CMakeFiles/LXe_n.dir/src/LXeMainVolume.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/F03FieldSetup.hh
+CMakeFiles/LXe_n.dir/src/LXeMainVolume.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/LXeDetectorConstruction.hh
+CMakeFiles/LXe_n.dir/src/LXeMainVolume.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/LXeDetectorMessenger.hh
+CMakeFiles/LXe_n.dir/src/LXeMainVolume.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/LXeMainVolume.hh
+CMakeFiles/LXe_n.dir/src/LXeMainVolume.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/src/LXeMainVolume.cc
 
 CMakeFiles/LXe_n.dir/src/LXeModule1.cc.o: /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/G4AffineTransform.hh
 CMakeFiles/LXe_n.dir/src/LXeModule1.cc.o: /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/G4AffineTransform.icc
@@ -3230,12 +3230,12 @@ CMakeFiles/LXe_n.dir/src/LXeModule1.cc.o: /lustrehome/daymos93/programs/clhep/cl
 CMakeFiles/LXe_n.dir/src/LXeModule1.cc.o: /lustrehome/daymos93/programs/clhep/clhep-install/include/CLHEP/Vector/ThreeVector.icc
 CMakeFiles/LXe_n.dir/src/LXeModule1.cc.o: /lustrehome/daymos93/programs/clhep/clhep-install/include/CLHEP/Vector/ZMxpv.h
 CMakeFiles/LXe_n.dir/src/LXeModule1.cc.o: /lustrehome/daymos93/programs/clhep/clhep-install/include/CLHEP/Vector/defs.h
-CMakeFiles/LXe_n.dir/src/LXeModule1.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/ElectricFieldSetup.hh
-CMakeFiles/LXe_n.dir/src/LXeModule1.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/F03FieldSetup.hh
-CMakeFiles/LXe_n.dir/src/LXeModule1.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/LXeDetectorConstruction.hh
-CMakeFiles/LXe_n.dir/src/LXeModule1.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/LXeDetectorMessenger.hh
-CMakeFiles/LXe_n.dir/src/LXeModule1.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/LXeModule1.hh
-CMakeFiles/LXe_n.dir/src/LXeModule1.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/src/LXeModule1.cc
+CMakeFiles/LXe_n.dir/src/LXeModule1.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/ElectricFieldSetup.hh
+CMakeFiles/LXe_n.dir/src/LXeModule1.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/F03FieldSetup.hh
+CMakeFiles/LXe_n.dir/src/LXeModule1.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/LXeDetectorConstruction.hh
+CMakeFiles/LXe_n.dir/src/LXeModule1.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/LXeDetectorMessenger.hh
+CMakeFiles/LXe_n.dir/src/LXeModule1.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/LXeModule1.hh
+CMakeFiles/LXe_n.dir/src/LXeModule1.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/src/LXeModule1.cc
 
 CMakeFiles/LXe_n.dir/src/LXeModule2.cc.o: /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/G4AffineTransform.hh
 CMakeFiles/LXe_n.dir/src/LXeModule2.cc.o: /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/G4AffineTransform.icc
@@ -3585,12 +3585,12 @@ CMakeFiles/LXe_n.dir/src/LXeModule2.cc.o: /lustrehome/daymos93/programs/clhep/cl
 CMakeFiles/LXe_n.dir/src/LXeModule2.cc.o: /lustrehome/daymos93/programs/clhep/clhep-install/include/CLHEP/Vector/ThreeVector.icc
 CMakeFiles/LXe_n.dir/src/LXeModule2.cc.o: /lustrehome/daymos93/programs/clhep/clhep-install/include/CLHEP/Vector/ZMxpv.h
 CMakeFiles/LXe_n.dir/src/LXeModule2.cc.o: /lustrehome/daymos93/programs/clhep/clhep-install/include/CLHEP/Vector/defs.h
-CMakeFiles/LXe_n.dir/src/LXeModule2.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/ElectricFieldSetup.hh
-CMakeFiles/LXe_n.dir/src/LXeModule2.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/F03FieldSetup.hh
-CMakeFiles/LXe_n.dir/src/LXeModule2.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/LXeDetectorConstruction.hh
-CMakeFiles/LXe_n.dir/src/LXeModule2.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/LXeDetectorMessenger.hh
-CMakeFiles/LXe_n.dir/src/LXeModule2.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/LXeModule2.hh
-CMakeFiles/LXe_n.dir/src/LXeModule2.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/src/LXeModule2.cc
+CMakeFiles/LXe_n.dir/src/LXeModule2.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/ElectricFieldSetup.hh
+CMakeFiles/LXe_n.dir/src/LXeModule2.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/F03FieldSetup.hh
+CMakeFiles/LXe_n.dir/src/LXeModule2.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/LXeDetectorConstruction.hh
+CMakeFiles/LXe_n.dir/src/LXeModule2.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/LXeDetectorMessenger.hh
+CMakeFiles/LXe_n.dir/src/LXeModule2.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/LXeModule2.hh
+CMakeFiles/LXe_n.dir/src/LXeModule2.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/src/LXeModule2.cc
 
 CMakeFiles/LXe_n.dir/src/LXeModule3.cc.o: /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/G4AffineTransform.hh
 CMakeFiles/LXe_n.dir/src/LXeModule3.cc.o: /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/G4AffineTransform.icc
@@ -3940,12 +3940,12 @@ CMakeFiles/LXe_n.dir/src/LXeModule3.cc.o: /lustrehome/daymos93/programs/clhep/cl
 CMakeFiles/LXe_n.dir/src/LXeModule3.cc.o: /lustrehome/daymos93/programs/clhep/clhep-install/include/CLHEP/Vector/ThreeVector.icc
 CMakeFiles/LXe_n.dir/src/LXeModule3.cc.o: /lustrehome/daymos93/programs/clhep/clhep-install/include/CLHEP/Vector/ZMxpv.h
 CMakeFiles/LXe_n.dir/src/LXeModule3.cc.o: /lustrehome/daymos93/programs/clhep/clhep-install/include/CLHEP/Vector/defs.h
-CMakeFiles/LXe_n.dir/src/LXeModule3.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/ElectricFieldSetup.hh
-CMakeFiles/LXe_n.dir/src/LXeModule3.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/F03FieldSetup.hh
-CMakeFiles/LXe_n.dir/src/LXeModule3.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/LXeDetectorConstruction.hh
-CMakeFiles/LXe_n.dir/src/LXeModule3.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/LXeDetectorMessenger.hh
-CMakeFiles/LXe_n.dir/src/LXeModule3.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/LXeModule3.hh
-CMakeFiles/LXe_n.dir/src/LXeModule3.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/src/LXeModule3.cc
+CMakeFiles/LXe_n.dir/src/LXeModule3.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/ElectricFieldSetup.hh
+CMakeFiles/LXe_n.dir/src/LXeModule3.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/F03FieldSetup.hh
+CMakeFiles/LXe_n.dir/src/LXeModule3.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/LXeDetectorConstruction.hh
+CMakeFiles/LXe_n.dir/src/LXeModule3.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/LXeDetectorMessenger.hh
+CMakeFiles/LXe_n.dir/src/LXeModule3.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/LXeModule3.hh
+CMakeFiles/LXe_n.dir/src/LXeModule3.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/src/LXeModule3.cc
 
 CMakeFiles/LXe_n.dir/src/LXeModuleCCL.cc.o: /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/G4AffineTransform.hh
 CMakeFiles/LXe_n.dir/src/LXeModuleCCL.cc.o: /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/G4AffineTransform.icc
@@ -4305,13 +4305,13 @@ CMakeFiles/LXe_n.dir/src/LXeModuleCCL.cc.o: /lustrehome/daymos93/programs/clhep/
 CMakeFiles/LXe_n.dir/src/LXeModuleCCL.cc.o: /lustrehome/daymos93/programs/clhep/clhep-install/include/CLHEP/Vector/ThreeVector.icc
 CMakeFiles/LXe_n.dir/src/LXeModuleCCL.cc.o: /lustrehome/daymos93/programs/clhep/clhep-install/include/CLHEP/Vector/ZMxpv.h
 CMakeFiles/LXe_n.dir/src/LXeModuleCCL.cc.o: /lustrehome/daymos93/programs/clhep/clhep-install/include/CLHEP/Vector/defs.h
-CMakeFiles/LXe_n.dir/src/LXeModuleCCL.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/CADMesh.hh
-CMakeFiles/LXe_n.dir/src/LXeModuleCCL.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/ElectricFieldSetup.hh
-CMakeFiles/LXe_n.dir/src/LXeModuleCCL.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/F03FieldSetup.hh
-CMakeFiles/LXe_n.dir/src/LXeModuleCCL.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/LXeDetectorConstruction.hh
-CMakeFiles/LXe_n.dir/src/LXeModuleCCL.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/LXeDetectorMessenger.hh
-CMakeFiles/LXe_n.dir/src/LXeModuleCCL.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/LXeModuleCCL.hh
-CMakeFiles/LXe_n.dir/src/LXeModuleCCL.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/src/LXeModuleCCL.cc
+CMakeFiles/LXe_n.dir/src/LXeModuleCCL.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/CADMesh.hh
+CMakeFiles/LXe_n.dir/src/LXeModuleCCL.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/ElectricFieldSetup.hh
+CMakeFiles/LXe_n.dir/src/LXeModuleCCL.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/F03FieldSetup.hh
+CMakeFiles/LXe_n.dir/src/LXeModuleCCL.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/LXeDetectorConstruction.hh
+CMakeFiles/LXe_n.dir/src/LXeModuleCCL.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/LXeDetectorMessenger.hh
+CMakeFiles/LXe_n.dir/src/LXeModuleCCL.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/LXeModuleCCL.hh
+CMakeFiles/LXe_n.dir/src/LXeModuleCCL.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/src/LXeModuleCCL.cc
 
 CMakeFiles/LXe_n.dir/src/LXePMTHit.cc.o: /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/G4Allocator.hh
 CMakeFiles/LXe_n.dir/src/LXePMTHit.cc.o: /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/G4AllocatorPool.hh
@@ -4378,8 +4378,8 @@ CMakeFiles/LXe_n.dir/src/LXePMTHit.cc.o: /lustrehome/daymos93/programs/clhep/clh
 CMakeFiles/LXe_n.dir/src/LXePMTHit.cc.o: /lustrehome/daymos93/programs/clhep/clhep-install/include/CLHEP/Vector/ThreeVector.icc
 CMakeFiles/LXe_n.dir/src/LXePMTHit.cc.o: /lustrehome/daymos93/programs/clhep/clhep-install/include/CLHEP/Vector/ZMxpv.h
 CMakeFiles/LXe_n.dir/src/LXePMTHit.cc.o: /lustrehome/daymos93/programs/clhep/clhep-install/include/CLHEP/Vector/defs.h
-CMakeFiles/LXe_n.dir/src/LXePMTHit.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/LXePMTHit.hh
-CMakeFiles/LXe_n.dir/src/LXePMTHit.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/src/LXePMTHit.cc
+CMakeFiles/LXe_n.dir/src/LXePMTHit.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/LXePMTHit.hh
+CMakeFiles/LXe_n.dir/src/LXePMTHit.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/src/LXePMTHit.cc
 
 CMakeFiles/LXe_n.dir/src/LXePMTSD.cc.o: /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/G4AffineTransform.hh
 CMakeFiles/LXe_n.dir/src/LXePMTSD.cc.o: /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/G4AffineTransform.icc
@@ -4631,14 +4631,14 @@ CMakeFiles/LXe_n.dir/src/LXePMTSD.cc.o: /lustrehome/daymos93/programs/clhep/clhe
 CMakeFiles/LXe_n.dir/src/LXePMTSD.cc.o: /lustrehome/daymos93/programs/clhep/clhep-install/include/CLHEP/Vector/ThreeVector.icc
 CMakeFiles/LXe_n.dir/src/LXePMTSD.cc.o: /lustrehome/daymos93/programs/clhep/clhep-install/include/CLHEP/Vector/ZMxpv.h
 CMakeFiles/LXe_n.dir/src/LXePMTSD.cc.o: /lustrehome/daymos93/programs/clhep/clhep-install/include/CLHEP/Vector/defs.h
-CMakeFiles/LXe_n.dir/src/LXePMTSD.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/ElectricFieldSetup.hh
-CMakeFiles/LXe_n.dir/src/LXePMTSD.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/F03FieldSetup.hh
-CMakeFiles/LXe_n.dir/src/LXePMTSD.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/LXeDetectorConstruction.hh
-CMakeFiles/LXe_n.dir/src/LXePMTSD.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/LXeDetectorMessenger.hh
-CMakeFiles/LXe_n.dir/src/LXePMTSD.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/LXePMTHit.hh
-CMakeFiles/LXe_n.dir/src/LXePMTSD.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/LXePMTSD.hh
-CMakeFiles/LXe_n.dir/src/LXePMTSD.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/LXeUserTrackInformation.hh
-CMakeFiles/LXe_n.dir/src/LXePMTSD.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/src/LXePMTSD.cc
+CMakeFiles/LXe_n.dir/src/LXePMTSD.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/ElectricFieldSetup.hh
+CMakeFiles/LXe_n.dir/src/LXePMTSD.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/F03FieldSetup.hh
+CMakeFiles/LXe_n.dir/src/LXePMTSD.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/LXeDetectorConstruction.hh
+CMakeFiles/LXe_n.dir/src/LXePMTSD.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/LXeDetectorMessenger.hh
+CMakeFiles/LXe_n.dir/src/LXePMTSD.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/LXePMTHit.hh
+CMakeFiles/LXe_n.dir/src/LXePMTSD.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/LXePMTSD.hh
+CMakeFiles/LXe_n.dir/src/LXePMTSD.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/LXeUserTrackInformation.hh
+CMakeFiles/LXe_n.dir/src/LXePMTSD.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/src/LXePMTSD.cc
 
 CMakeFiles/LXe_n.dir/src/LXePrimaryGeneratorAction.cc.o: /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/G4Allocator.hh
 CMakeFiles/LXe_n.dir/src/LXePrimaryGeneratorAction.cc.o: /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/G4AllocatorPool.hh
@@ -4752,8 +4752,8 @@ CMakeFiles/LXe_n.dir/src/LXePrimaryGeneratorAction.cc.o: /lustrehome/daymos93/pr
 CMakeFiles/LXe_n.dir/src/LXePrimaryGeneratorAction.cc.o: /lustrehome/daymos93/programs/clhep/clhep-install/include/CLHEP/Vector/ThreeVector.h
 CMakeFiles/LXe_n.dir/src/LXePrimaryGeneratorAction.cc.o: /lustrehome/daymos93/programs/clhep/clhep-install/include/CLHEP/Vector/ThreeVector.icc
 CMakeFiles/LXe_n.dir/src/LXePrimaryGeneratorAction.cc.o: /lustrehome/daymos93/programs/clhep/clhep-install/include/CLHEP/Vector/defs.h
-CMakeFiles/LXe_n.dir/src/LXePrimaryGeneratorAction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/LXePrimaryGeneratorAction.hh
-CMakeFiles/LXe_n.dir/src/LXePrimaryGeneratorAction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/src/LXePrimaryGeneratorAction.cc
+CMakeFiles/LXe_n.dir/src/LXePrimaryGeneratorAction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/LXePrimaryGeneratorAction.hh
+CMakeFiles/LXe_n.dir/src/LXePrimaryGeneratorAction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/src/LXePrimaryGeneratorAction.cc
 
 CMakeFiles/LXe_n.dir/src/LXeRun.cc.o: /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/G4AffineTransform.hh
 CMakeFiles/LXe_n.dir/src/LXeRun.cc.o: /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/G4AffineTransform.icc
@@ -5202,14 +5202,14 @@ CMakeFiles/LXe_n.dir/src/LXeRun.cc.o: /lustrehome/daymos93/programs/clhep/clhep-
 CMakeFiles/LXe_n.dir/src/LXeRun.cc.o: /lustrehome/daymos93/programs/clhep/clhep-install/include/CLHEP/Vector/ThreeVector.icc
 CMakeFiles/LXe_n.dir/src/LXeRun.cc.o: /lustrehome/daymos93/programs/clhep/clhep-install/include/CLHEP/Vector/ZMxpv.h
 CMakeFiles/LXe_n.dir/src/LXeRun.cc.o: /lustrehome/daymos93/programs/clhep/clhep-install/include/CLHEP/Vector/defs.h
-CMakeFiles/LXe_n.dir/src/LXeRun.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/ElectricFieldSetup.hh
-CMakeFiles/LXe_n.dir/src/LXeRun.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/F03FieldSetup.hh
-CMakeFiles/LXe_n.dir/src/LXeRun.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/LXeDetectorConstruction.hh
-CMakeFiles/LXe_n.dir/src/LXeRun.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/LXeDetectorMessenger.hh
-CMakeFiles/LXe_n.dir/src/LXeRun.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/LXeEventAction.hh
-CMakeFiles/LXe_n.dir/src/LXeRun.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/LXeEventMessenger.hh
-CMakeFiles/LXe_n.dir/src/LXeRun.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/LXeRun.hh
-CMakeFiles/LXe_n.dir/src/LXeRun.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/src/LXeRun.cc
+CMakeFiles/LXe_n.dir/src/LXeRun.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/ElectricFieldSetup.hh
+CMakeFiles/LXe_n.dir/src/LXeRun.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/F03FieldSetup.hh
+CMakeFiles/LXe_n.dir/src/LXeRun.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/LXeDetectorConstruction.hh
+CMakeFiles/LXe_n.dir/src/LXeRun.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/LXeDetectorMessenger.hh
+CMakeFiles/LXe_n.dir/src/LXeRun.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/LXeEventAction.hh
+CMakeFiles/LXe_n.dir/src/LXeRun.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/LXeEventMessenger.hh
+CMakeFiles/LXe_n.dir/src/LXeRun.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/LXeRun.hh
+CMakeFiles/LXe_n.dir/src/LXeRun.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/src/LXeRun.cc
 
 CMakeFiles/LXe_n.dir/src/LXeRunAction.cc.o: /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/G4AnalysisManagerState.hh
 CMakeFiles/LXe_n.dir/src/LXeRunAction.cc.o: /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/G4AnalysisUtilities.hh
@@ -5393,10 +5393,10 @@ CMakeFiles/LXe_n.dir/src/LXeRunAction.cc.o: /lustrehome/daymos93/programs/Geant4
 CMakeFiles/LXe_n.dir/src/LXeRunAction.cc.o: /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/tools/wroot/to
 CMakeFiles/LXe_n.dir/src/LXeRunAction.cc.o: /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/tools/wroot/tree
 CMakeFiles/LXe_n.dir/src/LXeRunAction.cc.o: /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/tools/wroot/wbuf
-CMakeFiles/LXe_n.dir/src/LXeRunAction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/LXeHistoManager.hh
-CMakeFiles/LXe_n.dir/src/LXeRunAction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/LXeRun.hh
-CMakeFiles/LXe_n.dir/src/LXeRunAction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/LXeRunAction.hh
-CMakeFiles/LXe_n.dir/src/LXeRunAction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/src/LXeRunAction.cc
+CMakeFiles/LXe_n.dir/src/LXeRunAction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/LXeHistoManager.hh
+CMakeFiles/LXe_n.dir/src/LXeRunAction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/LXeRun.hh
+CMakeFiles/LXe_n.dir/src/LXeRunAction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/LXeRunAction.hh
+CMakeFiles/LXe_n.dir/src/LXeRunAction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/src/LXeRunAction.cc
 
 CMakeFiles/LXe_n.dir/src/LXeScintHit.cc.o: /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/G4Allocator.hh
 CMakeFiles/LXe_n.dir/src/LXeScintHit.cc.o: /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/G4AllocatorPool.hh
@@ -5463,8 +5463,8 @@ CMakeFiles/LXe_n.dir/src/LXeScintHit.cc.o: /lustrehome/daymos93/programs/clhep/c
 CMakeFiles/LXe_n.dir/src/LXeScintHit.cc.o: /lustrehome/daymos93/programs/clhep/clhep-install/include/CLHEP/Vector/ThreeVector.icc
 CMakeFiles/LXe_n.dir/src/LXeScintHit.cc.o: /lustrehome/daymos93/programs/clhep/clhep-install/include/CLHEP/Vector/ZMxpv.h
 CMakeFiles/LXe_n.dir/src/LXeScintHit.cc.o: /lustrehome/daymos93/programs/clhep/clhep-install/include/CLHEP/Vector/defs.h
-CMakeFiles/LXe_n.dir/src/LXeScintHit.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/LXeScintHit.hh
-CMakeFiles/LXe_n.dir/src/LXeScintHit.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/src/LXeScintHit.cc
+CMakeFiles/LXe_n.dir/src/LXeScintHit.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/LXeScintHit.hh
+CMakeFiles/LXe_n.dir/src/LXeScintHit.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/src/LXeScintHit.cc
 
 CMakeFiles/LXe_n.dir/src/LXeScintSD.cc.o: /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/G4AffineTransform.hh
 CMakeFiles/LXe_n.dir/src/LXeScintSD.cc.o: /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/G4AffineTransform.icc
@@ -5672,9 +5672,9 @@ CMakeFiles/LXe_n.dir/src/LXeScintSD.cc.o: /lustrehome/daymos93/programs/clhep/cl
 CMakeFiles/LXe_n.dir/src/LXeScintSD.cc.o: /lustrehome/daymos93/programs/clhep/clhep-install/include/CLHEP/Vector/ThreeVector.icc
 CMakeFiles/LXe_n.dir/src/LXeScintSD.cc.o: /lustrehome/daymos93/programs/clhep/clhep-install/include/CLHEP/Vector/ZMxpv.h
 CMakeFiles/LXe_n.dir/src/LXeScintSD.cc.o: /lustrehome/daymos93/programs/clhep/clhep-install/include/CLHEP/Vector/defs.h
-CMakeFiles/LXe_n.dir/src/LXeScintSD.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/LXeScintHit.hh
-CMakeFiles/LXe_n.dir/src/LXeScintSD.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/LXeScintSD.hh
-CMakeFiles/LXe_n.dir/src/LXeScintSD.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/src/LXeScintSD.cc
+CMakeFiles/LXe_n.dir/src/LXeScintSD.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/LXeScintHit.hh
+CMakeFiles/LXe_n.dir/src/LXeScintSD.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/LXeScintSD.hh
+CMakeFiles/LXe_n.dir/src/LXeScintSD.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/src/LXeScintSD.cc
 
 CMakeFiles/LXe_n.dir/src/LXeStackingAction.cc.o: /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/G4Allocator.hh
 CMakeFiles/LXe_n.dir/src/LXeStackingAction.cc.o: /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/G4AllocatorPool.hh
@@ -5861,10 +5861,10 @@ CMakeFiles/LXe_n.dir/src/LXeStackingAction.cc.o: /lustrehome/daymos93/programs/c
 CMakeFiles/LXe_n.dir/src/LXeStackingAction.cc.o: /lustrehome/daymos93/programs/clhep/clhep-install/include/CLHEP/Vector/ThreeVector.icc
 CMakeFiles/LXe_n.dir/src/LXeStackingAction.cc.o: /lustrehome/daymos93/programs/clhep/clhep-install/include/CLHEP/Vector/ZMxpv.h
 CMakeFiles/LXe_n.dir/src/LXeStackingAction.cc.o: /lustrehome/daymos93/programs/clhep/clhep-install/include/CLHEP/Vector/defs.h
-CMakeFiles/LXe_n.dir/src/LXeStackingAction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/LXeEventAction.hh
-CMakeFiles/LXe_n.dir/src/LXeStackingAction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/LXeEventMessenger.hh
-CMakeFiles/LXe_n.dir/src/LXeStackingAction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/LXeStackingAction.hh
-CMakeFiles/LXe_n.dir/src/LXeStackingAction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/src/LXeStackingAction.cc
+CMakeFiles/LXe_n.dir/src/LXeStackingAction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/LXeEventAction.hh
+CMakeFiles/LXe_n.dir/src/LXeStackingAction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/LXeEventMessenger.hh
+CMakeFiles/LXe_n.dir/src/LXeStackingAction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/LXeStackingAction.hh
+CMakeFiles/LXe_n.dir/src/LXeStackingAction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/src/LXeStackingAction.cc
 
 CMakeFiles/LXe_n.dir/src/LXeSteppingAction.cc.o: /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/G4AffineTransform.hh
 CMakeFiles/LXe_n.dir/src/LXeSteppingAction.cc.o: /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/G4AffineTransform.icc
@@ -6332,19 +6332,19 @@ CMakeFiles/LXe_n.dir/src/LXeSteppingAction.cc.o: /lustrehome/daymos93/programs/c
 CMakeFiles/LXe_n.dir/src/LXeSteppingAction.cc.o: /lustrehome/daymos93/programs/clhep/clhep-install/include/CLHEP/Vector/TwoVector.icc
 CMakeFiles/LXe_n.dir/src/LXeSteppingAction.cc.o: /lustrehome/daymos93/programs/clhep/clhep-install/include/CLHEP/Vector/ZMxpv.h
 CMakeFiles/LXe_n.dir/src/LXeSteppingAction.cc.o: /lustrehome/daymos93/programs/clhep/clhep-install/include/CLHEP/Vector/defs.h
-CMakeFiles/LXe_n.dir/src/LXeSteppingAction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/ElectricFieldSetup.hh
-CMakeFiles/LXe_n.dir/src/LXeSteppingAction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/F03FieldSetup.hh
-CMakeFiles/LXe_n.dir/src/LXeSteppingAction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/LXeDetectorConstruction.hh
-CMakeFiles/LXe_n.dir/src/LXeSteppingAction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/LXeDetectorMessenger.hh
-CMakeFiles/LXe_n.dir/src/LXeSteppingAction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/LXeEventAction.hh
-CMakeFiles/LXe_n.dir/src/LXeSteppingAction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/LXeEventMessenger.hh
-CMakeFiles/LXe_n.dir/src/LXeSteppingAction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/LXePMTHit.hh
-CMakeFiles/LXe_n.dir/src/LXeSteppingAction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/LXePMTSD.hh
-CMakeFiles/LXe_n.dir/src/LXeSteppingAction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/LXeSteppingAction.hh
-CMakeFiles/LXe_n.dir/src/LXeSteppingAction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/LXeSteppingMessenger.hh
-CMakeFiles/LXe_n.dir/src/LXeSteppingAction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/LXeTrajectory.hh
-CMakeFiles/LXe_n.dir/src/LXeSteppingAction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/LXeUserTrackInformation.hh
-CMakeFiles/LXe_n.dir/src/LXeSteppingAction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/src/LXeSteppingAction.cc
+CMakeFiles/LXe_n.dir/src/LXeSteppingAction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/ElectricFieldSetup.hh
+CMakeFiles/LXe_n.dir/src/LXeSteppingAction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/F03FieldSetup.hh
+CMakeFiles/LXe_n.dir/src/LXeSteppingAction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/LXeDetectorConstruction.hh
+CMakeFiles/LXe_n.dir/src/LXeSteppingAction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/LXeDetectorMessenger.hh
+CMakeFiles/LXe_n.dir/src/LXeSteppingAction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/LXeEventAction.hh
+CMakeFiles/LXe_n.dir/src/LXeSteppingAction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/LXeEventMessenger.hh
+CMakeFiles/LXe_n.dir/src/LXeSteppingAction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/LXePMTHit.hh
+CMakeFiles/LXe_n.dir/src/LXeSteppingAction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/LXePMTSD.hh
+CMakeFiles/LXe_n.dir/src/LXeSteppingAction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/LXeSteppingAction.hh
+CMakeFiles/LXe_n.dir/src/LXeSteppingAction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/LXeSteppingMessenger.hh
+CMakeFiles/LXe_n.dir/src/LXeSteppingAction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/LXeTrajectory.hh
+CMakeFiles/LXe_n.dir/src/LXeSteppingAction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/LXeUserTrackInformation.hh
+CMakeFiles/LXe_n.dir/src/LXeSteppingAction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/src/LXeSteppingAction.cc
 
 CMakeFiles/LXe_n.dir/src/LXeSteppingMessenger.cc.o: /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/G4Allocator.hh
 CMakeFiles/LXe_n.dir/src/LXeSteppingMessenger.cc.o: /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/G4AllocatorPool.hh
@@ -6541,9 +6541,9 @@ CMakeFiles/LXe_n.dir/src/LXeSteppingMessenger.cc.o: /lustrehome/daymos93/program
 CMakeFiles/LXe_n.dir/src/LXeSteppingMessenger.cc.o: /lustrehome/daymos93/programs/clhep/clhep-install/include/CLHEP/Vector/TwoVector.icc
 CMakeFiles/LXe_n.dir/src/LXeSteppingMessenger.cc.o: /lustrehome/daymos93/programs/clhep/clhep-install/include/CLHEP/Vector/ZMxpv.h
 CMakeFiles/LXe_n.dir/src/LXeSteppingMessenger.cc.o: /lustrehome/daymos93/programs/clhep/clhep-install/include/CLHEP/Vector/defs.h
-CMakeFiles/LXe_n.dir/src/LXeSteppingMessenger.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/LXeSteppingAction.hh
-CMakeFiles/LXe_n.dir/src/LXeSteppingMessenger.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/LXeSteppingMessenger.hh
-CMakeFiles/LXe_n.dir/src/LXeSteppingMessenger.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/src/LXeSteppingMessenger.cc
+CMakeFiles/LXe_n.dir/src/LXeSteppingMessenger.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/LXeSteppingAction.hh
+CMakeFiles/LXe_n.dir/src/LXeSteppingMessenger.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/LXeSteppingMessenger.hh
+CMakeFiles/LXe_n.dir/src/LXeSteppingMessenger.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/src/LXeSteppingMessenger.cc
 
 CMakeFiles/LXe_n.dir/src/LXeTrackingAction.cc.o: /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/G4AffineTransform.hh
 CMakeFiles/LXe_n.dir/src/LXeTrackingAction.cc.o: /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/G4AffineTransform.icc
@@ -6804,14 +6804,14 @@ CMakeFiles/LXe_n.dir/src/LXeTrackingAction.cc.o: /lustrehome/daymos93/programs/c
 CMakeFiles/LXe_n.dir/src/LXeTrackingAction.cc.o: /lustrehome/daymos93/programs/clhep/clhep-install/include/CLHEP/Vector/ThreeVector.icc
 CMakeFiles/LXe_n.dir/src/LXeTrackingAction.cc.o: /lustrehome/daymos93/programs/clhep/clhep-install/include/CLHEP/Vector/ZMxpv.h
 CMakeFiles/LXe_n.dir/src/LXeTrackingAction.cc.o: /lustrehome/daymos93/programs/clhep/clhep-install/include/CLHEP/Vector/defs.h
-CMakeFiles/LXe_n.dir/src/LXeTrackingAction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/ElectricFieldSetup.hh
-CMakeFiles/LXe_n.dir/src/LXeTrackingAction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/F03FieldSetup.hh
-CMakeFiles/LXe_n.dir/src/LXeTrackingAction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/LXeDetectorConstruction.hh
-CMakeFiles/LXe_n.dir/src/LXeTrackingAction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/LXeDetectorMessenger.hh
-CMakeFiles/LXe_n.dir/src/LXeTrackingAction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/LXeTrackingAction.hh
-CMakeFiles/LXe_n.dir/src/LXeTrackingAction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/LXeTrajectory.hh
-CMakeFiles/LXe_n.dir/src/LXeTrackingAction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/LXeUserTrackInformation.hh
-CMakeFiles/LXe_n.dir/src/LXeTrackingAction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/src/LXeTrackingAction.cc
+CMakeFiles/LXe_n.dir/src/LXeTrackingAction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/ElectricFieldSetup.hh
+CMakeFiles/LXe_n.dir/src/LXeTrackingAction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/F03FieldSetup.hh
+CMakeFiles/LXe_n.dir/src/LXeTrackingAction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/LXeDetectorConstruction.hh
+CMakeFiles/LXe_n.dir/src/LXeTrackingAction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/LXeDetectorMessenger.hh
+CMakeFiles/LXe_n.dir/src/LXeTrackingAction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/LXeTrackingAction.hh
+CMakeFiles/LXe_n.dir/src/LXeTrackingAction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/LXeTrajectory.hh
+CMakeFiles/LXe_n.dir/src/LXeTrackingAction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/LXeUserTrackInformation.hh
+CMakeFiles/LXe_n.dir/src/LXeTrackingAction.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/src/LXeTrackingAction.cc
 
 CMakeFiles/LXe_n.dir/src/LXeTrajectory.cc.o: /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/G4Allocator.hh
 CMakeFiles/LXe_n.dir/src/LXeTrajectory.cc.o: /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/G4AllocatorPool.hh
@@ -7047,8 +7047,8 @@ CMakeFiles/LXe_n.dir/src/LXeTrajectory.cc.o: /lustrehome/daymos93/programs/clhep
 CMakeFiles/LXe_n.dir/src/LXeTrajectory.cc.o: /lustrehome/daymos93/programs/clhep/clhep-install/include/CLHEP/Vector/ThreeVector.icc
 CMakeFiles/LXe_n.dir/src/LXeTrajectory.cc.o: /lustrehome/daymos93/programs/clhep/clhep-install/include/CLHEP/Vector/ZMxpv.h
 CMakeFiles/LXe_n.dir/src/LXeTrajectory.cc.o: /lustrehome/daymos93/programs/clhep/clhep-install/include/CLHEP/Vector/defs.h
-CMakeFiles/LXe_n.dir/src/LXeTrajectory.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/LXeTrajectory.hh
-CMakeFiles/LXe_n.dir/src/LXeTrajectory.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/src/LXeTrajectory.cc
+CMakeFiles/LXe_n.dir/src/LXeTrajectory.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/LXeTrajectory.hh
+CMakeFiles/LXe_n.dir/src/LXeTrajectory.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/src/LXeTrajectory.cc
 
 CMakeFiles/LXe_n.dir/src/LXeUserTrackInformation.cc.o: /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/G4EnvironmentUtils.hh
 CMakeFiles/LXe_n.dir/src/LXeUserTrackInformation.cc.o: /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/G4Exception.hh
@@ -7063,8 +7063,8 @@ CMakeFiles/LXe_n.dir/src/LXeUserTrackInformation.cc.o: /lustrehome/daymos93/prog
 CMakeFiles/LXe_n.dir/src/LXeUserTrackInformation.cc.o: /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/globals.hh
 CMakeFiles/LXe_n.dir/src/LXeUserTrackInformation.cc.o: /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/templates.hh
 CMakeFiles/LXe_n.dir/src/LXeUserTrackInformation.cc.o: /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/tls.hh
-CMakeFiles/LXe_n.dir/src/LXeUserTrackInformation.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/LXeUserTrackInformation.hh
-CMakeFiles/LXe_n.dir/src/LXeUserTrackInformation.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/src/LXeUserTrackInformation.cc
+CMakeFiles/LXe_n.dir/src/LXeUserTrackInformation.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/LXeUserTrackInformation.hh
+CMakeFiles/LXe_n.dir/src/LXeUserTrackInformation.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/src/LXeUserTrackInformation.cc
 
 CMakeFiles/LXe_n.dir/src/LXeWLSFiber.cc.o: /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/G4AffineTransform.hh
 CMakeFiles/LXe_n.dir/src/LXeWLSFiber.cc.o: /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/G4AffineTransform.icc
@@ -7189,12 +7189,12 @@ CMakeFiles/LXe_n.dir/src/LXeWLSFiber.cc.o: /lustrehome/daymos93/programs/clhep/c
 CMakeFiles/LXe_n.dir/src/LXeWLSFiber.cc.o: /lustrehome/daymos93/programs/clhep/clhep-install/include/CLHEP/Vector/ThreeVector.icc
 CMakeFiles/LXe_n.dir/src/LXeWLSFiber.cc.o: /lustrehome/daymos93/programs/clhep/clhep-install/include/CLHEP/Vector/ZMxpv.h
 CMakeFiles/LXe_n.dir/src/LXeWLSFiber.cc.o: /lustrehome/daymos93/programs/clhep/clhep-install/include/CLHEP/Vector/defs.h
-CMakeFiles/LXe_n.dir/src/LXeWLSFiber.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/ElectricFieldSetup.hh
-CMakeFiles/LXe_n.dir/src/LXeWLSFiber.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/F03FieldSetup.hh
-CMakeFiles/LXe_n.dir/src/LXeWLSFiber.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/LXeDetectorConstruction.hh
-CMakeFiles/LXe_n.dir/src/LXeWLSFiber.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/LXeDetectorMessenger.hh
-CMakeFiles/LXe_n.dir/src/LXeWLSFiber.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/LXeWLSFiber.hh
-CMakeFiles/LXe_n.dir/src/LXeWLSFiber.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/src/LXeWLSFiber.cc
+CMakeFiles/LXe_n.dir/src/LXeWLSFiber.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/ElectricFieldSetup.hh
+CMakeFiles/LXe_n.dir/src/LXeWLSFiber.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/F03FieldSetup.hh
+CMakeFiles/LXe_n.dir/src/LXeWLSFiber.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/LXeDetectorConstruction.hh
+CMakeFiles/LXe_n.dir/src/LXeWLSFiber.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/LXeDetectorMessenger.hh
+CMakeFiles/LXe_n.dir/src/LXeWLSFiber.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/LXeWLSFiber.hh
+CMakeFiles/LXe_n.dir/src/LXeWLSFiber.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/src/LXeWLSFiber.cc
 
 CMakeFiles/LXe_n.dir/src/LXeWLSSlab.cc.o: /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/G4AffineTransform.hh
 CMakeFiles/LXe_n.dir/src/LXeWLSSlab.cc.o: /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/G4AffineTransform.icc
@@ -7316,11 +7316,11 @@ CMakeFiles/LXe_n.dir/src/LXeWLSSlab.cc.o: /lustrehome/daymos93/programs/clhep/cl
 CMakeFiles/LXe_n.dir/src/LXeWLSSlab.cc.o: /lustrehome/daymos93/programs/clhep/clhep-install/include/CLHEP/Vector/ThreeVector.icc
 CMakeFiles/LXe_n.dir/src/LXeWLSSlab.cc.o: /lustrehome/daymos93/programs/clhep/clhep-install/include/CLHEP/Vector/ZMxpv.h
 CMakeFiles/LXe_n.dir/src/LXeWLSSlab.cc.o: /lustrehome/daymos93/programs/clhep/clhep-install/include/CLHEP/Vector/defs.h
-CMakeFiles/LXe_n.dir/src/LXeWLSSlab.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/ElectricFieldSetup.hh
-CMakeFiles/LXe_n.dir/src/LXeWLSSlab.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/F03FieldSetup.hh
-CMakeFiles/LXe_n.dir/src/LXeWLSSlab.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/LXeDetectorConstruction.hh
-CMakeFiles/LXe_n.dir/src/LXeWLSSlab.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/LXeDetectorMessenger.hh
-CMakeFiles/LXe_n.dir/src/LXeWLSSlab.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/LXeWLSFiber.hh
-CMakeFiles/LXe_n.dir/src/LXeWLSSlab.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include/LXeWLSSlab.hh
-CMakeFiles/LXe_n.dir/src/LXeWLSSlab.cc.o: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/src/LXeWLSSlab.cc
+CMakeFiles/LXe_n.dir/src/LXeWLSSlab.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/ElectricFieldSetup.hh
+CMakeFiles/LXe_n.dir/src/LXeWLSSlab.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/F03FieldSetup.hh
+CMakeFiles/LXe_n.dir/src/LXeWLSSlab.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/LXeDetectorConstruction.hh
+CMakeFiles/LXe_n.dir/src/LXeWLSSlab.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/LXeDetectorMessenger.hh
+CMakeFiles/LXe_n.dir/src/LXeWLSSlab.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/LXeWLSFiber.hh
+CMakeFiles/LXe_n.dir/src/LXeWLSSlab.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include/LXeWLSSlab.hh
+CMakeFiles/LXe_n.dir/src/LXeWLSSlab.cc.o: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/src/LXeWLSSlab.cc
 

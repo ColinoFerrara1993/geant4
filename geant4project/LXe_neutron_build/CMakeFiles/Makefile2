@@ -64,10 +64,10 @@ RM = /usr/bin/cmake3 -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron
+CMAKE_SOURCE_DIR = /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron_build
+CMAKE_BINARY_DIR = /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron_build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -94,14 +94,14 @@ clean: CMakeFiles/LXe_n.dir/clean
 CMakeFiles/LXe_n.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LXe_n.dir/build.make CMakeFiles/LXe_n.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LXe_n.dir/build.make CMakeFiles/LXe_n.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron_build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33 "Built target LXe_n"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron_build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33 "Built target LXe_n"
 .PHONY : CMakeFiles/LXe_n.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/LXe_n.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron_build/CMakeFiles 33
+	$(CMAKE_COMMAND) -E cmake_progress_start /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron_build/CMakeFiles 33
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/LXe_n.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron_build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron_build/CMakeFiles 0
 .PHONY : CMakeFiles/LXe_n.dir/rule
 
 # Convenience name for target.

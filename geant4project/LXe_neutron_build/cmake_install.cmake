@@ -1,4 +1,4 @@
-# Install script for directory: /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron
+# Install script for directory: /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,7 +44,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/LXe_n"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron_build/LXe_n")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron_build/LXe_n")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/LXe_n" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/LXe_n")
     file(RPATH_CHANGE
@@ -65,5 +65,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron_build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron_build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

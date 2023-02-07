@@ -6,5 +6,5 @@ CXX_FLAGS = -W -Wall -pedantic -Wno-non-virtual-dtor -Wno-long-long -Wwrite-stri
 
 CXX_DEFINES = -DG4LIB_BUILD_DLL -DG4UI_USE_TCSH
 
-CXX_INCLUDES = -I/lustrehome/daymos93/programs/clhep/clhep-install/lib/CLHEP-2.4.4.1/../../include -I/lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron/include -isystem /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4 -isystem /lustrehome/daymos93/programs/clhep/clhep-install/include 
+CXX_INCLUDES = -I/lustrehome/daymos93/programs/clhep/clhep-install/lib/CLHEP-2.4.4.1/../../include -I/lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron/include -isystem /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4 -isystem /lustrehome/daymos93/programs/clhep/clhep-install/include 
 

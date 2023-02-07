@@ -68,10 +68,10 @@ RM = /usr/bin/cmake3 -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron
+CMAKE_SOURCE_DIR = /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron_build
+CMAKE_BINARY_DIR = /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron_build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -146,9 +146,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron_build/CMakeFiles /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron_build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron_build/CMakeFiles /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron_build/CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /lustrehome/nicolaferrara2106/projects/geant4project/LXe_neutron_build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_neutron_build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
