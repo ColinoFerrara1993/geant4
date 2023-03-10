@@ -17,4 +17,4 @@
 /LXe/pmtThreshold 1
 /electricfield/update
 /field/update
-/run/beamOn 200000000
+/run/beamOn 1000000
