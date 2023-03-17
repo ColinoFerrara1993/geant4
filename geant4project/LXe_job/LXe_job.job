@@ -1,0 +1,11 @@
+universe = vanilla
+executable = /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_job/LXe_job.sh
+initialdir = /lustrehome/nicolaferrara2106/projects/geant4/geant4project/LXe_job/
+output = LXe_job.out
+error = LXe_job.error
+log = LXe_job.log
+notify_user = nicola.ferrara@ba.infn.it
+request_memory = 2 GB
+request_cpus = 1
+rank = Memory
+queue
