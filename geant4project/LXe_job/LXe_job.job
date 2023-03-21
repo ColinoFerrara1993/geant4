@@ -5,7 +5,7 @@ output = LXe_job.out
 error = LXe_job.error
 log = LXe_job.log
 notify_user = nicola.ferrara@ba.infn.it
-request_memory = 2 GB
-request_cpus = 1
+request_memory = 32 GB
+request_cpus = 16
 rank = Memory
 queue

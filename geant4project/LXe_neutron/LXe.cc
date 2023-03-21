@@ -35,6 +35,7 @@
 
 #include "QGS_BIC.hh"
 #include "QGSP_BERT_HP.hh"
+#include "QGSP_BIC_AllHP.hh"
 #include "G4EmStandardPhysics_option4.hh"
 #include "G4OpticalParameters.hh"
 #include "G4OpticalPhysics.hh"
@@ -106,12 +107,12 @@ int main(int argc, char** argv)
 
   //auto runManager = G4RunManagerFactory::CreateRunManager();
   G4MTRunManager* runManager = new G4MTRunManager;
-  runManager->SetNumberOfThreads(32);
+  runManager->SetNumberOfThreads(16);
   
   LXeDetectorConstruction* det = new LXeDetectorConstruction();
   runManager->SetUserInitialization(det);
 
-  G4VModularPhysicsList* physicsList = new QGSP_BERT_HP;
+  G4VModularPhysicsList* physicsList = new QGSP_BIC_AllHP;
   physicsList->ReplacePhysics(new G4EmStandardPhysics_option4());
 
   G4OpticalPhysics* opticalPhysics = new G4OpticalPhysics();

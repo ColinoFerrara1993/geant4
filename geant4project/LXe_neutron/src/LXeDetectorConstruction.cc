@@ -71,6 +71,7 @@
 #include "G4UImanager.hh"
 #include "G4VisAttributes.hh"
 #include "G4AutoDelete.hh"
+#include "G4Isotope.hh"
 
 using namespace CLHEP;
 
@@ -96,6 +97,7 @@ LXeDetectorConstruction::LXeDetectorConstruction()
   fAll = nullptr;
   fNa = fMg = fSi = fK = fCa = fFe = fP = fS = fTi = fMn = fZn = fZr = fBa = fPb = fSr = nullptr;
   fBe = nullptr;
+  fIsoBe = nullptr;
 
   fSaveThreshold = 0;
   SetDefaults();
@@ -203,7 +205,9 @@ void LXeDetectorConstruction::DefineMaterials()
   fPb = new G4Element("Pb", "Pb", z = 82., a = 207.2 * g / mole);
   fSr = new G4Element("Sr", "Sr", z = 38., a = 87.62 * g / mole);
   
-  fBe = new G4Element("Be", "Be", z = 4., a = 9.01 * g / mole);
+  fIsoBe = new G4Isotope("_Be_", z = 4., a = 9., 9.01 * g / mole);
+  fBe = new G4Element("Be", "Be", 1);
+  fBe->AddIsotope(fIsoBe, 100. * perCent);
 
   //***Materials
   // Liquid Xenon
@@ -410,14 +414,14 @@ G4VPhysicalVolume* LXeDetectorConstruction::Construct()
   //Create experimental target of Berillium/Lithium
   G4double target_x = 4.*cm;
   G4double target_y = 4.*cm;
-  G4double target_z = 0.1*cm;
+  G4double target_z = 0.04*cm;
   
   fTarget_box =
     new G4Box("target_box", target_x, target_y, target_z);
   fTarget_log = 
     new G4LogicalVolume(fTarget_box, fBerillium, "target_log", 0, 0, 0);
   fTarget_phys = 
-    new G4PVPlacement(0, G4ThreeVector(0., 0., 4.1875*m - 4.6*m + 4.0*m + 0.8*m - 6.0*m), fTarget_log, "target", fExperimentalHall_log, false, 0);
+    new G4PVPlacement(0, G4ThreeVector(0., 0., 4.1875*m - 4.6*m + 4.0*m + 0.72*m - 6.0*m), fTarget_log, "target", fExperimentalHall_log, false, 0);
 
   // Place the main volume
   if(fMainVolumeOn)

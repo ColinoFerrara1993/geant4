@@ -51,6 +51,7 @@ class LXeModuleCCL;
 
 class G4Box;
 class G4Element;
+class G4Isotope;
 class G4LogicalVolume;
 class G4Material;
 class G4MaterialPropertiesTable;
@@ -166,6 +167,7 @@ class LXeDetectorConstruction : public G4VUserDetectorConstruction
   G4Material* fConcrete;
   G4Element* fBe;
   G4Material* fBerillium;
+  G4Isotope* fIsoBe;
 
   // Geometry
   G4double fScint_x;
