@@ -218,6 +218,9 @@ void LXeSteppingAction::UserSteppingAction(const G4Step* theStep)
                  // Position
                  G4double z_p = track3->GetPosition().z();
 
+                 // check
+                 //std::cout << "Z =" << "   " << z_p << std::endl;
+
                  // Fill
                  analysisManager->FillH1(11, z_p);
                 

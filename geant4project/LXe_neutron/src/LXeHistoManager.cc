@@ -87,7 +87,7 @@ void LXeHistoManager::Book()
   // 10
   analysisManager->CreateH1("E kin neutrons in exp Hall", "Neutron spectrum in exp Hall - Kinetic Energy ", 200, vmin, 10.);
   // 11
-  analysisManager->CreateH1("Z position of protons in target volume", "Proton position in target - Z Pos", 100, -170.30, -168.30);
+  analysisManager->CreateH1("Z position of protons in target volume", "Proton position in target - Z Pos", 1000, -1692.9, -1692.1);
   // 12
   analysisManager->CreateH1("Angle distribution of neutron from target", "Angle distribution of neutron from target", 60, -180., +180.);
 
