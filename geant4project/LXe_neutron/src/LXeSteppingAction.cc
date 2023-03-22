@@ -210,8 +210,18 @@ void LXeSteppingAction::UserSteppingAction(const G4Step* theStep)
        
               }
         
-        }    
-    
+        } else if (particleName3 == "proton") {
+
+                 // Analysis
+                 auto analysisManager = G4AnalysisManager::Instance();
+
+                 // Position
+                 G4double z_p = track3->GetPosition().z();
+
+                 // Fill
+                 analysisManager->FillH1(11, z_p);
+                
+               }
       } else {
     
             //Retrieve from step the track
@@ -254,7 +264,7 @@ void LXeSteppingAction::UserSteppingAction(const G4Step* theStep)
                     auto analysisManager = G4AnalysisManager::Instance();
   
                     //fill
-                    analysisManager->FillH1(11, kinEnergy4);
+                    //analysisManager->FillH1(11, kinEnergy4);
                     
                   //}
                 
