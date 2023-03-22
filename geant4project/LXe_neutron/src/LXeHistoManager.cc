@@ -81,15 +81,15 @@ void LXeHistoManager::Book()
   // 7
   analysisManager->CreateH1("E dep", "energy deposition in scintillator per event", nbins, vmin, 3.);  
   // 8
-  analysisManager->CreateH1("E kin protons in moderator", "Proton spectrum in moderator - Kinetic Energy ", nbins, vmin, 60.);
+  analysisManager->CreateH1("E kin protons in cavities", "Proton spectrum in cavities - Kinetic Energy ", nbins, vmin, 10.);
   // 9
   analysisManager->CreateH1("E kin neutrons in moderator", "Neutron spectrum in moderator - Kinetic Energy ", nbins, vmin, 1.);
   // 10
-  analysisManager->CreateH1("E kin neutrons in exp Hall", "Neutron spectrum in exp Hall - Kinetic Energy ", 200, vmin, 4.);
+  analysisManager->CreateH1("E kin neutrons in exp Hall", "Neutron spectrum in exp Hall - Kinetic Energy ", 200, vmin, 10.);
   // 11
-  analysisManager->CreateH1("Z position of protons in target volume", "Proton position in target - Z Pos", 100, -1.6920, -1.6930);
+  analysisManager->CreateH1("Z position of protons in target volume", "Proton position in target - Z Pos", 100, -1.6930, -1.6920);
   // 12
-  analysisManager->CreateH1("Angle distribution of neutron from target", "Angle distribution of neutron from target", 60, -180., +180);
+  analysisManager->CreateH1("Angle distribution of neutron from target", "Angle distribution of neutron from target", 60, -180., +180.);
 
   // Create all histograms as inactivated
   for(G4int i = 0; i < analysisManager->GetNofH1s(); ++i)

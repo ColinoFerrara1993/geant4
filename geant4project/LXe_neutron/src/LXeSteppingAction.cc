@@ -124,7 +124,7 @@ void LXeSteppingAction::UserSteppingAction(const G4Step* theStep)
         auto analysisManager = G4AnalysisManager::Instance();
   
         //fill
-        analysisManager->FillH1(8, kinEnergy1);
+        //analysisManager->FillH1(8, kinEnergy1);
       
       }
       
@@ -205,7 +205,7 @@ void LXeSteppingAction::UserSteppingAction(const G4Step* theStep)
   
                 //fill
                 analysisManager->FillH1(10, kinEnergy3);
-                
+                //fill
                 analysisManager->FillH1(12, ang*180./(pi));
        
               }
@@ -264,7 +264,7 @@ void LXeSteppingAction::UserSteppingAction(const G4Step* theStep)
                     auto analysisManager = G4AnalysisManager::Instance();
   
                     //fill
-                    //analysisManager->FillH1(11, kinEnergy4);
+                    analysisManager->FillH1(8, kinEnergy4);
                     
                   //}
                 
