@@ -1003,39 +1003,39 @@ Max 2J for sampling of angular correlations         10
 --> G4MTRunManager::CreateAndStartWorkers() --> Initializing workers...
 =======================================================================
 
+G4WT0 > /run/initialize 
 G4WT2 > /run/initialize 
 G4WT1 > /run/initialize 
-G4WT11 > /run/initialize 
-G4WT11 > /run/physicsModified 
+G4WT3 > /run/initialize 
 G4WT4 > /run/initialize 
-G4WT5 > /run/initialize 
-G4WT2 > /run/physicsModified 
+G4WT10 > /run/initialize 
+G4WT4 > /run/physicsModified 
+G4WT10 > /run/physicsModified 
+G4WT0 > /run/physicsModified 
 G4WT6 > /run/initialize 
+G4WT6 > /run/physicsModified 
+G4WT13 > /run/initialize 
+G4WT13 > /run/physicsModified 
 G4WT7 > /run/initialize 
+G4WT1 > /run/physicsModified 
 G4WT9 > /run/initialize 
 G4WT9 > /run/physicsModified 
-G4WT10 > /run/initialize 
-G4WT3 > /run/initialize 
-G4WT12 > /run/initialize 
-G4WT13 > /run/initialize 
-G4WT15 > /run/initialize 
-G4WT15 > /run/physicsModified 
-G4WT1 > /run/physicsModified 
 G4WT14 > /run/initialize 
 G4WT14 > /run/physicsModified 
-G4WT5 > /run/physicsModified 
-G4WT6 > /run/physicsModified 
-G4WT7 > /run/physicsModified 
 G4WT8 > /run/initialize 
-G4WT10 > /run/physicsModified 
-G4WT3 > /run/physicsModified 
-G4WT12 > /run/physicsModified 
-G4WT13 > /run/physicsModified 
-G4WT0 > /run/initialize 
-G4WT4 > /run/physicsModified 
 G4WT8 > /run/physicsModified 
-G4WT0 > /run/physicsModified 
-/run/printProgress 10000000
+G4WT3 > /run/physicsModified 
+G4WT5 > /run/initialize 
+G4WT5 > /run/physicsModified 
+G4WT11 > /run/initialize 
+G4WT11 > /run/physicsModified 
+G4WT7 > /run/physicsModified 
+G4WT15 > /run/initialize 
+G4WT15 > /run/physicsModified 
+G4WT12 > /run/initialize 
+G4WT12 > /run/physicsModified 
+G4WT2 > /run/physicsModified 
+/run/printProgress 100000000
 /vis/disable
 /LXe/pmtThreshold 1
 /electricfield/update
@@ -1134,265 +1134,276 @@ See commands in /vis/modeling/trajectories/ for other options.
 ### Run 0 starts.
 ... create file : lxe.root - done
 ... open analysis file : lxe.root - done
-G4WT8 > /run/printProgress 10000000
-G4WT9 > /run/printProgress 10000000
-G4WT8 > /LXe/pmtThreshold 1
-G4WT12 > /run/printProgress 10000000
-G4WT15 > /run/printProgress 10000000
-G4WT12 > /LXe/pmtThreshold 1
-G4WT0 > /run/printProgress 10000000
-G4WT5 > /run/printProgress 10000000
-G4WT9 > /LXe/pmtThreshold 1
-G4WT2 > /run/printProgress 10000000
-G4WT1 > /run/printProgress 10000000
-G4WT2 > /LXe/pmtThreshold 1
-G4WT10 > /run/printProgress 10000000
-G4WT7 > /run/printProgress 10000000
-G4WT3 > /run/printProgress 10000000
-G4WT14 > /run/printProgress 10000000
-G4WT12 > /electricfield/update 
-G4WT14 > /LXe/pmtThreshold 1
-G4WT4 > /run/printProgress 10000000
-G4WT8 > /electricfield/update 
-G4WT4 > /LXe/pmtThreshold 1
-G4WT11 > /run/printProgress 10000000
+G4WT0 > /run/printProgress 100000000
 G4WT0 > /LXe/pmtThreshold 1
-G4WT11 > /LXe/pmtThreshold 1
-G4WT5 > /LXe/pmtThreshold 1
-G4WT9 > /electricfield/update 
-G4WT13 > /run/printProgress 10000000
-G4WT2 > /electricfield/update 
-G4WT1 > /LXe/pmtThreshold 1
-G4WT10 > /LXe/pmtThreshold 1
-G4WT1 > /electricfield/update 
-G4WT10 > /electricfield/update 
-G4WT3 > /LXe/pmtThreshold 1
-G4WT15 > /LXe/pmtThreshold 1
-G4WT14 > /electricfield/update 
-G4WT15 > /electricfield/update 
-G4WT14 > ElectricFieldSetup::UpdateField> The minimal step is equal to 1e-07 mm
-G4WT14 >                             Stepper Type chosen = 5
-G4WT4 > /electricfield/update 
 G4WT0 > /electricfield/update 
-G4WT11 > /electricfield/update 
 G4WT0 > ElectricFieldSetup::UpdateField> The minimal step is equal to 1e-07 mm
-G4WT11 > ElectricFieldSetup::UpdateField> The minimal step is equal to 1e-07 mm
-G4WT11 >                             Stepper Type chosen = 5
-G4WT2 > ElectricFieldSetup::UpdateField> The minimal step is equal to 1e-07 mm
-G4WT2 >                             Stepper Type chosen = 5
-G4WT10 > ElectricFieldSetup::UpdateField> The minimal step is equal to 1e-07 mm
-G4WT1 > ElectricFieldSetup::UpdateField> The minimal step is equal to 1e-07 mm
-G4WT1 >                             Stepper Type chosen = 5
-G4WT12 > ElectricFieldSetup::UpdateField> The minimal step is equal to 1e-07 mm
-G4WT6 > /run/printProgress 10000000
-G4WT8 > ElectricFieldSetup::UpdateField> The minimal step is equal to 1e-07 mm
-G4WT8 >                             Stepper Type chosen = 5
-G4WT14 > G4CashKarpRKF45 is called
+G4WT0 >                             Stepper Type chosen = 5
+G4WT0 > G4CashKarpRKF45 is called
+G4WT0 > /field/update 
+G4WT0 > F03FieldSetup::UpdateField> The minimal step is equal to 1e-09 mm
+G4WT0 >                             Stepper Type chosen = 11
+G4WT0 > G4DormandPrinceRK56 is called
+G4WT4 > /run/printProgress 100000000
+G4WT4 > /LXe/pmtThreshold 1
+G4WT4 > /electricfield/update 
+G4WT5 > /run/printProgress 100000000
+G4WT5 > /LXe/pmtThreshold 1
+G4WT8 > /run/printProgress 100000000
+G4WT12 > /run/printProgress 100000000
 G4WT4 > ElectricFieldSetup::UpdateField> The minimal step is equal to 1e-07 mm
 G4WT4 >                             Stepper Type chosen = 5
-G4WT9 > ElectricFieldSetup::UpdateField> The minimal step is equal to 1e-07 mm
-G4WT9 >                             Stepper Type chosen = 5
-G4WT13 > /LXe/pmtThreshold 1
-G4WT11 > G4CashKarpRKF45 is called
-G4WT13 > /electricfield/update 
-G4WT2 > G4CashKarpRKF45 is called
-G4WT13 > ElectricFieldSetup::UpdateField> The minimal step is equal to 1e-07 mm
-G4WT13 >                             Stepper Type chosen = 5
-G4WT1 > G4CashKarpRKF45 is called
-G4WT12 >                             Stepper Type chosen = 5
-G4WT15 > ElectricFieldSetup::UpdateField> The minimal step is equal to 1e-07 mm
-G4WT6 > /LXe/pmtThreshold 1
-G4WT8 > G4CashKarpRKF45 is called
-G4WT14 > /field/update 
-G4WT5 > /electricfield/update 
 G4WT4 > G4CashKarpRKF45 is called
+G4WT4 > /field/update 
+G4WT4 > F03FieldSetup::UpdateField> The minimal step is equal to 1e-09 mm
+G4WT2 > /run/printProgress 100000000
+G4WT12 > /LXe/pmtThreshold 1
+G4WT6 > /run/printProgress 100000000
+G4WT4 >                             Stepper Type chosen = 11
+G4WT4 > G4DormandPrinceRK56 is called
+G4WT12 > /electricfield/update 
+G4WT9 > /run/printProgress 100000000
+G4WT2 > /LXe/pmtThreshold 1
+G4WT5 > /electricfield/update 
 G4WT5 > ElectricFieldSetup::UpdateField> The minimal step is equal to 1e-07 mm
 G4WT5 >                             Stepper Type chosen = 5
-G4WT7 > /LXe/pmtThreshold 1
-G4WT11 > /field/update 
-G4WT10 >                             Stepper Type chosen = 5
-G4WT2 > /field/update 
-G4WT3 > /electricfield/update 
-G4WT13 > G4CashKarpRKF45 is called
-G4WT3 > ElectricFieldSetup::UpdateField> The minimal step is equal to 1e-07 mm
+G4WT13 > /run/printProgress 100000000
+G4WT6 > /LXe/pmtThreshold 1
+G4WT15 > /run/printProgress 100000000
+G4WT12 > ElectricFieldSetup::UpdateField> The minimal step is equal to 1e-07 mm
+G4WT12 >                             Stepper Type chosen = 5
 G4WT12 > G4CashKarpRKF45 is called
-G4WT15 >                             Stepper Type chosen = 5
-G4WT6 > /electricfield/update 
-G4WT15 > G4CashKarpRKF45 is called
-G4WT14 > F03FieldSetup::UpdateField> The minimal step is equal to 1e-09 mm
-G4WT14 >                             Stepper Type chosen = 11
-G4WT4 > /field/update 
-G4WT9 > G4CashKarpRKF45 is called
-G4WT4 > F03FieldSetup::UpdateField> The minimal step is equal to 1e-09 mm
-G4WT7 > /electricfield/update 
-G4WT11 > F03FieldSetup::UpdateField> The minimal step is equal to 1e-09 mm
-G4WT11 >                             Stepper Type chosen = 11
-G4WT2 > F03FieldSetup::UpdateField> The minimal step is equal to 1e-09 mm
-G4WT2 >                             Stepper Type chosen = 11
-G4WT13 > /field/update 
-G4WT3 >                             Stepper Type chosen = 5
 G4WT12 > /field/update 
-G4WT3 > G4CashKarpRKF45 is called
-G4WT6 > ElectricFieldSetup::UpdateField> The minimal step is equal to 1e-07 mm
-G4WT15 > /field/update 
-G4WT0 >                             Stepper Type chosen = 5
-G4WT14 > G4DormandPrinceRK56 is called
-G4WT5 > G4CashKarpRKF45 is called
-G4WT9 > /field/update 
-G4WT4 >                             Stepper Type chosen = 11
+G4WT3 > /run/printProgress 100000000
+G4WT14 > /run/printProgress 100000000
+G4WT8 > /LXe/pmtThreshold 1
+G4WT7 > /run/printProgress 100000000
+G4WT9 > /LXe/pmtThreshold 1
+G4WT13 > /LXe/pmtThreshold 1
+G4WT13 > /electricfield/update 
+G4WT13 > ElectricFieldSetup::UpdateField> The minimal step is equal to 1e-07 mm
+G4WT13 >                             Stepper Type chosen = 5
+G4WT6 > /electricfield/update 
+G4WT10 > /run/printProgress 100000000
+G4WT15 > /LXe/pmtThreshold 1
+G4WT10 > /LXe/pmtThreshold 1
+G4WT15 > /electricfield/update 
+G4WT10 > /electricfield/update 
+G4WT15 > ElectricFieldSetup::UpdateField> The minimal step is equal to 1e-07 mm
+G4WT10 > ElectricFieldSetup::UpdateField> The minimal step is equal to 1e-07 mm
+G4WT3 > /LXe/pmtThreshold 1
+G4WT14 > /LXe/pmtThreshold 1
+G4WT8 > /electricfield/update 
+G4WT8 > ElectricFieldSetup::UpdateField> The minimal step is equal to 1e-07 mm
+G4WT8 >                             Stepper Type chosen = 5
+G4WT8 > G4CashKarpRKF45 is called
+G4WT8 > /field/update 
+G4WT8 > F03FieldSetup::UpdateField> The minimal step is equal to 1e-09 mm
+G4WT8 >                             Stepper Type chosen = 11
+G4WT1 > /run/printProgress 100000000
+G4WT7 > /LXe/pmtThreshold 1
+G4WT1 > /LXe/pmtThreshold 1
+G4WT7 > /electricfield/update 
+G4WT13 > G4CashKarpRKF45 is called
 G4WT7 > ElectricFieldSetup::UpdateField> The minimal step is equal to 1e-07 mm
-G4WT4 > G4DormandPrinceRK56 is called
-G4WT11 > G4DormandPrinceRK56 is called
-G4WT1 > /field/update 
-G4WT2 > G4DormandPrinceRK56 is called
+G4WT13 > /field/update 
+G4WT12 > F03FieldSetup::UpdateField> The minimal step is equal to 1e-09 mm
 G4WT13 > F03FieldSetup::UpdateField> The minimal step is equal to 1e-09 mm
 G4WT13 >                             Stepper Type chosen = 11
-G4WT12 > F03FieldSetup::UpdateField> The minimal step is equal to 1e-09 mm
-G4WT3 > /field/update 
-G4WT6 >                             Stepper Type chosen = 5
-G4WT15 > F03FieldSetup::UpdateField> The minimal step is equal to 1e-09 mm
-G4WT15 >                             Stepper Type chosen = 11
-G4WT5 > /field/update 
-G4WT9 > F03FieldSetup::UpdateField> The minimal step is equal to 1e-09 mm
-G4WT7 >                             Stepper Type chosen = 5
-G4WT10 > G4CashKarpRKF45 is called
-G4WT1 > F03FieldSetup::UpdateField> The minimal step is equal to 1e-09 mm
-G4WT8 > /field/update 
+G4WT11 > /run/printProgress 100000000
 G4WT13 > G4DormandPrinceRK56 is called
+G4WT14 > /electricfield/update 
+G4WT8 > G4DormandPrinceRK56 is called
+G4WT9 > /electricfield/update 
+G4WT1 > /electricfield/update 
+G4WT9 > ElectricFieldSetup::UpdateField> The minimal step is equal to 1e-07 mm
+G4WT1 > ElectricFieldSetup::UpdateField> The minimal step is equal to 1e-07 mm
+G4WT2 > /electricfield/update 
+G4WT15 >                             Stepper Type chosen = 5
 G4WT12 >                             Stepper Type chosen = 11
-G4WT3 > F03FieldSetup::UpdateField> The minimal step is equal to 1e-09 mm
-G4WT3 >                             Stepper Type chosen = 11
-G4WT0 > G4CashKarpRKF45 is called
-G4WT15 > G4DormandPrinceRK56 is called
+G4WT15 > G4CashKarpRKF45 is called
+G4WT5 > G4CashKarpRKF45 is called
+G4WT10 >                             Stepper Type chosen = 5
+G4WT3 > /electricfield/update 
+G4WT10 > G4CashKarpRKF45 is called
+G4WT10 > /field/update 
+G4WT14 > ElectricFieldSetup::UpdateField> The minimal step is equal to 1e-07 mm
+G4WT10 > F03FieldSetup::UpdateField> The minimal step is equal to 1e-09 mm
+G4WT6 > ElectricFieldSetup::UpdateField> The minimal step is equal to 1e-07 mm
+G4WT7 >                             Stepper Type chosen = 5
+G4WT1 >                             Stepper Type chosen = 5
+G4WT7 > G4CashKarpRKF45 is called
+G4WT2 > ElectricFieldSetup::UpdateField> The minimal step is equal to 1e-07 mm
+G4WT2 >                             Stepper Type chosen = 5
+G4WT12 > G4DormandPrinceRK56 is called
+G4WT5 > /field/update 
+G4WT3 > ElectricFieldSetup::UpdateField> The minimal step is equal to 1e-07 mm
+G4WT14 >                             Stepper Type chosen = 5
+G4WT10 >                             Stepper Type chosen = 11
+G4WT14 > G4CashKarpRKF45 is called
+G4WT9 >                             Stepper Type chosen = 5
+G4WT6 >                             Stepper Type chosen = 5
+G4WT9 > G4CashKarpRKF45 is called
+G4WT1 > G4CashKarpRKF45 is called
+G4WT1 > /field/update 
+G4WT2 > G4CashKarpRKF45 is called
 G4WT5 > F03FieldSetup::UpdateField> The minimal step is equal to 1e-09 mm
 G4WT5 >                             Stepper Type chosen = 11
-G4WT7 > G4CashKarpRKF45 is called
-G4WT10 > /field/update 
-G4WT1 >                             Stepper Type chosen = 11
-G4WT8 > F03FieldSetup::UpdateField> The minimal step is equal to 1e-09 mm
-G4WT1 > G4DormandPrinceRK56 is called
-G4WT12 > G4DormandPrinceRK56 is called
-G4WT3 > G4DormandPrinceRK56 is called
-G4WT0 > /field/update 
-G4WT9 >                             Stepper Type chosen = 11
-G4WT0 > F03FieldSetup::UpdateField> The minimal step is equal to 1e-09 mm
-G4WT9 > G4DormandPrinceRK56 is called
-G4WT10 > F03FieldSetup::UpdateField> The minimal step is equal to 1e-09 mm
-G4WT10 >                             Stepper Type chosen = 11
-G4WT6 > G4CashKarpRKF45 is called
-G4WT5 > G4DormandPrinceRK56 is called
-G4WT7 > /field/update 
-G4WT0 >                             Stepper Type chosen = 11
-G4WT8 >                             Stepper Type chosen = 11
+G4WT14 > /field/update 
 G4WT10 > G4DormandPrinceRK56 is called
-G4WT8 > G4DormandPrinceRK56 is called
-G4WT7 > F03FieldSetup::UpdateField> The minimal step is equal to 1e-09 mm
-G4WT7 >                             Stepper Type chosen = 11
+G4WT11 > /LXe/pmtThreshold 1
+G4WT7 > /field/update 
+G4WT9 > /field/update 
+G4WT6 > G4CashKarpRKF45 is called
+G4WT9 > F03FieldSetup::UpdateField> The minimal step is equal to 1e-09 mm
 G4WT6 > /field/update 
-G4WT0 > G4DormandPrinceRK56 is called
-G4WT7 > G4DormandPrinceRK56 is called
+G4WT2 > /field/update 
+G4WT3 >                             Stepper Type chosen = 5
+G4WT5 > G4DormandPrinceRK56 is called
+G4WT14 > F03FieldSetup::UpdateField> The minimal step is equal to 1e-09 mm
+G4WT11 > /electricfield/update 
+G4WT7 > F03FieldSetup::UpdateField> The minimal step is equal to 1e-09 mm
+G4WT11 > ElectricFieldSetup::UpdateField> The minimal step is equal to 1e-07 mm
+G4WT11 >                             Stepper Type chosen = 5
+G4WT1 > F03FieldSetup::UpdateField> The minimal step is equal to 1e-09 mm
+G4WT11 > G4CashKarpRKF45 is called
 G4WT6 > F03FieldSetup::UpdateField> The minimal step is equal to 1e-09 mm
+G4WT3 > G4CashKarpRKF45 is called
+G4WT14 >                             Stepper Type chosen = 11
+G4WT7 >                             Stepper Type chosen = 11
+G4WT14 > G4DormandPrinceRK56 is called
+G4WT7 > G4DormandPrinceRK56 is called
+G4WT1 >                             Stepper Type chosen = 11
+G4WT11 > /field/update 
+G4WT2 > F03FieldSetup::UpdateField> The minimal step is equal to 1e-09 mm
+G4WT2 >                             Stepper Type chosen = 11
+G4WT3 > /field/update 
+G4WT15 > /field/update 
+G4WT9 >                             Stepper Type chosen = 11
+G4WT1 > G4DormandPrinceRK56 is called
+G4WT11 > F03FieldSetup::UpdateField> The minimal step is equal to 1e-09 mm
 G4WT6 >                             Stepper Type chosen = 11
 G4WT6 > G4DormandPrinceRK56 is called
-G4WT11 > ### Run 0 starts on worker thread 11.
-G4WT14 > ### Run 0 starts on worker thread 14.
-G4WT13 > ### Run 0 starts on worker thread 13.
-G4WT9 > ### Run 0 starts on worker thread 9.
-G4WT1 > ### Run 0 starts on worker thread 1.
-G4WT10 > ### Run 0 starts on worker thread 10.
-G4WT6 > ### Run 0 starts on worker thread 6.
-G4WT2 > ### Run 0 starts on worker thread 2.
-G4WT15 > ### Run 0 starts on worker thread 15.
-G4WT3 > ### Run 0 starts on worker thread 3.
-G4WT5 > ### Run 0 starts on worker thread 5.
-G4WT7 > ### Run 0 starts on worker thread 7.
-G4WT8 > ### Run 0 starts on worker thread 8.
-G4WT4 > ### Run 0 starts on worker thread 4.
+G4WT3 > F03FieldSetup::UpdateField> The minimal step is equal to 1e-09 mm
+G4WT3 >                             Stepper Type chosen = 11
+G4WT9 > G4DormandPrinceRK56 is called
+G4WT11 >                             Stepper Type chosen = 11
+G4WT2 > G4DormandPrinceRK56 is called
+G4WT15 > F03FieldSetup::UpdateField> The minimal step is equal to 1e-09 mm
+G4WT15 >                             Stepper Type chosen = 11
+G4WT11 > G4DormandPrinceRK56 is called
+G4WT3 > G4DormandPrinceRK56 is called
+G4WT15 > G4DormandPrinceRK56 is called
 G4WT0 > ### Run 0 starts on worker thread 0.
+G4WT4 > ### Run 0 starts on worker thread 4.
+G4WT13 > ### Run 0 starts on worker thread 13.
+G4WT10 > ### Run 0 starts on worker thread 10.
+G4WT5 > ### Run 0 starts on worker thread 5.
+G4WT8 > ### Run 0 starts on worker thread 8.
+G4WT6 > ### Run 0 starts on worker thread 6.
+G4WT7 > ### Run 0 starts on worker thread 7.
+G4WT1 > ### Run 0 starts on worker thread 1.
+G4WT9 > ### Run 0 starts on worker thread 9.
+G4WT11 > ### Run 0 starts on worker thread 11.
+G4WT2 > ### Run 0 starts on worker thread 2.
+G4WT3 > ### Run 0 starts on worker thread 3.
+G4WT14 > ### Run 0 starts on worker thread 14.
+G4WT15 > ### Run 0 starts on worker thread 15.
 G4WT12 > ### Run 0 starts on worker thread 12.
-G4WT11 > ... create file : lxe_t11.root - done
-G4WT11 > ... open analysis file : lxe_t11.root - done
-G4WT14 > ... create file : lxe_t14.root - done
-G4WT14 > ... open analysis file : lxe_t14.root - done
-G4WT11 > --> Event 0 starts with initial seeds (13049039,61775110).
-G4WT13 > ... create file : lxe_t13.root - done
-G4WT13 > ... open analysis file : lxe_t13.root - done
-G4WT10 > ... create file : lxe_t10.root - done
-G4WT10 > ... open analysis file : lxe_t10.root - done
-G4WT6 > ... create file : lxe_t6.root - done
-G4WT6 > ... open analysis file : lxe_t6.root - done
-G4WT5 > ... create file : lxe_t5.root - done
-G4WT5 > ... open analysis file : lxe_t5.root - done
-G4WT15 > ... create file : lxe_t15.root - done
-G4WT15 > ... open analysis file : lxe_t15.root - done
+G4WT4 > ... create file : lxe_t4.root - done
+G4WT4 > ... open analysis file : lxe_t4.root - done
+G4WT0 > ... create file : lxe_t0.root - done
+G4WT4 > --> Event 0 starts with initial seeds (13049039,61775110).
+G4WT0 > ... open analysis file : lxe_t0.root - done
 G4WT8 > ... create file : lxe_t8.root - done
 G4WT8 > ... open analysis file : lxe_t8.root - done
-G4WT9 > ... create file : lxe_t9.root - done
-G4WT9 > ... open analysis file : lxe_t9.root - done
-G4WT0 > ... create file : lxe_t0.root - done
-G4WT0 > ... open analysis file : lxe_t0.root - done
+G4WT13 > ... create file : lxe_t13.root - done
+G4WT13 > ... open analysis file : lxe_t13.root - done
+G4WT7 > ... create file : lxe_t7.root - done
+G4WT7 > ... open analysis file : lxe_t7.root - done
 G4WT1 > ... create file : lxe_t1.root - done
 G4WT1 > ... open analysis file : lxe_t1.root - done
 G4WT2 > ... create file : lxe_t2.root - done
 G4WT2 > ... open analysis file : lxe_t2.root - done
-G4WT7 > ... create file : lxe_t7.root - done
-G4WT7 > ... open analysis file : lxe_t7.root - done
-G4WT4 > ... create file : lxe_t4.root - done
-G4WT4 > ... open analysis file : lxe_t4.root - done
+G4WT14 > ... create file : lxe_t14.root - done
+G4WT14 > ... open analysis file : lxe_t14.root - done
+G4WT15 > ... create file : lxe_t15.root - done
+G4WT15 > ... open analysis file : lxe_t15.root - done
+G4WT5 > ... create file : lxe_t5.root - done
+G4WT5 > ... open analysis file : lxe_t5.root - done
+G4WT6 > ... create file : lxe_t6.root - done
+G4WT6 > ... open analysis file : lxe_t6.root - done
+G4WT10 > ... create file : lxe_t10.root - done
+G4WT10 > ... open analysis file : lxe_t10.root - done
+G4WT9 > ... create file : lxe_t9.root - done
+G4WT9 > ... open analysis file : lxe_t9.root - done
 G4WT3 > ... create file : lxe_t3.root - done
 G4WT3 > ... open analysis file : lxe_t3.root - done
+G4WT11 > ... create file : lxe_t11.root - done
+G4WT11 > ... open analysis file : lxe_t11.root - done
 G4WT12 > ... create file : lxe_t12.root - done
 G4WT12 > ... open analysis file : lxe_t12.root - done
-G4WT12 > --> Event 10000000 starts with initial seeds (60948905,89403914).
-G4WT3 > --> Event 20000000 starts with initial seeds (53030323,79456803).
+G4WT4 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomField0003
+      issued by : G4ChordFinder::FindNextChord()
+Exceeded maximum number of trials= 75
+Current sagita dist= 0.258672
+Max sagita dist= 0.25
+Step sizes (actual and proposed): 
+Last trial =         34485.3
+Next trial =         33224.3
+Proposed for chord = 33224.3
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT14 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomField0003
+      issued by : G4ChordFinder::FindNextChord()
+Exceeded maximum number of trials= 75
+Current sagita dist= 0.251239
+Max sagita dist= 0.25
+Step sizes (actual and proposed): 
+Last trial =         81638
+Next trial =         79807.7
+Proposed for chord = 79807.7
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT8 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomField0003
+      issued by : G4ChordFinder::FindNextChord()
+Exceeded maximum number of trials= 75
+Current sagita dist= 0.254288
+Max sagita dist= 0.25
+Step sizes (actual and proposed): 
+Last trial =         9861.83
+Next trial =         9582.77
+Proposed for chord = 9582.77
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT8 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomField0003
+      issued by : G4ChordFinder::FindNextChord()
+Exceeded maximum number of trials= 75
+Current sagita dist= 0.252671
+Max sagita dist= 0.25
+Step sizes (actual and proposed): 
+Last trial =         57637.3
+Next trial =         56185.3
+Proposed for chord = 56185.3
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
 G4WT3 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : GeomField0003
-      issued by : G4ChordFinder::FindNextChord()
-Exceeded maximum number of trials= 75
-Current sagita dist= 0.360629
-Max sagita dist= 0.25
-Step sizes (actual and proposed): 
-Last trial =         1019.81
-Next trial =         832.123
-Proposed for chord = 832.123
-
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT1 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : GeomField0003
-      issued by : G4ChordFinder::FindNextChord()
-Exceeded maximum number of trials= 75
-Current sagita dist= 0.252201
-Max sagita dist= 0.25
-Step sizes (actual and proposed): 
-Last trial =         49148.6
-Next trial =         47955
-Proposed for chord = 47955
-
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT9 > --> Event 30000000 starts with initial seeds (15837449,76089759).
-G4WT11 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : GeomField0003
-      issued by : G4ChordFinder::FindNextChord()
-Exceeded maximum number of trials= 75
-Current sagita dist= 0.254733
-Max sagita dist= 0.25
-Step sizes (actual and proposed): 
-Last trial =         8449.03
-Next trial =         8202.76
-Proposed for chord = 8202.76
-
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT11 > --> Event 40000000 starts with initial seeds (89860765,87696171).
-G4WT6 > 
 -------- WWWW ------- G4Exception-START -------- WWWW -------
 *** G4Exception : GeomField0003
       issued by : G4ChordFinder::FindNextChord()
@@ -1407,24 +1418,56 @@ Proposed for chord = 91.7081
 *** This is just a warning message. ***
 -------- WWWW -------- G4Exception-END --------- WWWW -------
 
-G4WT2 > --> Event 50000000 starts with initial seeds (88302712,40553825).
-G4WT9 > 
+G4WT5 > 
 -------- WWWW ------- G4Exception-START -------- WWWW -------
 *** G4Exception : GeomField0003
       issued by : G4ChordFinder::FindNextChord()
 Exceeded maximum number of trials= 75
-Current sagita dist= 0.262686
+Current sagita dist= 0.2576
 Max sagita dist= 0.25
 Step sizes (actual and proposed): 
-Last trial =         3479
-Next trial =         3326.08
-Proposed for chord = 3326.08
+Last trial =         20289.6
+Next trial =         19588.3
+Proposed for chord = 19588.3
 
 *** This is just a warning message. ***
 -------- WWWW -------- G4Exception-END --------- WWWW -------
 
-G4WT12 > --> Event 60000000 starts with initial seeds (17215975,16530548).
-G4WT6 > 
+G4WT5 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomField0003
+      issued by : G4ChordFinder::FindNextChord()
+Exceeded maximum number of trials= 75
+Current sagita dist= 0.255059
+Max sagita dist= 0.25
+Step sizes (actual and proposed): 
+Last trial =         1762.36
+Next trial =         1709.9
+Proposed for chord = 1709.9
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT13 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomNav1002
+      issued by : G4Navigator::ComputeStep()
+Stuck Track: potential geometry or navigation problem.
+  Track stuck, not moving for 10 steps.
+  Current  phys volume: 'housing2'
+   - at position : (-2.943203395306563,-0.580993781254083,-2714.406259451051)
+     in direction: (0.00162460459524094,-0.008205782725114526,0.9999650122828185)
+    (local position: (-2.943203395306563,-0.580993781254083,-114.4062594510515))
+    (local direction: (0.00162460459524094,-0.008205782725114526,0.9999650122828185)).
+  Previous phys volume: 'Shape4'
+
+  Likely geometry overlap - else navigation problem !
+   *** Trying to get *unstuck* using a push - expanding step to 1e-07 (mm) ...       Potential overlap in geometry !
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT1 > 
 -------- WWWW ------- G4Exception-START -------- WWWW -------
 *** G4Exception : GeomField0003
       issued by : G4ChordFinder::FindNextChord()
@@ -1439,7 +1482,7 @@ Proposed for chord = 15196.7
 *** This is just a warning message. ***
 -------- WWWW -------- G4Exception-END --------- WWWW -------
 
-G4WT11 > 
+G4WT15 > 
 -------- WWWW ------- G4Exception-START -------- WWWW -------
 *** G4Exception : GeomNav1002
       issued by : G4Navigator::ComputeStep()
@@ -1458,7 +1501,7 @@ Stuck Track: potential geometry or navigation problem.
 *** This is just a warning message. ***
 -------- WWWW -------- G4Exception-END --------- WWWW -------
 
-G4WT10 > 
+G4WT14 > 
 -------- WWWW ------- G4Exception-START -------- WWWW -------
 *** G4Exception : GeomNav1002
       issued by : G4Navigator::ComputeStep()
@@ -1477,7 +1520,7 @@ Stuck Track: potential geometry or navigation problem.
 *** This is just a warning message. ***
 -------- WWWW -------- G4Exception-END --------- WWWW -------
 
-G4WT5 > 
+G4WT14 > 
 -------- WWWW ------- G4Exception-START -------- WWWW -------
 *** G4Exception : GeomField0003
       issued by : G4ChordFinder::FindNextChord()
@@ -1492,9 +1535,22 @@ Proposed for chord = 2.77445
 *** This is just a warning message. ***
 -------- WWWW -------- G4Exception-END --------- WWWW -------
 
-G4WT15 > --> Event 70000000 starts with initial seeds (55375825,65651696).
-G4WT0 > --> Event 80000000 starts with initial seeds (19758551,55412709).
-G4WT1 > 
+G4WT7 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomField0003
+      issued by : G4ChordFinder::FindNextChord()
+Exceeded maximum number of trials= 75
+Current sagita dist= 0.261422
+Max sagita dist= 0.25
+Step sizes (actual and proposed): 
+Last trial =         2065.12
+Next trial =         1979.12
+Proposed for chord = 1979.12
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT0 > 
 -------- WWWW ------- G4Exception-START -------- WWWW -------
 *** G4Exception : GeomField0003
       issued by : G4ChordFinder::FindNextChord()
@@ -1509,26 +1565,22 @@ Proposed for chord = 66966.8
 *** This is just a warning message. ***
 -------- WWWW -------- G4Exception-END --------- WWWW -------
 
-G4WT3 > 
+G4WT11 > 
 -------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : GeomNav1002
-      issued by : G4Navigator::ComputeStep()
-Stuck Track: potential geometry or navigation problem.
-  Track stuck, not moving for 10 steps.
-  Current  phys volume: 'housing2'
-   - at position : (-2.748257406676184,-1.202946892697054,-2720.241460973547)
-     in direction: (-0.003536238192152521,0.008082824278225162,0.999961080728213)
-    (local position: (-2.748257406676184,-1.202946892697054,-120.2414609735474))
-    (local direction: (-0.003536238192152521,0.008082824278225162,0.999961080728213)).
-  Previous phys volume: 'Shape4'
-
-  Likely geometry overlap - else navigation problem !
-   *** Trying to get *unstuck* using a push - expanding step to 1e-07 (mm) ...       Potential overlap in geometry !
+*** G4Exception : GeomField0003
+      issued by : G4ChordFinder::FindNextChord()
+Exceeded maximum number of trials= 75
+Current sagita dist= 0.259212
+Max sagita dist= 0.25
+Step sizes (actual and proposed): 
+Last trial =         5783.11
+Next trial =         5565.83
+Proposed for chord = 5565.83
 
 *** This is just a warning message. ***
 -------- WWWW -------- G4Exception-END --------- WWWW -------
 
-G4WT14 > 
+G4WT4 > 
 -------- WWWW ------- G4Exception-START -------- WWWW -------
 *** G4Exception : GeomNav1002
       issued by : G4Navigator::ComputeStep()
@@ -1547,29 +1599,38 @@ Stuck Track: potential geometry or navigation problem.
 *** This is just a warning message. ***
 -------- WWWW -------- G4Exception-END --------- WWWW -------
 
-G4WT5 > --> Event 90000000 starts with initial seeds (75726185,79561346).
-G4WT2 > 
+G4WT6 > --> Event 100000000 starts with initial seeds (23533941,67468668).
+G4WT14 > 
 -------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : GeomNav1002
-      issued by : G4Navigator::ComputeStep()
-Stuck Track: potential geometry or navigation problem.
-  Track stuck, not moving for 10 steps.
-  Current  phys volume: 'housing2'
-   - at position : (2.526202429265738,-1.61811658614943,-2721.479428622958)
-     in direction: (-0.03372704124689773,-0.0526524431853151,0.9980431889028386)
-    (local position: (2.526202429265738,-1.61811658614943,-121.479428622958))
-    (local direction: (-0.03372704124689773,-0.0526524431853151,0.9980431889028386)).
-  Previous phys volume: 'Shape4'
-
-  Likely geometry overlap - else navigation problem !
-   *** Trying to get *unstuck* using a push - expanding step to 1e-07 (mm) ...       Potential overlap in geometry !
+*** G4Exception : GeomField0003
+      issued by : G4ChordFinder::FindNextChord()
+Exceeded maximum number of trials= 75
+Current sagita dist= 0.518807
+Max sagita dist= 0.25
+Step sizes (actual and proposed): 
+Last trial =         3.853
+Next trial =         2.62115
+Proposed for chord = 2.62115
 
 *** This is just a warning message. ***
 -------- WWWW -------- G4Exception-END --------- WWWW -------
 
-G4WT7 > --> Event 100000000 starts with initial seeds (23533941,67468668).
-G4WT6 > --> Event 110000000 starts with initial seeds (17159919,98218419).
-G4WT11 > 
+G4WT12 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomField0003
+      issued by : G4ChordFinder::FindNextChord()
+Exceeded maximum number of trials= 75
+Current sagita dist= 0.251328
+Max sagita dist= 0.25
+Step sizes (actual and proposed): 
+Last trial =         6266.52
+Next trial =         6124.94
+Proposed for chord = 6124.94
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT14 > 
 -------- WWWW ------- G4Exception-START -------- WWWW -------
 *** G4Exception : GeomField0003
       issued by : G4ChordFinder::FindNextChord()
@@ -1584,24 +1645,7 @@ Proposed for chord = 2532.72
 *** This is just a warning message. ***
 -------- WWWW -------- G4Exception-END --------- WWWW -------
 
-G4WT2 > --> Event 120000000 starts with initial seeds (54698269,62565962).
-G4WT2 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : GeomField0003
-      issued by : G4ChordFinder::FindNextChord()
-Exceeded maximum number of trials= 75
-Current sagita dist= 0.289366
-Max sagita dist= 0.25
-Step sizes (actual and proposed): 
-Last trial =         1033.6
-Next trial =         941.505
-Proposed for chord = 941.505
-
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT5 > --> Event 130000000 starts with initial seeds (93849583,83026997).
-G4WT14 > 
+G4WT15 > 
 -------- WWWW ------- G4Exception-START -------- WWWW -------
 *** G4Exception : GeomField0003
       issued by : G4ChordFinder::FindNextChord()
@@ -1616,9 +1660,37 @@ Proposed for chord = 19178.8
 *** This is just a warning message. ***
 -------- WWWW -------- G4Exception-END --------- WWWW -------
 
-G4WT11 > --> Event 140000000 starts with initial seeds (46832397,34159863).
-G4WT2 > --> Event 150000000 starts with initial seeds (83782412,17181805).
-G4WT2 > 
+G4WT11 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomField0003
+      issued by : G4ChordFinder::FindNextChord()
+Exceeded maximum number of trials= 75
+Current sagita dist= 0.250292
+Max sagita dist= 0.25
+Step sizes (actual and proposed): 
+Last trial =         12281.1
+Next trial =         12028.4
+Proposed for chord = 12028.4
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT8 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomField0003
+      issued by : G4ChordFinder::FindNextChord()
+Exceeded maximum number of trials= 75
+Current sagita dist= 0.255598
+Max sagita dist= 0.25
+Step sizes (actual and proposed): 
+Last trial =         72879.1
+Next trial =         70635
+Proposed for chord = 70635
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT11 > 
 -------- WWWW ------- G4Exception-START -------- WWWW -------
 *** G4Exception : GeomField0003
       issued by : G4ChordFinder::FindNextChord()
@@ -1633,8 +1705,37 @@ Proposed for chord = 505.93
 *** This is just a warning message. ***
 -------- WWWW -------- G4Exception-END --------- WWWW -------
 
-G4WT6 > --> Event 160000000 starts with initial seeds (64838484,60862230).
-G4WT7 > 
+G4WT13 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomField0003
+      issued by : G4ChordFinder::FindNextChord()
+Exceeded maximum number of trials= 75
+Current sagita dist= 0.264752
+Max sagita dist= 0.25
+Step sizes (actual and proposed): 
+Last trial =         26989.9
+Next trial =         25702.6
+Proposed for chord = 25702.6
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT10 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomField0003
+      issued by : G4ChordFinder::FindNextChord()
+Exceeded maximum number of trials= 75
+Current sagita dist= 0.295264
+Max sagita dist= 0.25
+Step sizes (actual and proposed): 
+Last trial =         3036.78
+Next trial =         2738.45
+Proposed for chord = 2738.45
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT4 > 
 -------- WWWW ------- G4Exception-START -------- WWWW -------
 *** G4Exception : GeomField0003
       issued by : G4ChordFinder::FindNextChord()
@@ -1649,8 +1750,7 @@ Proposed for chord = 48895.1
 *** This is just a warning message. ***
 -------- WWWW -------- G4Exception-END --------- WWWW -------
 
-G4WT4 > --> Event 170000000 starts with initial seeds (5726829,97800627).
-G4WT10 > 
+G4WT13 > 
 -------- WWWW ------- G4Exception-START -------- WWWW -------
 *** G4Exception : GeomField0003
       issued by : G4ChordFinder::FindNextChord()
@@ -1665,23 +1765,7 @@ Proposed for chord = 2275.63
 *** This is just a warning message. ***
 -------- WWWW -------- G4Exception-END --------- WWWW -------
 
-G4WT4 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : GeomField0003
-      issued by : G4ChordFinder::FindNextChord()
-Exceeded maximum number of trials= 75
-Current sagita dist= 0.370218
-Max sagita dist= 0.25
-Step sizes (actual and proposed): 
-Last trial =         150.363
-Next trial =         121.09
-Proposed for chord = 121.09
-
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT2 > --> Event 180000000 starts with initial seeds (15717364,25714689).
-G4WT3 > 
+G4WT6 > 
 -------- WWWW ------- G4Exception-START -------- WWWW -------
 *** G4Exception : GeomField0003
       issued by : G4ChordFinder::FindNextChord()
@@ -1696,43 +1780,8 @@ Proposed for chord = 10521.4
 *** This is just a warning message. ***
 -------- WWWW -------- G4Exception-END --------- WWWW -------
 
-G4WT9 > --> Event 190000000 starts with initial seeds (81672738,71778203).
-G4WT2 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : GeomField0003
-      issued by : G4ChordFinder::FindNextChord()
-Exceeded maximum number of trials= 75
-Current sagita dist= 0.26502
-Max sagita dist= 0.25
-Step sizes (actual and proposed): 
-Last trial =         2.52359
-Next trial =         2.40202
-Proposed for chord = 2.40202
-
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT13 > --> Event 200000000 starts with initial seeds (48138129,5314358).
-G4WT14 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : GeomNav1002
-      issued by : G4Navigator::ComputeStep()
-Stuck Track: potential geometry or navigation problem.
-  Track stuck, not moving for 10 steps.
-  Current  phys volume: 'housing2'
-   - at position : (2.919910377147031,0.6885661837681862,-2712.894198792832)
-     in direction: (0.01939791014036875,-0.08226580029103743,0.9964216272164416)
-    (local position: (2.919910377147031,0.6885661837681862,-112.894198792832))
-    (local direction: (0.01939791014036875,-0.08226580029103743,0.9964216272164416)).
-  Previous phys volume: 'Shape4'
-
-  Likely geometry overlap - else navigation problem !
-   *** Trying to get *unstuck* using a push - expanding step to 1e-07 (mm) ...       Potential overlap in geometry !
-
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT9 > 
+G4WT15 > --> Event 200000000 starts with initial seeds (48138129,5314358).
+G4WT8 > 
 -------- WWWW ------- G4Exception-START -------- WWWW -------
 *** G4Exception : GeomField0003
       issued by : G4ChordFinder::FindNextChord()
@@ -1747,59 +1796,22 @@ Proposed for chord = 14538.3
 *** This is just a warning message. ***
 -------- WWWW -------- G4Exception-END --------- WWWW -------
 
-G4WT10 > --> Event 210000000 starts with initial seeds (22414286,36321004).
-G4WT13 > --> Event 220000000 starts with initial seeds (69199202,59788430).
-G4WT10 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : GeomNav1002
-      issued by : G4Navigator::ComputeStep()
-Stuck Track: potential geometry or navigation problem.
-  Track stuck, not moving for 10 steps.
-  Current  phys volume: 'housing2'
-   - at position : (2.711855801770443,1.282902221684875,-2717.450133535137)
-     in direction: (-0.07701112114706417,0.1627804789981639,0.983652277421651)
-    (local position: (2.711855801770443,1.282902221684875,-117.4501335351365))
-    (local direction: (-0.07701112114706417,0.1627804789981639,0.983652277421651)).
-  Previous phys volume: 'Shape4'
-
-  Likely geometry overlap - else navigation problem !
-   *** Trying to get *unstuck* using a push - expanding step to 1e-07 (mm) ...       Potential overlap in geometry !
-
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT2 > 
+G4WT0 > 
 -------- WWWW ------- G4Exception-START -------- WWWW -------
 *** G4Exception : GeomField0003
       issued by : G4ChordFinder::FindNextChord()
 Exceeded maximum number of trials= 75
-Current sagita dist= 0.276441
+Current sagita dist= 0.261181
 Max sagita dist= 0.25
 Step sizes (actual and proposed): 
-Last trial =         3832.31
-Next trial =         3571.53
-Proposed for chord = 3571.53
+Last trial =         1356.88
+Next trial =         1300.97
+Proposed for chord = 1300.97
 
 *** This is just a warning message. ***
 -------- WWWW -------- G4Exception-END --------- WWWW -------
 
-G4WT11 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : GeomField0003
-      issued by : G4ChordFinder::FindNextChord()
-Exceeded maximum number of trials= 75
-Current sagita dist= 0.257577
-Max sagita dist= 0.25
-Step sizes (actual and proposed): 
-Last trial =         54226.3
-Next trial =         52354.3
-Proposed for chord = 52354.3
-
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT7 > --> Event 230000000 starts with initial seeds (36767086,52221833).
-G4WT13 > 
+G4WT9 > 
 -------- WWWW ------- G4Exception-START -------- WWWW -------
 *** G4Exception : GeomField0003
       issued by : G4ChordFinder::FindNextChord()
@@ -1814,7 +1826,7 @@ Proposed for chord = 35821.9
 *** This is just a warning message. ***
 -------- WWWW -------- G4Exception-END --------- WWWW -------
 
-G4WT10 > 
+G4WT13 > 
 -------- WWWW ------- G4Exception-START -------- WWWW -------
 *** G4Exception : GeomField0003
       issued by : G4ChordFinder::FindNextChord()
@@ -1829,22 +1841,7 @@ Proposed for chord = 227.239
 *** This is just a warning message. ***
 -------- WWWW -------- G4Exception-END --------- WWWW -------
 
-G4WT1 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : GeomField0003
-      issued by : G4ChordFinder::FindNextChord()
-Exceeded maximum number of trials= 75
-Current sagita dist= 0.264141
-Max sagita dist= 0.25
-Step sizes (actual and proposed): 
-Last trial =         17731.5
-Next trial =         16905.3
-Proposed for chord = 16905.3
-
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT9 > 
+G4WT10 > 
 -------- WWWW ------- G4Exception-START -------- WWWW -------
 *** G4Exception : GeomField0003
       issued by : G4ChordFinder::FindNextChord()
@@ -1859,10 +1856,37 @@ Proposed for chord = 14448.4
 *** This is just a warning message. ***
 -------- WWWW -------- G4Exception-END --------- WWWW -------
 
-G4WT15 > --> Event 240000000 starts with initial seeds (1296151,68592253).
-G4WT3 > --> Event 250000000 starts with initial seeds (4542301,68771816).
-G4WT10 > --> Event 260000000 starts with initial seeds (89754589,97269528).
-G4WT4 > 
+G4WT0 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomField0003
+      issued by : G4ChordFinder::FindNextChord()
+Exceeded maximum number of trials= 75
+Current sagita dist= 0.255601
+Max sagita dist= 0.25
+Step sizes (actual and proposed): 
+Last trial =         70612.4
+Next trial =         68437.7
+Proposed for chord = 68437.7
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT3 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomField0003
+      issued by : G4ChordFinder::FindNextChord()
+Exceeded maximum number of trials= 75
+Current sagita dist= 0.259084
+Max sagita dist= 0.25
+Step sizes (actual and proposed): 
+Last trial =         20702.5
+Next trial =         19929.6
+Proposed for chord = 19929.6
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT9 > 
 -------- WWWW ------- G4Exception-START -------- WWWW -------
 *** G4Exception : GeomField0003
       issued by : G4ChordFinder::FindNextChord()
@@ -1877,23 +1901,40 @@ Proposed for chord = 882.688
 *** This is just a warning message. ***
 -------- WWWW -------- G4Exception-END --------- WWWW -------
 
-G4WT0 > --> Event 270000000 starts with initial seeds (42694347,67997349).
-G4WT5 > 
+G4WT1 > 
 -------- WWWW ------- G4Exception-START -------- WWWW -------
 *** G4Exception : GeomField0003
       issued by : G4ChordFinder::FindNextChord()
 Exceeded maximum number of trials= 75
-Current sagita dist= 0.377364
+Current sagita dist= 0.253372
 Max sagita dist= 0.25
 Step sizes (actual and proposed): 
-Last trial =         3045.33
-Next trial =         2429.13
-Proposed for chord = 2429.13
+Last trial =         457.9
+Next trial =         445.746
+Proposed for chord = 445.746
 
 *** This is just a warning message. ***
 -------- WWWW -------- G4Exception-END --------- WWWW -------
 
-G4WT10 > --> Event 280000000 starts with initial seeds (21303202,7866328).
+G4WT1 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomNav1002
+      issued by : G4Navigator::ComputeStep()
+Stuck Track: potential geometry or navigation problem.
+  Track stuck, not moving for 10 steps.
+  Current  phys volume: 'housing2'
+   - at position : (2.968497779427068,0.4336138069025966,-2717.568359087711)
+     in direction: (0.00634330946480431,-0.04344259731572268,0.999035786728132)
+    (local position: (2.968497779427068,0.4336138069025966,-117.5683590877111))
+    (local direction: (0.00634330946480431,-0.04344259731572268,0.999035786728132)).
+  Previous phys volume: 'Shape4'
+
+  Likely geometry overlap - else navigation problem !
+   *** Trying to get *unstuck* using a push - expanding step to 1e-07 (mm) ...       Potential overlap in geometry !
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
 G4WT3 > 
 -------- WWWW ------- G4Exception-START -------- WWWW -------
 *** G4Exception : GeomField0003
@@ -1909,18 +1950,17 @@ Proposed for chord = 79121.5
 *** This is just a warning message. ***
 -------- WWWW -------- G4Exception-END --------- WWWW -------
 
-G4WT2 > --> Event 290000000 starts with initial seeds (77662733,71304382).
-G4WT14 > 
+G4WT12 > 
 -------- WWWW ------- G4Exception-START -------- WWWW -------
 *** G4Exception : GeomNav1002
       issued by : G4Navigator::ComputeStep()
 Stuck Track: potential geometry or navigation problem.
   Track stuck, not moving for 10 steps.
   Current  phys volume: 'housing2'
-   - at position : (-2.941679024961864,-0.5886633283120456,-2716.954593787157)
-     in direction: (0.003552898905367473,-0.01769888056599866,0.9998370499916868)
-    (local position: (-2.941679024961864,-0.5886633283120456,-116.9545937871571))
-    (local direction: (0.003552898905367473,-0.01769888056599866,0.9998370499916868)).
+   - at position : (2.99686856390231,-0.1370358007752117,-2719.553733124528)
+     in direction: (-0.001339954245202449,-0.02928574659869337,0.9995701824128098)
+    (local position: (2.99686856390231,-0.1370358007752117,-119.5537331245282))
+    (local direction: (-0.001339954245202449,-0.02928574659869337,0.9995701824128098)).
   Previous phys volume: 'Shape4'
 
   Likely geometry overlap - else navigation problem !
@@ -1929,25 +1969,23 @@ Stuck Track: potential geometry or navigation problem.
 *** This is just a warning message. ***
 -------- WWWW -------- G4Exception-END --------- WWWW -------
 
-G4WT4 > --> Event 300000000 starts with initial seeds (33771101,81942924).
-G4WT3 > 
+G4WT11 > --> Event 300000000 starts with initial seeds (33771101,81942924).
+G4WT4 > 
 -------- WWWW ------- G4Exception-START -------- WWWW -------
 *** G4Exception : GeomField0003
       issued by : G4ChordFinder::FindNextChord()
 Exceeded maximum number of trials= 75
-Current sagita dist= 0.254613
+Current sagita dist= 0.257321
 Max sagita dist= 0.25
 Step sizes (actual and proposed): 
-Last trial =         8603.35
-Next trial =         8354.57
-Proposed for chord = 8354.57
+Last trial =         64482.4
+Next trial =         62287.4
+Proposed for chord = 62287.4
 
 *** This is just a warning message. ***
 -------- WWWW -------- G4Exception-END --------- WWWW -------
 
-G4WT8 > --> Event 310000000 starts with initial seeds (90776141,51723671).
-G4WT6 > --> Event 320000000 starts with initial seeds (45939222,35116713).
-G4WT8 > 
+G4WT14 > 
 -------- WWWW ------- G4Exception-START -------- WWWW -------
 *** G4Exception : GeomField0003
       issued by : G4ChordFinder::FindNextChord()
@@ -1962,7 +2000,7 @@ Proposed for chord = 25708.3
 *** This is just a warning message. ***
 -------- WWWW -------- G4Exception-END --------- WWWW -------
 
-G4WT11 > 
+G4WT0 > 
 -------- WWWW ------- G4Exception-START -------- WWWW -------
 *** G4Exception : GeomField0003
       issued by : G4ChordFinder::FindNextChord()
@@ -1977,8 +2015,7 @@ Proposed for chord = 30996
 *** This is just a warning message. ***
 -------- WWWW -------- G4Exception-END --------- WWWW -------
 
-G4WT6 > --> Event 330000000 starts with initial seeds (4736765,44287510).
-G4WT5 > 
+G4WT13 > 
 -------- WWWW ------- G4Exception-START -------- WWWW -------
 *** G4Exception : GeomNav1002
       issued by : G4Navigator::ComputeStep()
@@ -2002,18 +2039,17 @@ G4WT14 >
 *** G4Exception : GeomField0003
       issued by : G4ChordFinder::FindNextChord()
 Exceeded maximum number of trials= 75
-Current sagita dist= 0.273831
+Current sagita dist= 0.307217
 Max sagita dist= 0.25
 Step sizes (actual and proposed): 
-Last trial =         623.154
-Next trial =         583.512
-Proposed for chord = 583.512
+Last trial =         4419.09
+Next trial =         3906.66
+Proposed for chord = 3906.66
 
 *** This is just a warning message. ***
 -------- WWWW -------- G4Exception-END --------- WWWW -------
 
-G4WT13 > --> Event 340000000 starts with initial seeds (29451498,98780115).
-G4WT8 > 
+G4WT7 > 
 -------- WWWW ------- G4Exception-START -------- WWWW -------
 *** G4Exception : GeomField0003
       issued by : G4ChordFinder::FindNextChord()
@@ -2028,9 +2064,7 @@ Proposed for chord = 15.9276
 *** This is just a warning message. ***
 -------- WWWW -------- G4Exception-END --------- WWWW -------
 
-G4WT0 > --> Event 350000000 starts with initial seeds (49818157,14928497).
-G4WT6 > --> Event 360000000 starts with initial seeds (73629975,66008841).
-G4WT9 > 
+G4WT1 > 
 -------- WWWW ------- G4Exception-START -------- WWWW -------
 *** G4Exception : GeomField0003
       issued by : G4ChordFinder::FindNextChord()
@@ -2045,8 +2079,56 @@ Proposed for chord = 82277.7
 *** This is just a warning message. ***
 -------- WWWW -------- G4Exception-END --------- WWWW -------
 
-G4WT5 > --> Event 370000000 starts with initial seeds (78727387,84965060).
-G4WT8 > 
+G4WT1 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomField0003
+      issued by : G4ChordFinder::FindNextChord()
+Exceeded maximum number of trials= 75
+Current sagita dist= 0.251039
+Max sagita dist= 0.25
+Step sizes (actual and proposed): 
+Last trial =         20445.6
+Next trial =         19995.2
+Proposed for chord = 19995.2
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT11 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomField0003
+      issued by : G4ChordFinder::FindNextChord()
+Exceeded maximum number of trials= 75
+Current sagita dist= 0.289061
+Max sagita dist= 0.25
+Step sizes (actual and proposed): 
+Last trial =         161.693
+Next trial =         147.365
+Proposed for chord = 147.365
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT3 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomNav1002
+      issued by : G4Navigator::ComputeStep()
+Stuck Track: potential geometry or navigation problem.
+  Track stuck, not moving for 10 steps.
+  Current  phys volume: 'housing2'
+   - at position : (2.938755374670111,-0.6030894194458529,-2710.925087284106)
+     in direction: (-0.01075399402619567,-0.05238902258868005,0.9985688468626924)
+    (local position: (2.938755374670111,-0.6030894194458529,-110.9250872841058))
+    (local direction: (-0.01075399402619567,-0.05238902258868005,0.9985688468626924)).
+  Previous phys volume: 'Shape4'
+
+  Likely geometry overlap - else navigation problem !
+   *** Trying to get *unstuck* using a push - expanding step to 1e-07 (mm) ...       Potential overlap in geometry !
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT5 > 
 -------- WWWW ------- G4Exception-START -------- WWWW -------
 *** G4Exception : GeomField0003
       issued by : G4ChordFinder::FindNextChord()
@@ -2061,10 +2143,53 @@ Proposed for chord = 28139.3
 *** This is just a warning message. ***
 -------- WWWW -------- G4Exception-END --------- WWWW -------
 
-G4WT9 > --> Event 380000000 starts with initial seeds (5719061,89306662).
-G4WT12 > --> Event 390000000 starts with initial seeds (42148487,69610355).
-G4WT8 > --> Event 400000000 starts with initial seeds (41865718,53912070).
-G4WT0 > 
+G4WT8 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomField0003
+      issued by : G4ChordFinder::FindNextChord()
+Exceeded maximum number of trials= 75
+Current sagita dist= 0.284507
+Max sagita dist= 0.25
+Step sizes (actual and proposed): 
+Last trial =         1503.24
+Next trial =         1380.95
+Proposed for chord = 1380.95
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT9 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomField0003
+      issued by : G4ChordFinder::FindNextChord()
+Exceeded maximum number of trials= 75
+Current sagita dist= 0.251301
+Max sagita dist= 0.25
+Step sizes (actual and proposed): 
+Last trial =         54560.2
+Next trial =         53330.4
+Proposed for chord = 53330.4
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT5 > --> Event 400000000 starts with initial seeds (41865718,53912070).
+G4WT11 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomField0003
+      issued by : G4ChordFinder::FindNextChord()
+Exceeded maximum number of trials= 75
+Current sagita dist= 0.254845
+Max sagita dist= 0.25
+Step sizes (actual and proposed): 
+Last trial =         16740.8
+Next trial =         16249.3
+Proposed for chord = 16249.3
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT11 > 
 -------- WWWW ------- G4Exception-START -------- WWWW -------
 *** G4Exception : GeomField0003
       issued by : G4ChordFinder::FindNextChord()
@@ -2075,22 +2200,6 @@ Step sizes (actual and proposed):
 Last trial =         21443.9
 Next trial =         20459.4
 Proposed for chord = 20459.4
-
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT2 > --> Event 410000000 starts with initial seeds (64247713,6913755).
-G4WT1 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : GeomField0003
-      issued by : G4ChordFinder::FindNextChord()
-Exceeded maximum number of trials= 75
-Current sagita dist= 4.57679
-Max sagita dist= 0.25
-Step sizes (actual and proposed): 
-Last trial =         36.098
-Next trial =         8.26797
-Proposed for chord = 8.26797
 
 *** This is just a warning message. ***
 -------- WWWW -------- G4Exception-END --------- WWWW -------
@@ -2114,8 +2223,7 @@ Stuck Track: potential geometry or navigation problem.
 *** This is just a warning message. ***
 -------- WWWW -------- G4Exception-END --------- WWWW -------
 
-G4WT9 > --> Event 420000000 starts with initial seeds (97692434,67235241).
-G4WT7 > 
+G4WT2 > 
 -------- WWWW ------- G4Exception-START -------- WWWW -------
 *** G4Exception : GeomNav1002
       issued by : G4Navigator::ComputeStep()
@@ -2134,8 +2242,7 @@ Stuck Track: potential geometry or navigation problem.
 *** This is just a warning message. ***
 -------- WWWW -------- G4Exception-END --------- WWWW -------
 
-G4WT6 > --> Event 430000000 starts with initial seeds (274788,70927780).
-G4WT15 > 
+G4WT10 > 
 -------- WWWW ------- G4Exception-START -------- WWWW -------
 *** G4Exception : GeomNav1002
       issued by : G4Navigator::ComputeStep()
@@ -2154,18 +2261,17 @@ Stuck Track: potential geometry or navigation problem.
 *** This is just a warning message. ***
 -------- WWWW -------- G4Exception-END --------- WWWW -------
 
-G4WT0 > --> Event 440000000 starts with initial seeds (96384689,84656113).
-G4WT4 > 
+G4WT1 > 
 -------- WWWW ------- G4Exception-START -------- WWWW -------
 *** G4Exception : GeomNav1002
       issued by : G4Navigator::ComputeStep()
 Stuck Track: potential geometry or navigation problem.
   Track stuck, not moving for 10 steps.
   Current  phys volume: 'housing2'
-   - at position : (-2.862348217787571,-0.8983110152549142,-2716.147036186858)
-     in direction: (0.006235393383784226,-0.0198632908670632,0.9997832612848047)
-    (local position: (-2.862348217787571,-0.8983110152549142,-116.1470361868583))
-    (local direction: (0.006235393383784226,-0.0198632908670632,0.9997832612848047)).
+   - at position : (2.725861120355682,1.252869168162928,-2714.731037647759)
+     in direction: (0.009274778870294447,-0.02018149690533829,0.9997533124023981)
+    (local position: (2.725861120355682,1.252869168162928,-114.7310376477585))
+    (local direction: (0.009274778870294447,-0.02018149690533829,0.9997533124023981)).
   Previous phys volume: 'Shape4'
 
   Likely geometry overlap - else navigation problem !
@@ -2174,8 +2280,7 @@ Stuck Track: potential geometry or navigation problem.
 *** This is just a warning message. ***
 -------- WWWW -------- G4Exception-END --------- WWWW -------
 
-G4WT10 > --> Event 450000000 starts with initial seeds (48048541,10760168).
-G4WT15 > 
+G4WT13 > 
 -------- WWWW ------- G4Exception-START -------- WWWW -------
 *** G4Exception : GeomField0003
       issued by : G4ChordFinder::FindNextChord()
@@ -2190,7 +2295,37 @@ Proposed for chord = 8253.61
 *** This is just a warning message. ***
 -------- WWWW -------- G4Exception-END --------- WWWW -------
 
-G4WT14 > 
+G4WT6 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomField0003
+      issued by : G4ChordFinder::FindNextChord()
+Exceeded maximum number of trials= 75
+Current sagita dist= 0.266432
+Max sagita dist= 0.25
+Step sizes (actual and proposed): 
+Last trial =         8729.4
+Next trial =         8286.81
+Proposed for chord = 8286.81
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT9 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomField0003
+      issued by : G4ChordFinder::FindNextChord()
+Exceeded maximum number of trials= 75
+Current sagita dist= 0.347621
+Max sagita dist= 0.25
+Step sizes (actual and proposed): 
+Last trial =         4.01383
+Next trial =         3.33582
+Proposed for chord = 3.33582
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT6 > 
 -------- WWWW ------- G4Exception-START -------- WWWW -------
 *** G4Exception : GeomField0003
       issued by : G4ChordFinder::FindNextChord()
@@ -2205,8 +2340,7 @@ Proposed for chord = 15696.4
 *** This is just a warning message. ***
 -------- WWWW -------- G4Exception-END --------- WWWW -------
 
-G4WT11 > --> Event 460000000 starts with initial seeds (1238778,70811204).
-G4WT15 > 
+G4WT14 > 
 -------- WWWW ------- G4Exception-START -------- WWWW -------
 *** G4Exception : GeomField0003
       issued by : G4ChordFinder::FindNextChord()
@@ -2221,41 +2355,7 @@ Proposed for chord = 467.223
 *** This is just a warning message. ***
 -------- WWWW -------- G4Exception-END --------- WWWW -------
 
-G4WT4 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : GeomField0003
-      issued by : G4ChordFinder::FindNextChord()
-Exceeded maximum number of trials= 75
-Current sagita dist= 0.277742
-Max sagita dist= 0.25
-Step sizes (actual and proposed): 
-Last trial =         2.63373
-Next trial =         2.44876
-Proposed for chord = 2.44876
-
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT0 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : GeomNav1002
-      issued by : G4Navigator::ComputeStep()
-Stuck Track: potential geometry or navigation problem.
-  Track stuck, not moving for 10 steps.
-  Current  phys volume: 'housing2'
-   - at position : (2.824152413688384,-1.012009458581329,-2721.97749481603)
-     in direction: (0.013859521872067,0.03868373437395331,0.9991553844864985)
-    (local position: (2.824152413688384,-1.012009458581329,-121.9774948160298))
-    (local direction: (0.013859521872067,0.03868373437395331,0.9991553844864985)).
-  Previous phys volume: 'Shape4'
-
-  Likely geometry overlap - else navigation problem !
-   *** Trying to get *unstuck* using a push - expanding step to 1e-07 (mm) ...       Potential overlap in geometry !
-
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT15 > 
+G4WT11 > 
 -------- WWWW ------- G4Exception-START -------- WWWW -------
 *** G4Exception : GeomNav1002
       issued by : G4Navigator::ComputeStep()
@@ -2274,31 +2374,7 @@ Stuck Track: potential geometry or navigation problem.
 *** This is just a warning message. ***
 -------- WWWW -------- G4Exception-END --------- WWWW -------
 
-G4WT0 > --> Event 470000000 starts with initial seeds (39860828,84677877).
-G4WT15 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : GeomNav1002
-      issued by : G4Navigator::ComputeStep()
-Stuck Track: potential geometry or navigation problem.
-  Track stuck, not moving for 10 steps.
-  Current  phys volume: 'housing2'
-   - at position : (2.886780814905961,-0.816392385247973,-2711.205161074892)
-     in direction: (-0.002538857297220073,-0.008974875416079189,0.9999565019614054)
-    (local position: (2.886780814905961,-0.816392385247973,-111.2051610748922))
-    (local direction: (-0.002538857297220073,-0.008974875416079189,0.9999565019614054)).
-  Previous phys volume: 'Shape4'
-
-  Likely geometry overlap - else navigation problem !
-   *** Trying to get *unstuck* using a push - expanding step to 1e-07 (mm) ...       Potential overlap in geometry !
-
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT15 > --> Event 480000000 starts with initial seeds (2121317,85247921).
-G4WT8 > --> Event 490000000 starts with initial seeds (82306788,54463623).
-G4WT2 > --> Event 500000000 starts with initial seeds (12432473,80206168).
-G4WT0 > --> Event 510000000 starts with initial seeds (57384068,86856190).
-G4WT10 > --> Event 520000000 starts with initial seeds (70186619,81913788).
+G4WT10 > --> Event 500000000 starts with initial seeds (12432473,80206168).
 G4WT7 > 
 -------- WWWW ------- G4Exception-START -------- WWWW -------
 *** G4Exception : GeomField0003
@@ -2314,86 +2390,93 @@ Proposed for chord = 27602.9
 *** This is just a warning message. ***
 -------- WWWW -------- G4Exception-END --------- WWWW -------
 
-G4WT1 > --> Event 530000000 starts with initial seeds (17471664,82361732).
-G4WT10 > --> Event 540000000 starts with initial seeds (15883946,47915103).
-G4WT15 > --> Event 550000000 starts with initial seeds (52495903,21544342).
-G4WT2 > --> Event 560000000 starts with initial seeds (58219064,13253465).
-G4WT6 > --> Event 570000000 starts with initial seeds (3761547,47864897).
-G4WT6 > --> Event 580000000 starts with initial seeds (19717041,66016415).
-G4WT3 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : GeomField0003
-      issued by : G4ChordFinder::FindNextChord()
-Exceeded maximum number of trials= 75
-Current sagita dist= 0.314628
-Max sagita dist= 0.25
-Step sizes (actual and proposed): 
-Last trial =         1.55957
-Next trial =         1.3624
-Proposed for chord = 1.3624
-
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT6 > --> Event 590000000 starts with initial seeds (69994692,19378843).
-G4WT5 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : GeomField0003
-      issued by : G4ChordFinder::FindNextChord()
-Exceeded maximum number of trials= 75
-Current sagita dist= 0.262731
-Max sagita dist= 0.25
-Step sizes (actual and proposed): 
-Last trial =         20486.1
-Next trial =         19583.9
-Proposed for chord = 19583.9
-
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT0 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : GeomField0003
-      issued by : G4ChordFinder::FindNextChord()
-Exceeded maximum number of trials= 75
-Current sagita dist= 0.250665
-Max sagita dist= 0.25
-Step sizes (actual and proposed): 
-Last trial =         109455
-Next trial =         107124
-Proposed for chord = 107124
-
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
 G4WT9 > 
 -------- WWWW ------- G4Exception-START -------- WWWW -------
 *** G4Exception : GeomField0003
       issued by : G4ChordFinder::FindNextChord()
 Exceeded maximum number of trials= 75
-Current sagita dist= 0.277133
+Current sagita dist= 0.270504
 Max sagita dist= 0.25
 Step sizes (actual and proposed): 
-Last trial =         26316.4
-Next trial =         24495.1
-Proposed for chord = 24495.1
+Last trial =         1990.14
+Next trial =         1874.97
+Proposed for chord = 1874.97
 
 *** This is just a warning message. ***
 -------- WWWW -------- G4Exception-END --------- WWWW -------
 
-G4WT4 > --> Event 600000000 starts with initial seeds (62770009,39793194).
-G4WT0 > --> Event 610000000 starts with initial seeds (55502865,7422350).
-G4WT15 > 
+G4WT3 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomField0003
+      issued by : G4ChordFinder::FindNextChord()
+Exceeded maximum number of trials= 75
+Current sagita dist= 0.262298
+Max sagita dist= 0.25
+Step sizes (actual and proposed): 
+Last trial =         23574.8
+Next trial =         22555.2
+Proposed for chord = 22555.2
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT1 > --> Event 600000000 starts with initial seeds (62770009,39793194).
+G4WT12 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomField0003
+      issued by : G4ChordFinder::FindNextChord()
+Exceeded maximum number of trials= 75
+Current sagita dist= 0.456369
+Max sagita dist= 0.25
+Step sizes (actual and proposed): 
+Last trial =         5.13303
+Next trial =         3.72316
+Proposed for chord = 3.72316
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT12 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomField0003
+      issued by : G4ChordFinder::FindNextChord()
+Exceeded maximum number of trials= 75
+Current sagita dist= 0.257121
+Max sagita dist= 0.25
+Step sizes (actual and proposed): 
+Last trial =         529.767
+Next trial =         511.932
+Proposed for chord = 511.932
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT1 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomField0003
+      issued by : G4ChordFinder::FindNextChord()
+Exceeded maximum number of trials= 75
+Current sagita dist= 0.25559
+Max sagita dist= 0.25
+Step sizes (actual and proposed): 
+Last trial =         46366.8
+Next trial =         44939.8
+Proposed for chord = 44939.8
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT12 > 
 -------- WWWW ------- G4Exception-START -------- WWWW -------
 *** G4Exception : GeomNav1002
       issued by : G4Navigator::ComputeStep()
 Stuck Track: potential geometry or navigation problem.
   Track stuck, not moving for 10 steps.
   Current  phys volume: 'housing2'
-   - at position : (-2.822406610622174,1.016868194170833,-2717.471364344925)
-     in direction: (0.002914555130252785,0.00808536289980414,0.9999630654555052)
-    (local position: (-2.822406610622174,1.016868194170833,-117.471364344925))
-    (local direction: (0.002914555130252785,0.00808536289980414,0.9999630654555052)).
+   - at position : (2.93056595836592,-0.6417033299483755,-2716.36187903695)
+     in direction: (0.0106196209376257,0.04850830122462815,0.9987663232025006)
+    (local position: (2.93056595836592,-0.6417033299483755,-116.3618790369496))
+    (local direction: (0.0106196209376257,0.04850830122462815,0.9987663232025006)).
   Previous phys volume: 'Shape4'
 
   Likely geometry overlap - else navigation problem !
@@ -2402,27 +2485,7 @@ Stuck Track: potential geometry or navigation problem.
 *** This is just a warning message. ***
 -------- WWWW -------- G4Exception-END --------- WWWW -------
 
-G4WT1 > --> Event 620000000 starts with initial seeds (23846541,3441083).
-G4WT14 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : GeomField0003
-      issued by : G4ChordFinder::FindNextChord()
-Exceeded maximum number of trials= 75
-Current sagita dist= 0.523488
-Max sagita dist= 0.25
-Step sizes (actual and proposed): 
-Last trial =         798.891
-Next trial =         541.041
-Proposed for chord = 541.041
-
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT7 > --> Event 630000000 starts with initial seeds (36875084,83271252).
-G4WT9 > --> Event 640000000 starts with initial seeds (60645753,52008768).
-G4WT6 > --> Event 650000000 starts with initial seeds (55620905,45978487).
-G4WT4 > --> Event 660000000 starts with initial seeds (65449842,71258139).
-G4WT8 > 
+G4WT6 > 
 -------- WWWW ------- G4Exception-START -------- WWWW -------
 *** G4Exception : GeomField0003
       issued by : G4ChordFinder::FindNextChord()
@@ -2437,9 +2500,22 @@ Proposed for chord = 146.085
 *** This is just a warning message. ***
 -------- WWWW -------- G4Exception-END --------- WWWW -------
 
-G4WT11 > --> Event 670000000 starts with initial seeds (28498222,72055098).
-G4WT9 > --> Event 680000000 starts with initial seeds (276667,37299928).
-G4WT9 > 
+G4WT8 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomField0003
+      issued by : G4ChordFinder::FindNextChord()
+Exceeded maximum number of trials= 75
+Current sagita dist= 0.383463
+Max sagita dist= 0.25
+Step sizes (actual and proposed): 
+Last trial =         5.56431
+Next trial =         4.40297
+Proposed for chord = 4.40297
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT11 > 
 -------- WWWW ------- G4Exception-START -------- WWWW -------
 *** G4Exception : GeomField0003
       issued by : G4ChordFinder::FindNextChord()
@@ -2454,7 +2530,7 @@ Proposed for chord = 1.43108
 *** This is just a warning message. ***
 -------- WWWW -------- G4Exception-END --------- WWWW -------
 
-G4WT14 > 
+G4WT15 > 
 -------- WWWW ------- G4Exception-START -------- WWWW -------
 *** G4Exception : GeomField0003
       issued by : G4ChordFinder::FindNextChord()
@@ -2465,22 +2541,6 @@ Step sizes (actual and proposed):
 Last trial =         21354.4
 Next trial =         20791.3
 Proposed for chord = 20791.3
-
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT9 > --> Event 690000000 starts with initial seeds (85300882,87980447).
-G4WT0 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : GeomField0003
-      issued by : G4ChordFinder::FindNextChord()
-Exceeded maximum number of trials= 75
-Current sagita dist= 0.258985
-Max sagita dist= 0.25
-Step sizes (actual and proposed): 
-Last trial =         186.095
-Next trial =         179.182
-Proposed for chord = 179.182
 
 *** This is just a warning message. ***
 -------- WWWW -------- G4Exception-END --------- WWWW -------
@@ -2500,7 +2560,7 @@ Proposed for chord = 15625
 *** This is just a warning message. ***
 -------- WWWW -------- G4Exception-END --------- WWWW -------
 
-G4WT14 > 
+G4WT8 > 
 -------- WWWW ------- G4Exception-START -------- WWWW -------
 *** G4Exception : GeomField0003
       issued by : G4ChordFinder::FindNextChord()
@@ -2515,24 +2575,8 @@ Proposed for chord = 13304.5
 *** This is just a warning message. ***
 -------- WWWW -------- G4Exception-END --------- WWWW -------
 
-G4WT8 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : GeomField0003
-      issued by : G4ChordFinder::FindNextChord()
-Exceeded maximum number of trials= 75
-Current sagita dist= 0.274726
-Max sagita dist= 0.25
-Step sizes (actual and proposed): 
-Last trial =         16993.9
-Next trial =         15886.9
-Proposed for chord = 15886.9
-
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT9 > --> Event 700000000 starts with initial seeds (42833269,60550715).
-G4WT6 > --> Event 710000000 starts with initial seeds (25977592,56849581).
-G4WT11 > 
+G4WT0 > --> Event 700000000 starts with initial seeds (42833269,60550715).
+G4WT2 > 
 -------- WWWW ------- G4Exception-START -------- WWWW -------
 *** G4Exception : GeomNav1002
       issued by : G4Navigator::ComputeStep()
@@ -2551,8 +2595,22 @@ Stuck Track: potential geometry or navigation problem.
 *** This is just a warning message. ***
 -------- WWWW -------- G4Exception-END --------- WWWW -------
 
-G4WT1 > --> Event 720000000 starts with initial seeds (51070347,69713735).
-G4WT1 > 
+G4WT6 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomField0003
+      issued by : G4ChordFinder::FindNextChord()
+Exceeded maximum number of trials= 75
+Current sagita dist= 0.255512
+Max sagita dist= 0.25
+Step sizes (actual and proposed): 
+Last trial =         68559.7
+Next trial =         66459.9
+Proposed for chord = 66459.9
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT13 > 
 -------- WWWW ------- G4Exception-START -------- WWWW -------
 *** G4Exception : GeomNav1002
       issued by : G4Navigator::ComputeStep()
@@ -2571,110 +2629,56 @@ Stuck Track: potential geometry or navigation problem.
 *** This is just a warning message. ***
 -------- WWWW -------- G4Exception-END --------- WWWW -------
 
-G4WT15 > 
+G4WT0 > 
 -------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : GeomField0003
-      issued by : G4ChordFinder::FindNextChord()
-Exceeded maximum number of trials= 75
-Current sagita dist= 0.254366
-Max sagita dist= 0.25
-Step sizes (actual and proposed): 
-Last trial =         25004.3
-Next trial =         24293.1
-Proposed for chord = 24293.1
+*** G4Exception : GeomNav1002
+      issued by : G4Navigator::ComputeStep()
+Stuck Track: potential geometry or navigation problem.
+  Track stuck, not moving for 10 steps.
+  Current  phys volume: 'housing2'
+   - at position : (2.62565954355018,-1.451176061463205,-2716.130341737027)
+     in direction: (-0.007162960237728941,-0.0129582847217044,0.9998903814207356)
+    (local position: (2.62565954355018,-1.451176061463205,-116.1303417370273))
+    (local direction: (-0.007162960237728941,-0.0129582847217044,0.9998903814207356)).
+  Previous phys volume: 'Shape4'
+
+  Likely geometry overlap - else navigation problem !
+   *** Trying to get *unstuck* using a push - expanding step to 1e-07 (mm) ...       Potential overlap in geometry !
 
 *** This is just a warning message. ***
 -------- WWWW -------- G4Exception-END --------- WWWW -------
 
-G4WT10 > --> Event 730000000 starts with initial seeds (7149440,49024532).
+G4WT3 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomField0003
+      issued by : G4ChordFinder::FindNextChord()
+Exceeded maximum number of trials= 75
+Current sagita dist= 0.254586
+Max sagita dist= 0.25
+Step sizes (actual and proposed): 
+Last trial =         41623.5
+Next trial =         40421.9
+Proposed for chord = 40421.9
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
 G4WT7 > 
 -------- WWWW ------- G4Exception-START -------- WWWW -------
 *** G4Exception : GeomField0003
       issued by : G4ChordFinder::FindNextChord()
 Exceeded maximum number of trials= 75
-Current sagita dist= 0.250702
+Current sagita dist= 0.253729
 Max sagita dist= 0.25
 Step sizes (actual and proposed): 
-Last trial =         87385.3
-Next trial =         85517.6
-Proposed for chord = 85517.6
-
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT8 > --> Event 740000000 starts with initial seeds (28885505,42578450).
-G4WT10 > --> Event 750000000 starts with initial seeds (56916141,63214689).
-G4WT1 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : GeomField0003
-      issued by : G4ChordFinder::FindNextChord()
-Exceeded maximum number of trials= 75
-Current sagita dist= 0.267169
-Max sagita dist= 0.25
-Step sizes (actual and proposed): 
-Last trial =         23675.3
-Next trial =         22443.9
-Proposed for chord = 22443.9
+Last trial =         29706.3
+Next trial =         28897.5
+Proposed for chord = 28897.5
 
 *** This is just a warning message. ***
 -------- WWWW -------- G4Exception-END --------- WWWW -------
 
 G4WT5 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : GeomField0003
-      issued by : G4ChordFinder::FindNextChord()
-Exceeded maximum number of trials= 75
-Current sagita dist= 0.296982
-Max sagita dist= 0.25
-Step sizes (actual and proposed): 
-Last trial =         1.77101
-Next trial =         1.5924
-Proposed for chord = 1.5924
-
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT14 > --> Event 760000000 starts with initial seeds (183149,74232974).
-G4WT14 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : GeomNav1002
-      issued by : G4Navigator::ComputeStep()
-Stuck Track: potential geometry or navigation problem.
-  Track stuck, not moving for 10 steps.
-  Current  phys volume: 'housing2'
-   - at position : (2.946189445615321,-0.5656569194705278,-2714.755998704505)
-     in direction: (-0.000794400253152421,-0.00411841092785077,0.9999912037711467)
-    (local position: (2.946189445615321,-0.5656569194705278,-114.7559987045051))
-    (local direction: (-0.000794400253152421,-0.00411841092785077,0.9999912037711467)).
-  Previous phys volume: 'Shape4'
-
-  Likely geometry overlap - else navigation problem !
-   *** Trying to get *unstuck* using a push - expanding step to 1e-07 (mm) ...       Potential overlap in geometry !
-
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT11 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : GeomNav1002
-      issued by : G4Navigator::ComputeStep()
-Stuck Track: potential geometry or navigation problem.
-  Track stuck, not moving for 10 steps.
-  Current  phys volume: 'housing2'
-   - at position : (2.946248374763626,0.565349904220998,-2716.715005676158)
-     in direction: (0.004238841428648179,-0.02214034142219309,0.9997458864656816)
-    (local position: (2.946248374763626,0.565349904220998,-116.7150056761579))
-    (local direction: (0.004238841428648179,-0.02214034142219309,0.9997458864656816)).
-  Previous phys volume: 'Shape4'
-
-  Likely geometry overlap - else navigation problem !
-   *** Trying to get *unstuck* using a push - expanding step to 1e-07 (mm) ...       Potential overlap in geometry !
-
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT12 > --> Event 770000000 starts with initial seeds (42078214,26204219).
-G4WT15 > 
 -------- WWWW ------- G4Exception-START -------- WWWW -------
 *** G4Exception : GeomField0003
       issued by : G4ChordFinder::FindNextChord()
@@ -2689,25 +2693,42 @@ Proposed for chord = 1626.58
 *** This is just a warning message. ***
 -------- WWWW -------- G4Exception-END --------- WWWW -------
 
-G4WT12 > --> Event 780000000 starts with initial seeds (4046742,63726310).
-G4WT8 > 
+G4WT4 > 
 -------- WWWW ------- G4Exception-START -------- WWWW -------
 *** G4Exception : GeomField0003
       issued by : G4ChordFinder::FindNextChord()
 Exceeded maximum number of trials= 75
-Current sagita dist= 0.254077
+Current sagita dist= 0.254535
 Max sagita dist= 0.25
 Step sizes (actual and proposed): 
-Last trial =         40689.7
-Next trial =         39554.6
-Proposed for chord = 39554.6
+Last trial =         110526
+Next trial =         107346
+Proposed for chord = 107346
 
 *** This is just a warning message. ***
 -------- WWWW -------- G4Exception-END --------- WWWW -------
 
-G4WT12 > --> Event 790000000 starts with initial seeds (32575305,60404169).
-G4WT3 > --> Event 800000000 starts with initial seeds (6942397,56905989).
-G4WT1 > 
+G4WT4 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomNav1002
+      issued by : G4Navigator::ComputeStep()
+Stuck Track: potential geometry or navigation problem.
+  Track stuck, not moving for 10 steps.
+  Current  phys volume: 'housing2'
+   - at position : (-2.707074198180199,1.292961440085138,-2719.214312328386)
+     in direction: (-0.02553155099876241,-0.05346057879877878,0.99824351058151)
+    (local position: (-2.707074198180199,1.292961440085138,-119.2143123283863))
+    (local direction: (-0.02553155099876241,-0.05346057879877878,0.99824351058151)).
+  Previous phys volume: 'Shape4'
+
+  Likely geometry overlap - else navigation problem !
+   *** Trying to get *unstuck* using a push - expanding step to 1e-07 (mm) ...       Potential overlap in geometry !
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT8 > --> Event 800000000 starts with initial seeds (6942397,56905989).
+G4WT5 > 
 -------- WWWW ------- G4Exception-START -------- WWWW -------
 *** G4Exception : GeomNav1002
       issued by : G4Navigator::ComputeStep()
@@ -2726,24 +2747,52 @@ Stuck Track: potential geometry or navigation problem.
 *** This is just a warning message. ***
 -------- WWWW -------- G4Exception-END --------- WWWW -------
 
-G4WT7 > --> Event 810000000 starts with initial seeds (81229460,55681162).
-G4WT2 > 
+G4WT0 > 
 -------- WWWW ------- G4Exception-START -------- WWWW -------
 *** G4Exception : GeomField0003
       issued by : G4ChordFinder::FindNextChord()
 Exceeded maximum number of trials= 75
-Current sagita dist= 0.289617
+Current sagita dist= 0.37097
 Max sagita dist= 0.25
 Step sizes (actual and proposed): 
-Last trial =         3218.56
-Next trial =         2930.53
-Proposed for chord = 2930.53
+Last trial =         1036.28
+Next trial =         833.689
+Proposed for chord = 833.689
 
 *** This is just a warning message. ***
 -------- WWWW -------- G4Exception-END --------- WWWW -------
 
-G4WT15 > --> Event 820000000 starts with initial seeds (84943225,60408733).
-G4WT11 > 
+G4WT12 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomField0003
+      issued by : G4ChordFinder::FindNextChord()
+Exceeded maximum number of trials= 75
+Current sagita dist= 0.260912
+Max sagita dist= 0.25
+Step sizes (actual and proposed): 
+Last trial =         7016.73
+Next trial =         6731.07
+Proposed for chord = 6731.07
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT7 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomField0003
+      issued by : G4ChordFinder::FindNextChord()
+Exceeded maximum number of trials= 75
+Current sagita dist= 0.280401
+Max sagita dist= 0.25
+Step sizes (actual and proposed): 
+Last trial =         4343.97
+Next trial =         4019.69
+Proposed for chord = 4019.69
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT8 > 
 -------- WWWW ------- G4Exception-START -------- WWWW -------
 *** G4Exception : GeomField0003
       issued by : G4ChordFinder::FindNextChord()
@@ -2758,7 +2807,7 @@ Proposed for chord = 989.012
 *** This is just a warning message. ***
 -------- WWWW -------- G4Exception-END --------- WWWW -------
 
-G4WT4 > 
+G4WT7 > 
 -------- WWWW ------- G4Exception-START -------- WWWW -------
 *** G4Exception : GeomField0003
       issued by : G4ChordFinder::FindNextChord()
@@ -2773,88 +2822,7 @@ Proposed for chord = 4616.31
 *** This is just a warning message. ***
 -------- WWWW -------- G4Exception-END --------- WWWW -------
 
-G4WT13 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : GeomNav1002
-      issued by : G4Navigator::ComputeStep()
-Stuck Track: potential geometry or navigation problem.
-  Track stuck, not moving for 10 steps.
-  Current  phys volume: 'housing2'
-   - at position : (-2.597368186065813,1.501225667917115,-2713.904854364207)
-     in direction: (-0.003159269411667112,-0.00546913587333338,0.9999800535858621)
-    (local position: (-2.597368186065813,1.501225667917115,-113.9048543642075))
-    (local direction: (-0.003159269411667112,-0.00546913587333338,0.9999800535858621)).
-  Previous phys volume: 'Shape4'
-
-  Likely geometry overlap - else navigation problem !
-   *** Trying to get *unstuck* using a push - expanding step to 1e-07 (mm) ...       Potential overlap in geometry !
-
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT15 > --> Event 830000000 starts with initial seeds (98594714,24954131).
-G4WT6 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : GeomField0003
-      issued by : G4ChordFinder::FindNextChord()
-Exceeded maximum number of trials= 75
-Current sagita dist= 0.286461
-Max sagita dist= 0.25
-Step sizes (actual and proposed): 
-Last trial =         3479.02
-Next trial =         3185.08
-Proposed for chord = 3185.08
-
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT12 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : GeomField0003
-      issued by : G4ChordFinder::FindNextChord()
-Exceeded maximum number of trials= 75
-Current sagita dist= 0.272457
-Max sagita dist= 0.25
-Step sizes (actual and proposed): 
-Last trial =         2.30267
-Next trial =         2.16162
-Proposed for chord = 2.16162
-
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT11 > --> Event 840000000 starts with initial seeds (9223412,13080201).
-G4WT7 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : GeomField0003
-      issued by : G4ChordFinder::FindNextChord()
-Exceeded maximum number of trials= 75
-Current sagita dist= 0.287226
-Max sagita dist= 0.25
-Step sizes (actual and proposed): 
-Last trial =         12904
-Next trial =         11798
-Proposed for chord = 11798
-
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT3 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : GeomField0003
-      issued by : G4ChordFinder::FindNextChord()
-Exceeded maximum number of trials= 75
-Current sagita dist= 0.25015
-Max sagita dist= 0.25
-Step sizes (actual and proposed): 
-Last trial =         97.7881
-Next trial =         95.8036
-Proposed for chord = 95.8036
-
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT7 > 
+G4WT0 > 
 -------- WWWW ------- G4Exception-START -------- WWWW -------
 *** G4Exception : GeomNav1002
       issued by : G4Navigator::ComputeStep()
@@ -2873,57 +2841,22 @@ Stuck Track: potential geometry or navigation problem.
 *** This is just a warning message. ***
 -------- WWWW -------- G4Exception-END --------- WWWW -------
 
-G4WT5 > 
+G4WT15 > 
 -------- WWWW ------- G4Exception-START -------- WWWW -------
 *** G4Exception : GeomField0003
       issued by : G4ChordFinder::FindNextChord()
 Exceeded maximum number of trials= 75
-Current sagita dist= 0.251482
+Current sagita dist= 0.252717
 Max sagita dist= 0.25
 Step sizes (actual and proposed): 
-Last trial =         115157
-Next trial =         112521
-Proposed for chord = 112521
+Last trial =         6810.92
+Next trial =         6638.72
+Proposed for chord = 6638.72
 
 *** This is just a warning message. ***
 -------- WWWW -------- G4Exception-END --------- WWWW -------
 
-G4WT5 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : GeomField0003
-      issued by : G4ChordFinder::FindNextChord()
-Exceeded maximum number of trials= 75
-Current sagita dist= 0.253049
-Max sagita dist= 0.25
-Step sizes (actual and proposed): 
-Last trial =         20134.3
-Next trial =         19612.4
-Proposed for chord = 19612.4
-
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT2 > --> Event 850000000 starts with initial seeds (46424972,24919296).
-G4WT13 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : GeomNav1002
-      issued by : G4Navigator::ComputeStep()
-Stuck Track: potential geometry or navigation problem.
-  Track stuck, not moving for 10 steps.
-  Current  phys volume: 'housing2'
-   - at position : (-2.849204259852278,0.939167229858259,-2706.4274810098)
-     in direction: (-0.03598734551460893,-0.1091928848199503,0.9933689268683157)
-    (local position: (-2.849204259852278,0.939167229858259,-106.4274810098004))
-    (local direction: (-0.03598734551460893,-0.1091928848199503,0.9933689268683157)).
-  Previous phys volume: 'Shape4'
-
-  Likely geometry overlap - else navigation problem !
-   *** Trying to get *unstuck* using a push - expanding step to 1e-07 (mm) ...       Potential overlap in geometry !
-
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT13 > 
+G4WT0 > 
 -------- WWWW ------- G4Exception-START -------- WWWW -------
 *** G4Exception : GeomField0003
       issued by : G4ChordFinder::FindNextChord()
@@ -2938,8 +2871,37 @@ Proposed for chord = 5541.45
 *** This is just a warning message. ***
 -------- WWWW -------- G4Exception-END --------- WWWW -------
 
-G4WT15 > --> Event 860000000 starts with initial seeds (20499087,54410202).
-G4WT5 > 
+G4WT6 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomField0003
+      issued by : G4ChordFinder::FindNextChord()
+Exceeded maximum number of trials= 75
+Current sagita dist= 0.251693
+Max sagita dist= 0.25
+Step sizes (actual and proposed): 
+Last trial =         46645.1
+Next trial =         45558.3
+Proposed for chord = 45558.3
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT10 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomField0003
+      issued by : G4ChordFinder::FindNextChord()
+Exceeded maximum number of trials= 75
+Current sagita dist= 0.281233
+Max sagita dist= 0.25
+Step sizes (actual and proposed): 
+Last trial =         14738.7
+Next trial =         13618.3
+Proposed for chord = 13618.3
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT0 > 
 -------- WWWW ------- G4Exception-START -------- WWWW -------
 *** G4Exception : GeomField0003
       issued by : G4ChordFinder::FindNextChord()
@@ -2954,8 +2916,7 @@ Proposed for chord = 939.113
 *** This is just a warning message. ***
 -------- WWWW -------- G4Exception-END --------- WWWW -------
 
-G4WT11 > --> Event 870000000 starts with initial seeds (38801663,68738190).
-G4WT2 > 
+G4WT13 > 
 -------- WWWW ------- G4Exception-START -------- WWWW -------
 *** G4Exception : GeomField0003
       issued by : G4ChordFinder::FindNextChord()
@@ -2970,8 +2931,26 @@ Proposed for chord = 575.563
 *** This is just a warning message. ***
 -------- WWWW -------- G4Exception-END --------- WWWW -------
 
-G4WT8 > --> Event 880000000 starts with initial seeds (27387070,98320020).
 G4WT1 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomNav1002
+      issued by : G4Navigator::ComputeStep()
+Stuck Track: potential geometry or navigation problem.
+  Track stuck, not moving for 10 steps.
+  Current  phys volume: 'housing2'
+   - at position : (-0.03242412894212612,2.999824774193044,-2794.077161767806)
+     in direction: (-0.05996249902262535,-0.00065115099873646,0.9982004181091784)
+    (local position: (-0.03242412894212612,2.999824774193044,-194.077161767806))
+    (local direction: (-0.05996249902262535,-0.00065115099873646,0.9982004181091784)).
+  Previous phys volume: 'Shape1'
+
+  Likely geometry overlap - else navigation problem !
+   *** Trying to get *unstuck* using a push - expanding step to 1e-07 (mm) ...       Potential overlap in geometry !
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT13 > 
 -------- WWWW ------- G4Exception-START -------- WWWW -------
 *** G4Exception : GeomField0003
       issued by : G4ChordFinder::FindNextChord()
@@ -2986,38 +2965,7 @@ Proposed for chord = 2850.58
 *** This is just a warning message. ***
 -------- WWWW -------- G4Exception-END --------- WWWW -------
 
-G4WT13 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : GeomField0003
-      issued by : G4ChordFinder::FindNextChord()
-Exceeded maximum number of trials= 75
-Current sagita dist= 0.26029
-Max sagita dist= 0.25
-Step sizes (actual and proposed): 
-Last trial =         21548.3
-Next trial =         20695.7
-Proposed for chord = 20695.7
-
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT14 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : GeomField0003
-      issued by : G4ChordFinder::FindNextChord()
-Exceeded maximum number of trials= 75
-Current sagita dist= 0.602439
-Max sagita dist= 0.25
-Step sizes (actual and proposed): 
-Last trial =         574.429
-Next trial =         362.64
-Proposed for chord = 362.64
-
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT5 > --> Event 890000000 starts with initial seeds (41530363,63535753).
-G4WT5 > 
+G4WT12 > 
 -------- WWWW ------- G4Exception-START -------- WWWW -------
 *** G4Exception : GeomNav1002
       issued by : G4Navigator::ComputeStep()
@@ -3036,128 +2984,68 @@ Stuck Track: potential geometry or navigation problem.
 *** This is just a warning message. ***
 -------- WWWW -------- G4Exception-END --------- WWWW -------
 
-G4WT7 > --> Event 900000000 starts with initial seeds (70363078,76041995).
-G4WT5 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : GeomField0003
-      issued by : G4ChordFinder::FindNextChord()
-Exceeded maximum number of trials= 75
-Current sagita dist= 1.60525
-Max sagita dist= 0.25
-Step sizes (actual and proposed): 
-Last trial =         17.3297
-Next trial =         6.70218
-Proposed for chord = 6.70218
-
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
+G4WT3 > --> Event 900000000 starts with initial seeds (70363078,76041995).
 G4WT4 > 
 -------- WWWW ------- G4Exception-START -------- WWWW -------
 *** G4Exception : GeomField0003
       issued by : G4ChordFinder::FindNextChord()
 Exceeded maximum number of trials= 75
-Current sagita dist= 0.291297
+Current sagita dist= 0.262038
 Max sagita dist= 0.25
 Step sizes (actual and proposed): 
-Last trial =         1085.96
-Next trial =         985.922
-Proposed for chord = 985.922
+Last trial =         11484.7
+Next trial =         10993.5
+Proposed for chord = 10993.5
 
 *** This is just a warning message. ***
 -------- WWWW -------- G4Exception-END --------- WWWW -------
 
-G4WT7 > --> Event 910000000 starts with initial seeds (86719815,52395273).
-G4WT10 > --> Event 920000000 starts with initial seeds (72061498,73589021).
-G4WT9 > 
+G4WT2 > 
 -------- WWWW ------- G4Exception-START -------- WWWW -------
 *** G4Exception : GeomField0003
       issued by : G4ChordFinder::FindNextChord()
 Exceeded maximum number of trials= 75
-Current sagita dist= 0.271569
+Current sagita dist= 0.255351
 Max sagita dist= 0.25
 Step sizes (actual and proposed): 
-Last trial =         12239.8
-Next trial =         11508.8
-Proposed for chord = 11508.8
+Last trial =         39661.1
+Next trial =         38458.4
+Proposed for chord = 38458.4
 
 *** This is just a warning message. ***
 -------- WWWW -------- G4Exception-END --------- WWWW -------
 
-G4WT14 > --> Event 930000000 starts with initial seeds (77930022,62508713).
-G4WT6 > --> Event 940000000 starts with initial seeds (34550006,47234403).
-G4WT15 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : GeomField0003
-      issued by : G4ChordFinder::FindNextChord()
-Exceeded maximum number of trials= 75
-Current sagita dist= 0.25836
-Max sagita dist= 0.25
-Step sizes (actual and proposed): 
-Last trial =         25366.6
-Next trial =         24453.8
-Proposed for chord = 24453.8
-
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT1 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : GeomField0003
-      issued by : G4ChordFinder::FindNextChord()
-Exceeded maximum number of trials= 75
-Current sagita dist= 0.266979
-Max sagita dist= 0.25
-Step sizes (actual and proposed): 
-Last trial =         31148
-Next trial =         29538.5
-Proposed for chord = 29538.5
-
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT5 > --> Event 950000000 starts with initial seeds (66517346,72342287).
 G4WT13 > 
 -------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : GeomNav1002
-      issued by : G4Navigator::ComputeStep()
-Stuck Track: potential geometry or navigation problem.
-  Track stuck, not moving for 10 steps.
-  Current  phys volume: 'housing2'
-   - at position : (2.991579692921118,0.2246128689589993,-2719.309499287292)
-     in direction: (0.002430593697956009,-0.03240895129819029,0.9994717365138581)
-    (local position: (2.991579692921118,0.2246128689589993,-119.3094992872916))
-    (local direction: (0.002430593697956009,-0.03240895129819029,0.9994717365138581)).
-  Previous phys volume: 'Shape4'
-
-  Likely geometry overlap - else navigation problem !
-   *** Trying to get *unstuck* using a push - expanding step to 1e-07 (mm) ...       Potential overlap in geometry !
+*** G4Exception : GeomField0003
+      issued by : G4ChordFinder::FindNextChord()
+Exceeded maximum number of trials= 75
+Current sagita dist= 0.255139
+Max sagita dist= 0.25
+Step sizes (actual and proposed): 
+Last trial =         30116.1
+Next trial =         29215
+Proposed for chord = 29215
 
 *** This is just a warning message. ***
 -------- WWWW -------- G4Exception-END --------- WWWW -------
 
-G4WT6 > 
+G4WT8 > 
 -------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : GeomNav1002
-      issued by : G4Navigator::ComputeStep()
-Stuck Track: potential geometry or navigation problem.
-  Track stuck, not moving for 10 steps.
-  Current  phys volume: 'housing2'
-   - at position : (-2.968983457116686,-0.4302757620032241,-2712.331008655633)
-     in direction: (0.001574307365564384,-0.01084134091826135,0.9999399916412048)
-    (local position: (-2.968983457116686,-0.4302757620032241,-112.3310086556326))
-    (local direction: (0.001574307365564384,-0.01084134091826135,0.9999399916412048)).
-  Previous phys volume: 'Shape4'
-
-  Likely geometry overlap - else navigation problem !
-   *** Trying to get *unstuck* using a push - expanding step to 1e-07 (mm) ...       Potential overlap in geometry !
+*** G4Exception : GeomField0003
+      issued by : G4ChordFinder::FindNextChord()
+Exceeded maximum number of trials= 75
+Current sagita dist= 0.258245
+Max sagita dist= 0.25
+Step sizes (actual and proposed): 
+Last trial =         60687.4
+Next trial =         58516.6
+Proposed for chord = 58516.6
 
 *** This is just a warning message. ***
 -------- WWWW -------- G4Exception-END --------- WWWW -------
 
-G4WT14 > --> Event 960000000 starts with initial seeds (55971182,83175651).
-G4WT13 > --> Event 970000000 starts with initial seeds (23291675,71865244).
-G4WT13 > 
+G4WT14 > 
 -------- WWWW ------- G4Exception-START -------- WWWW -------
 *** G4Exception : GeomField0003
       issued by : G4ChordFinder::FindNextChord()
@@ -3172,7 +3060,36 @@ Proposed for chord = 91127.5
 *** This is just a warning message. ***
 -------- WWWW -------- G4Exception-END --------- WWWW -------
 
-G4WT7 > --> Event 980000000 starts with initial seeds (5883538,94035856).
+G4WT1 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomField0003
+      issued by : G4ChordFinder::FindNextChord()
+Exceeded maximum number of trials= 75
+Current sagita dist= 0.291369
+Max sagita dist= 0.25
+Step sizes (actual and proposed): 
+Last trial =         1805.44
+Next trial =         1638.92
+Proposed for chord = 1638.92
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4WT10 > 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomField0003
+      issued by : G4ChordFinder::FindNextChord()
+Exceeded maximum number of trials= 75
+Current sagita dist= 0.257273
+Max sagita dist= 0.25
+Step sizes (actual and proposed): 
+Last trial =         83680.6
+Next trial =         80839.5
+Proposed for chord = 80839.5
+
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
 G4WT10 > 
 -------- WWWW ------- G4Exception-START -------- WWWW -------
 *** G4Exception : GeomField0003
@@ -3188,168 +3105,152 @@ Proposed for chord = 915.211
 *** This is just a warning message. ***
 -------- WWWW -------- G4Exception-END --------- WWWW -------
 
-G4WT13 > --> Event 990000000 starts with initial seeds (72435470,22995148).
-G4WT10 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : GeomField0003
-      issued by : G4ChordFinder::FindNextChord()
-Exceeded maximum number of trials= 75
-Current sagita dist= 0.259031
-Max sagita dist= 0.25
-Step sizes (actual and proposed): 
-Last trial =         1271.59
-Next trial =         1224.25
-Proposed for chord = 1224.25
-
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT10 > Thread-local run terminated.
-G4WT10 > Run Summary
-G4WT10 >   Number of events processed : 62402070
-G4WT10 >   User=158138.820000s Real=9888.732910s Sys=12.830000s [Cpu=1599.3%]
-G4WT10 > ... merge all H1 - done
-G4WT6 > Thread-local run terminated.
-G4WT6 > Run Summary
-G4WT6 >   Number of events processed : 62662935
-G4WT6 >   User=158139.150000s Real=9888.754576s Sys=12.840000s [Cpu=1599.3%]
-G4WT6 > ... merge all H1 - done
-G4WT10 > ... write file : lxe_t10.root - done
-G4WT6 > ... write file : lxe_t6.root - done
-G4WT10 > ... close file : lxe_t10.root - done
-G4WT10 > ... delete empty file : lxe_t10.root - done
-G4WT4 > Thread-local run terminated.
-G4WT4 > Run Summary
-G4WT4 >   Number of events processed : 62615505
-G4WT4 >   User=158139.510000s Real=9888.778007s Sys=12.840000s [Cpu=1599.3%]
-G4WT6 > ... close file : lxe_t6.root - done
-G4WT6 > ... delete empty file : lxe_t6.root - done
-G4WT4 > ... merge all H1 - done
-G4WT4 > ... write file : lxe_t4.root - done
-G4WT4 > ... close file : lxe_t4.root - done
-G4WT4 > ... delete empty file : lxe_t4.root - done
 G4WT0 > Thread-local run terminated.
 G4WT0 > Run Summary
-G4WT0 >   Number of events processed : 62575980
-G4WT0 >   User=158140.150000s Real=9888.828091s Sys=12.840000s [Cpu=1599.3%]
+G4WT0 >   Number of events processed : 62409975
+G4WT0 >   User=217066.650000s Real=13695.183380s Sys=12.420000s [Cpu=1585.1%]
 G4WT0 > ... merge all H1 - done
 G4WT0 > ... write file : lxe_t0.root - done
 G4WT0 > ... close file : lxe_t0.root - done
 G4WT0 > ... delete empty file : lxe_t0.root - done
-G4WT12 > Thread-local run terminated.
-G4WT12 > Run Summary
-G4WT12 >   Number of events processed : 62546050
-G4WT12 >   User=158141.520000s Real=9888.941340s Sys=12.850000s [Cpu=1599.3%]
-G4WT12 > ... merge all H1 - done
-G4WT12 > ... write file : lxe_t12.root - done
-G4WT12 > ... close file : lxe_t12.root - done
-G4WT12 > ... delete empty file : lxe_t12.root - done
-G4WT5 > Thread-local run terminated.
-G4WT5 > Run Summary
-G4WT5 >   Number of events processed : 62465310
-G4WT5 >   User=158143.530000s Real=9889.124343s Sys=12.850000s [Cpu=1599.3%]
-G4WT5 > ... merge all H1 - done
-G4WT5 > ... write file : lxe_t5.root - done
-G4WT5 > ... close file : lxe_t5.root - done
-G4WT5 > ... delete empty file : lxe_t5.root - done
-G4WT14 > Thread-local run terminated.
-G4WT14 > Run Summary
-G4WT14 >   Number of events processed : 62512740
-G4WT14 >   User=158144.020000s Real=9889.174374s Sys=12.850000s [Cpu=1599.3%]
-G4WT14 > ... merge all H1 - done
-G4WT14 > ... write file : lxe_t14.root - done
-G4WT14 > ... close file : lxe_t14.root - done
-G4WT14 > ... delete empty file : lxe_t14.root - done
-G4WT9 > Thread-local run terminated.
-G4WT9 > Run Summary
-G4WT9 >   Number of events processed : 62512740
-G4WT9 >   User=158144.370000s Real=9889.210999s Sys=12.850000s [Cpu=1599.3%]
-G4WT9 > ... merge all H1 - done
-G4WT9 > ... write file : lxe_t9.root - done
-G4WT9 > ... close file : lxe_t9.root - done
-G4WT9 > ... delete empty file : lxe_t9.root - done
-G4WT1 > Thread-local run terminated.
-G4WT1 > Run Summary
-G4WT1 >   Number of events processed : 62568075
-G4WT1 >   User=158145.350000s Real=9889.332096s Sys=12.850000s [Cpu=1599.3%]
-G4WT1 > ... merge all H1 - done
+G4WT10 > Thread-local run terminated.
+G4WT10 > Run Summary
+G4WT10 >   Number of events processed : 62718270
+G4WT10 >   User=217067.920000s Real=13695.264659s Sys=12.410000s [Cpu=1585.1%]
+G4WT10 > ... merge all H1 - done
+G4WT10 > ... write file : lxe_t10.root - done
+G4WT10 > ... close file : lxe_t10.root - done
+G4WT10 > ... delete empty file : lxe_t10.root - done
 G4WT13 > Thread-local run terminated.
 G4WT13 > Run Summary
-G4WT13 >   Number of events processed : 62481120
-G4WT13 >   User=158145.430000s Real=9889.344897s Sys=12.860000s [Cpu=1599.3%]
-G4WT1 > ... write file : lxe_t1.root - done
+G4WT13 >   Number of events processed : 62664625
+G4WT13 >   User=217070.560000s Real=13695.456484s Sys=12.420000s [Cpu=1585.1%]
 G4WT13 > ... merge all H1 - done
 G4WT13 > ... write file : lxe_t13.root - done
-G4WT1 > ... close file : lxe_t1.root - done
-G4WT1 > ... delete empty file : lxe_t1.root - done
 G4WT13 > ... close file : lxe_t13.root - done
 G4WT13 > ... delete empty file : lxe_t13.root - done
 G4WT15 > Thread-local run terminated.
 G4WT15 > Run Summary
-G4WT15 >   Number of events processed : 62370450
-G4WT15 >   User=158145.590000s Real=9889.370517s Sys=12.860000s [Cpu=1599.3%]
+G4WT15 >   Number of events processed : 62686650
+G4WT15 >   User=217073.430000s Real=13695.677059s Sys=12.430000s [Cpu=1585.1%]
 G4WT15 > ... merge all H1 - done
 G4WT15 > ... write file : lxe_t15.root - done
+G4WT2 > Thread-local run terminated.
+G4WT2 > Run Summary
+G4WT2 >   Number of events processed : 62417880
+G4WT2 >   User=217073.660000s Real=13695.696375s Sys=12.430000s [Cpu=1585.1%]
+G4WT2 > ... merge all H1 - done
 G4WT15 > ... close file : lxe_t15.root - done
 G4WT15 > ... delete empty file : lxe_t15.root - done
-G4WT3 > Thread-local run terminated.
-G4WT3 > Run Summary
-G4WT3 >   Number of events processed : 62402070
-G4WT3 >   User=158145.720000s Real=9889.395437s Sys=12.860000s [Cpu=1599.3%]
-G4WT3 > ... merge all H1 - done
-G4WT3 > ... write file : lxe_t3.root - done
-G4WT3 > ... close file : lxe_t3.root - done
-G4WT3 > ... delete empty file : lxe_t3.root - done
+G4WT2 > ... write file : lxe_t2.root - done
+G4WT9 > Thread-local run terminated.
+G4WT9 > Run Summary
+G4WT9 >   Number of events processed : 62639220
+G4WT9 >   User=217073.750000s Real=13695.703264s Sys=12.420000s [Cpu=1585.1%]
+G4WT9 > ... merge all H1 - done
+G4WT2 > ... close file : lxe_t2.root - done
+G4WT2 > ... delete empty file : lxe_t2.root - done
+G4WT9 > ... write file : lxe_t9.root - done
+G4WT9 > ... close file : lxe_t9.root - done
+G4WT9 > ... delete empty file : lxe_t9.root - done
+G4WT6 > Thread-local run terminated.
+G4WT6 > Run Summary
+G4WT6 >   Number of events processed : 62267685
+G4WT6 >   User=217073.980000s Real=13695.727266s Sys=12.420000s [Cpu=1585.1%]
+G4WT6 > ... merge all H1 - done
+G4WT6 > ... write file : lxe_t6.root - done
+G4WT6 > ... close file : lxe_t6.root - done
+G4WT6 > ... delete empty file : lxe_t6.root - done
 G4WT11 > Thread-local run terminated.
 G4WT11 > Run Summary
-G4WT11 >   Number of events processed : 62615505
-G4WT11 >   User=158146.010000s Real=9889.465732s Sys=12.860000s [Cpu=1599.3%]
+G4WT11 >   Number of events processed : 62607600
+G4WT11 >   User=217074.650000s Real=13695.799847s Sys=12.420000s [Cpu=1585.1%]
 G4WT11 > ... merge all H1 - done
 G4WT11 > ... write file : lxe_t11.root - done
 G4WT11 > ... close file : lxe_t11.root - done
 G4WT11 > ... delete empty file : lxe_t11.root - done
-G4WT2 > Thread-local run terminated.
-G4WT2 > Run Summary
-G4WT2 >   Number of events processed : 62528550
-G4WT2 >   User=158146.090000s Real=9889.494133s Sys=12.860000s [Cpu=1599.3%]
-G4WT2 > ... merge all H1 - done
-G4WT2 > ... write file : lxe_t2.root - done
-G4WT2 > ... close file : lxe_t2.root - done
-G4WT2 > ... delete empty file : lxe_t2.root - done
+G4WT4 > Thread-local run terminated.
+G4WT4 > Run Summary
+G4WT4 >   Number of events processed : 62512740
+G4WT4 >   User=217078.110000s Real=13696.236673s Sys=12.430000s [Cpu=1585.0%]
+G4WT4 > ... merge all H1 - done
+G4WT4 > ... write file : lxe_t4.root - done
+G4WT4 > ... close file : lxe_t4.root - done
+G4WT4 > ... delete empty file : lxe_t4.root - done
+G4WT3 > Thread-local run terminated.
+G4WT3 > Run Summary
+G4WT3 >   Number of events processed : 62655030
+G4WT3 >   User=217078.320000s Real=13696.265919s Sys=12.420000s [Cpu=1585.0%]
+G4WT3 > ... merge all H1 - done
+G4WT3 > ... write file : lxe_t3.root - done
+G4WT3 > ... close file : lxe_t3.root - done
+G4WT3 > ... delete empty file : lxe_t3.root - done
+G4WT14 > Thread-local run terminated.
+G4WT14 > Run Summary
+G4WT14 >   Number of events processed : 62575980
+G4WT14 >   User=217078.810000s Real=13696.346074s Sys=12.430000s [Cpu=1585.0%]
+G4WT14 > ... merge all H1 - done
+G4WT14 > ... write file : lxe_t14.root - done
+G4WT14 > ... close file : lxe_t14.root - done
+G4WT14 > ... delete empty file : lxe_t14.root - done
 G4WT7 > Thread-local run terminated.
 G4WT7 > Run Summary
-G4WT7 >   Number of events processed : 62291400
-G4WT7 >   User=158146.400000s Real=9889.647547s Sys=12.870000s [Cpu=1599.2%]
+G4WT7 >   Number of events processed : 62639220
+G4WT7 >   User=217079.960000s Real=13696.577076s Sys=12.430000s [Cpu=1585.0%]
 G4WT7 > ... merge all H1 - done
 G4WT7 > ... write file : lxe_t7.root - done
 G4WT7 > ... close file : lxe_t7.root - done
 G4WT7 > ... delete empty file : lxe_t7.root - done
+G4WT1 > Thread-local run terminated.
+G4WT1 > Run Summary
+G4WT1 >   Number of events processed : 62568075
+G4WT1 >   User=217080.330000s Real=13696.670903s Sys=12.430000s [Cpu=1585.0%]
+G4WT1 > ... merge all H1 - done
+G4WT1 > ... write file : lxe_t1.root - done
+G4WT1 > ... close file : lxe_t1.root - done
+G4WT1 > ... delete empty file : lxe_t1.root - done
 G4WT8 > Thread-local run terminated.
 G4WT8 > Run Summary
-G4WT8 >   Number of events processed : 62449500
-G4WT8 >   User=158146.670000s Real=9889.895337s Sys=12.870000s [Cpu=1599.2%]
+G4WT8 >   Number of events processed : 61477185
+G4WT8 >   User=217080.460000s Real=13696.710325s Sys=12.430000s [Cpu=1585.0%]
 G4WT8 > ... merge all H1 - done
+G4WT5 > Thread-local run terminated.
+G4WT5 > Run Summary
+G4WT5 >   Number of events processed : 62568075
+G4WT5 >   User=217080.460000s Real=13696.715915s Sys=12.430000s [Cpu=1585.0%]
+G4WT5 > ... merge all H1 - done
 G4WT8 > ... write file : lxe_t8.root - done
+G4WT5 > ... write file : lxe_t5.root - done
 G4WT8 > ... close file : lxe_t8.root - done
 G4WT8 > ... delete empty file : lxe_t8.root - done
+G4WT5 > ... close file : lxe_t5.root - done
+G4WT5 > ... delete empty file : lxe_t5.root - done
+G4WT12 > Thread-local run terminated.
+G4WT12 > Run Summary
+G4WT12 >   Number of events processed : 62591790
+G4WT12 >   User=217080.620000s Real=13696.903093s Sys=12.420000s [Cpu=1585.0%]
+G4WT12 > ... merge all H1 - done
+G4WT12 > ... write file : lxe_t12.root - done
+G4WT12 > ... close file : lxe_t12.root - done
+G4WT12 > ... delete empty file : lxe_t12.root - done
  Run terminated.
 Run Summary
   Number of events processed : 1000000000
-  User=158146.700000s Real=9889.932871s Sys=12.880000s [Cpu=1599.2%]
+  User=217080.690000s Real=13696.939657s Sys=12.430000s [Cpu=1585.0%]
 
  ======================== run summary ======================
 The run was 1000000000 events.
-Number of hits per event:	 0.0002028 +- 4.008e-05
-Number of hits per event above threshold:	 1.73e-07 +- 1.315e-08
-Number of scintillation photons per event :	 0.000451 +- 0
-Number of Cerenkov photons per event:	 4.921e-06 +- 1.011e-06
-Number of absorbed photons per event :	 0.000251 +- 0
+Number of hits per event:	 0.0001903 +- 2.747e-05
+Number of hits per event above threshold:	 1.67e-07 +- 1.292e-08
+Number of scintillation photons per event :	 0.0004221 +- 0
+Number of Cerenkov photons per event:	 6.858e-06 +- 1.554e-06
+Number of absorbed photons per event :	 0.0002351 +- 3.301e-05
 Number of photons absorbed at boundary per event:	 0 +- 0
-Total energy deposition in scintillator per event:	 0.000382 +- 4.257e-05 keV.
+Total energy deposition in scintillator per event:	 0.000429 +- 4.426e-05 keV.
 
-Total dose deposition in scoring volume:	 5.79342e-13 Gy +- 3.93805e-14 Gy
+Total dose deposition in scoring volume:	 5.96371e-13 Gy +- 4.20357e-14 Gy
 
-Events with a number of hits between 800 and 1200 hits are 67
+Events with a number of hits between 800 and 1200 hits are 75
 
 ... write file : lxe.root - done
 ... close file : lxe.root - done
@@ -3358,134 +3259,134 @@ Events with a number of hits between 800 and 1200 hits are 67
   "/vis/enable", then "/vis/viewer/flush" or "/vis/viewer/rebuild" to see them accumulated.
 Graphics systems deleted.
 Visualization Manager deleting...
-G4WT10 > Destroying WorkerRunManager (0x2af6bc047050)
-G4WT10 > G4 kernel has come to Quit state.
-G4WT4 > Destroying WorkerRunManager (0x2af6a4047050)
-G4WT4 > G4 kernel has come to Quit state.
-G4WT6 > Destroying WorkerRunManager (0x2af6ac047050)
-G4WT6 > G4 kernel has come to Quit state.
-G4WT0 > Destroying WorkerRunManager (0x2af694047050)
-G4WT0 > G4 kernel has come to Quit state.
-G4WT12 > Destroying WorkerRunManager (0x2af6c4047050)
-G4WT12 > G4 kernel has come to Quit state.
-G4WT5 > Destroying WorkerRunManager (0x2af6a8047050)
-G4WT5 > G4 kernel has come to Quit state.
-G4WT14 > Destroying WorkerRunManager (0x2af6cc047050)
-G4WT14 > G4 kernel has come to Quit state.
-G4WT10 > ================== Deleting memory pools ===================
-G4WT4 > ================== Deleting memory pools ===================
-G4WT9 > Destroying WorkerRunManager (0x2af6b8047050)
-G4WT9 > G4 kernel has come to Quit state.
-G4WT4 > Number of memory pools allocated: 17; of which, static: 0
-G4WT4 > Dynamic pools deleted: 17 / Total memory freed: 1.1 MB
-G4WT4 > ============================================================
-G4WT6 > ================== Deleting memory pools ===================
-G4WT4 > Thread-local UImanager is to be deleted.
-G4WT4 > There should not be any thread-local G4cout/G4cerr hereafter.
-G4WT10 > Number of memory pools allocated: 17; of which, static: 0
-G4WT13 > Destroying WorkerRunManager (0x2af6c8047050)
-G4WT10 > Dynamic pools deleted: 17 / Total memory freed: 1.4 MB
-G4WT10 > ============================================================
-G4WT10 > Thread-local UImanager is to be deleted.
-G4WT10 > There should not be any thread-local G4cout/G4cerr hereafter.
+G4WT13 > Destroying WorkerRunManager (0x2b32a8047050)
 G4WT13 > G4 kernel has come to Quit state.
-G4WT6 > Number of memory pools allocated: 17; of which, static: 0
-G4WT6 > Dynamic pools deleted: 17 / Total memory freed: 1.2 MB
-G4WT6 > ============================================================
-G4WT6 > Thread-local UImanager is to be deleted.
-G4WT6 > There should not be any thread-local G4cout/G4cerr hereafter.
-G4WT1 > Destroying WorkerRunManager (0x2af698047050)
-G4WT1 > G4 kernel has come to Quit state.
-G4WT0 > ================== Deleting memory pools ===================
-G4WT0 > Number of memory pools allocated: 17; of which, static: 0
-G4WT0 > Dynamic pools deleted: 17 / Total memory freed: 1.6 MB
-G4WT0 > ============================================================
-G4WT0 > Thread-local UImanager is to be deleted.
-G4WT0 > There should not be any thread-local G4cout/G4cerr hereafter.
-G4WT12 > ================== Deleting memory pools ===================
-G4WT15 > Destroying WorkerRunManager (0x2af6d0047050)
-G4WT15 > G4 kernel has come to Quit state.
-G4WT12 > Number of memory pools allocated: 17; of which, static: 0
-G4WT12 > Dynamic pools deleted: 17 / Total memory freed: 1.1 MB
-G4WT12 > ============================================================
-G4WT12 > Thread-local UImanager is to be deleted.
-G4WT12 > There should not be any thread-local G4cout/G4cerr hereafter.
-G4WT5 > ================== Deleting memory pools ===================
-G4WT3 > Destroying WorkerRunManager (0x2af6a0047050)
-G4WT3 > G4 kernel has come to Quit state.
-G4WT5 > Number of memory pools allocated: 17; of which, static: 0
-G4WT5 > Dynamic pools deleted: 17 / Total memory freed: 1.1 MB
-G4WT5 > ============================================================
-G4WT5 > Thread-local UImanager is to be deleted.
-G4WT5 > There should not be any thread-local G4cout/G4cerr hereafter.
-G4WT11 > Destroying WorkerRunManager (0x2af6c0047050)
-G4WT14 > ================== Deleting memory pools ===================
-G4WT11 > G4 kernel has come to Quit state.
-G4WT14 > Number of memory pools allocated: 17; of which, static: 0
-G4WT14 > Dynamic pools deleted: 17 / Total memory freed: 1.1 MB
-G4WT14 > ============================================================
-G4WT14 > Thread-local UImanager is to be deleted.
-G4WT14 > There should not be any thread-local G4cout/G4cerr hereafter.
-G4WT2 > Destroying WorkerRunManager (0x2af69c047050)
-G4WT9 > ================== Deleting memory pools ===================
-G4WT2 > G4 kernel has come to Quit state.
-G4WT8 > Destroying WorkerRunManager (0x2af6b4047050)
-G4WT8 > G4 kernel has come to Quit state.
+G4WT0 > Destroying WorkerRunManager (0x2b3270047050)
+G4WT0 > G4 kernel has come to Quit state.
 G4WT13 > ================== Deleting memory pools ===================
+G4WT10 > Destroying WorkerRunManager (0x2b329c047050)
+G4WT0 > ================== Deleting memory pools ===================
+G4WT10 > G4 kernel has come to Quit state.
 G4WT13 > Number of memory pools allocated: 17; of which, static: 0
-G4WT13 > Dynamic pools deleted: 17 / Total memory freed: 1 MB
+G4WT13 > Dynamic pools deleted: 17 / Total memory freed: 1.2 MB
 G4WT13 > ============================================================
 G4WT13 > Thread-local UImanager is to be deleted.
 G4WT13 > There should not be any thread-local G4cout/G4cerr hereafter.
-G4WT7 > Destroying WorkerRunManager (0x2af6b0047050)
-G4WT7 > G4 kernel has come to Quit state.
-G4WT9 > Number of memory pools allocated: 17; of which, static: 0
-G4WT9 > Dynamic pools deleted: 17 / Total memory freed: 5 MB
-G4WT9 > ============================================================
-G4WT9 > Thread-local UImanager is to be deleted.
-G4WT9 > There should not be any thread-local G4cout/G4cerr hereafter.
-G4WT3 > ================== Deleting memory pools ===================
-G4WT3 > Number of memory pools allocated: 17; of which, static: 0
-G4WT3 > Dynamic pools deleted: 17 / Total memory freed: 1.3 MB
-G4WT3 > ============================================================
-G4WT3 > Thread-local UImanager is to be deleted.
-G4WT3 > There should not be any thread-local G4cout/G4cerr hereafter.
-G4WT11 > ================== Deleting memory pools ===================
-G4WT11 > Number of memory pools allocated: 17; of which, static: 0
-G4WT11 > Dynamic pools deleted: 17 / Total memory freed: 1.3 MB
-G4WT11 > ============================================================
-G4WT11 > Thread-local UImanager is to be deleted.
-G4WT11 > There should not be any thread-local G4cout/G4cerr hereafter.
-G4WT1 > ================== Deleting memory pools ===================
-G4WT2 > ================== Deleting memory pools ===================
-G4WT2 > Number of memory pools allocated: 17; of which, static: 0
-G4WT2 > Dynamic pools deleted: 17 / Total memory freed: 1 MB
-G4WT2 > ============================================================
-G4WT2 > Thread-local UImanager is to be deleted.
-G4WT2 > There should not be any thread-local G4cout/G4cerr hereafter.
-G4WT1 > Number of memory pools allocated: 17; of which, static: 0
-G4WT1 > Dynamic pools deleted: 17 / Total memory freed: 1.6 MB
-G4WT1 > ============================================================
-G4WT1 > Thread-local UImanager is to be deleted.
-G4WT1 > There should not be any thread-local G4cout/G4cerr hereafter.
-G4WT8 > ================== Deleting memory pools ===================
-G4WT7 > ================== Deleting memory pools ===================
-G4WT8 > Number of memory pools allocated: 17; of which, static: 0
-G4WT8 > Dynamic pools deleted: 17 / Total memory freed: 1.3 MB
-G4WT8 > ============================================================
-G4WT8 > Thread-local UImanager is to be deleted.
-G4WT8 > There should not be any thread-local G4cout/G4cerr hereafter.
-G4WT7 > Number of memory pools allocated: 17; of which, static: 0
-G4WT7 > Dynamic pools deleted: 17 / Total memory freed: 1.7 MB
-G4WT7 > ============================================================
-G4WT7 > Thread-local UImanager is to be deleted.
-G4WT7 > There should not be any thread-local G4cout/G4cerr hereafter.
+G4WT0 > Number of memory pools allocated: 17; of which, static: 0
+G4WT0 > Dynamic pools deleted: 17 / Total memory freed: 1.1 MB
+G4WT0 > ============================================================
+G4WT0 > Thread-local UImanager is to be deleted.
+G4WT0 > There should not be any thread-local G4cout/G4cerr hereafter.
+G4WT15 > Destroying WorkerRunManager (0x2b32b0047050)
+G4WT15 > G4 kernel has come to Quit state.
+G4WT10 > ================== Deleting memory pools ===================
+G4WT2 > Destroying WorkerRunManager (0x2b3278047050)
+G4WT10 > Number of memory pools allocated: 17; of which, static: 0
+G4WT10 > Dynamic pools deleted: 17 / Total memory freed: 1.1 MB
+G4WT10 > ============================================================
+G4WT10 > Thread-local UImanager is to be deleted.
+G4WT10 > There should not be any thread-local G4cout/G4cerr hereafter.
+G4WT2 > G4 kernel has come to Quit state.
+G4WT9 > Destroying WorkerRunManager (0x2b3298047050)
+G4WT9 > G4 kernel has come to Quit state.
 G4WT15 > ================== Deleting memory pools ===================
+G4WT2 > ================== Deleting memory pools ===================
 G4WT15 > Number of memory pools allocated: 17; of which, static: 0
 G4WT15 > Dynamic pools deleted: 17 / Total memory freed: 1.3 MB
 G4WT15 > ============================================================
 G4WT15 > Thread-local UImanager is to be deleted.
 G4WT15 > There should not be any thread-local G4cout/G4cerr hereafter.
+G4WT6 > Destroying WorkerRunManager (0x2b3288047050)
+G4WT9 > ================== Deleting memory pools ===================
+G4WT2 > Number of memory pools allocated: 17; of which, static: 0
+G4WT2 > Dynamic pools deleted: 17 / Total memory freed: 1.1 MB
+G4WT2 > ============================================================
+G4WT2 > Thread-local UImanager is to be deleted.
+G4WT2 > There should not be any thread-local G4cout/G4cerr hereafter.
+G4WT6 > G4 kernel has come to Quit state.
+G4WT9 > Number of memory pools allocated: 17; of which, static: 0
+G4WT9 > Dynamic pools deleted: 17 / Total memory freed: 1.1 MB
+G4WT9 > ============================================================
+G4WT9 > Thread-local UImanager is to be deleted.
+G4WT9 > There should not be any thread-local G4cout/G4cerr hereafter.
+G4WT4 > Destroying WorkerRunManager (0x2b3280047050)
+G4WT4 > G4 kernel has come to Quit state.
+G4WT6 > ================== Deleting memory pools ===================
+G4WT11 > Destroying WorkerRunManager (0x2b32a0047050)
+G4WT11 > G4 kernel has come to Quit state.
+G4WT6 > Number of memory pools allocated: 17; of which, static: 0
+G4WT6 > Dynamic pools deleted: 17 / Total memory freed: 1.2 MB
+G4WT6 > ============================================================
+G4WT6 > Thread-local UImanager is to be deleted.
+G4WT6 > There should not be any thread-local G4cout/G4cerr hereafter.
+G4WT4 > ================== Deleting memory pools ===================
+G4WT3 > Destroying WorkerRunManager (0x2b327c047050)
+G4WT4 > Number of memory pools allocated: 17; of which, static: 0
+G4WT4 > Dynamic pools deleted: 17 / Total memory freed: 1.7 MB
+G4WT4 > ============================================================
+G4WT4 > Thread-local UImanager is to be deleted.
+G4WT4 > There should not be any thread-local G4cout/G4cerr hereafter.
+G4WT3 > G4 kernel has come to Quit state.
+G4WT11 > ================== Deleting memory pools ===================
+G4WT14 > Destroying WorkerRunManager (0x2b32ac047050)
+G4WT14 > G4 kernel has come to Quit state.
+G4WT11 > Number of memory pools allocated: 17; of which, static: 0
+G4WT11 > Dynamic pools deleted: 17 / Total memory freed: 1.2 MB
+G4WT11 > ============================================================
+G4WT11 > Thread-local UImanager is to be deleted.
+G4WT11 > There should not be any thread-local G4cout/G4cerr hereafter.
+G4WT3 > ================== Deleting memory pools ===================
+G4WT7 > Destroying WorkerRunManager (0x2b328c047050)
+G4WT7 > G4 kernel has come to Quit state.
+G4WT14 > ================== Deleting memory pools ===================
+G4WT3 > Number of memory pools allocated: 17; of which, static: 0
+G4WT3 > Dynamic pools deleted: 17 / Total memory freed: 2.3 MB
+G4WT3 > ============================================================
+G4WT3 > Thread-local UImanager is to be deleted.
+G4WT3 > There should not be any thread-local G4cout/G4cerr hereafter.
+G4WT14 > Number of memory pools allocated: 17; of which, static: 0
+G4WT14 > Dynamic pools deleted: 17 / Total memory freed: 1.2 MB
+G4WT14 > ============================================================
+G4WT14 > Thread-local UImanager is to be deleted.
+G4WT14 > There should not be any thread-local G4cout/G4cerr hereafter.
+G4WT8 > Destroying WorkerRunManager (0x2b3290047050)
+G4WT8 > G4 kernel has come to Quit state.
+G4WT7 > ================== Deleting memory pools ===================
+G4WT7 > Number of memory pools allocated: 17; of which, static: 0
+G4WT7 > Dynamic pools deleted: 17 / Total memory freed: 1.2 MB
+G4WT7 > ============================================================
+G4WT7 > Thread-local UImanager is to be deleted.
+G4WT7 > There should not be any thread-local G4cout/G4cerr hereafter.
+G4WT1 > Destroying WorkerRunManager (0x2b3274047050)
+G4WT1 > G4 kernel has come to Quit state.
+G4WT8 > ================== Deleting memory pools ===================
+G4WT8 > Number of memory pools allocated: 17; of which, static: 0
+G4WT8 > Dynamic pools deleted: 17 / Total memory freed: 1.2 MB
+G4WT8 > ============================================================
+G4WT5 > Destroying WorkerRunManager (0x2b3284047050)
+G4WT5 > G4 kernel has come to Quit state.
+G4WT8 > Thread-local UImanager is to be deleted.
+G4WT8 > There should not be any thread-local G4cout/G4cerr hereafter.
+G4WT1 > ================== Deleting memory pools ===================
+G4WT12 > Destroying WorkerRunManager (0x2b32a4047050)
+G4WT12 > G4 kernel has come to Quit state.
+G4WT1 > Number of memory pools allocated: 17; of which, static: 0
+G4WT1 > Dynamic pools deleted: 17 / Total memory freed: 1.6 MB
+G4WT1 > ============================================================
+G4WT1 > Thread-local UImanager is to be deleted.
+G4WT1 > There should not be any thread-local G4cout/G4cerr hereafter.
+G4WT5 > ================== Deleting memory pools ===================
+G4WT12 > ================== Deleting memory pools ===================
+G4WT5 > Number of memory pools allocated: 17; of which, static: 0
+G4WT5 > Dynamic pools deleted: 17 / Total memory freed: 2.1 MB
+G4WT5 > ============================================================
+G4WT5 > Thread-local UImanager is to be deleted.
+G4WT5 > There should not be any thread-local G4cout/G4cerr hereafter.
+G4WT12 > Number of memory pools allocated: 17; of which, static: 0
+G4WT12 > Dynamic pools deleted: 17 / Total memory freed: 1.1 MB
+G4WT12 > ============================================================
+G4WT12 > Thread-local UImanager is to be deleted.
+G4WT12 > There should not be any thread-local G4cout/G4cerr hereafter.
 G4 kernel has come to Quit state.
 ================== Deleting memory pools ===================
 Number of memory pools allocated: 3; of which, static: 0
