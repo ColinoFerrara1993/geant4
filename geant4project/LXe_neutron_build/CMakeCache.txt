@@ -141,9 +141,6 @@ CMAKE_OBJCOPY:FILEPATH=/cvmfs/sft.cern.ch/lcg/releases/binutils/2.30-e5b21/x86_6
 //Path to a program.
 CMAKE_OBJDUMP:FILEPATH=/cvmfs/sft.cern.ch/lcg/releases/binutils/2.30-e5b21/x86_64-centos7/bin/objdump
 
-//No help, variable specified on the command line.
-CMAKE_PREFIX_PATH:UNINITIALIZED=/lustrehome/daymos93/programs/Geant4/geant4-install
-
 //Value Computed by CMake
 CMAKE_PROJECT_DESCRIPTION:STATIC=
 

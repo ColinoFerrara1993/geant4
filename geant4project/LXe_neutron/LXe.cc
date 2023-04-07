@@ -50,6 +50,7 @@
 #include "ElectricFieldSetup.hh"
 #include "F03FieldSetup.hh"
 #include "G4Timer.hh"
+#include "G4ScoringManager.hh"
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 G4ThreadLocal ElectricFieldSetup* LXeDetectorConstruction::felFieldSetup1_0;
@@ -109,6 +110,9 @@ int main(int argc, char** argv)
   G4MTRunManager* runManager = new G4MTRunManager;
   runManager->SetNumberOfThreads(16);
   
+  G4ScoringManager* scManager = G4ScoringManager::GetScoringManager();
+  scManager->SetVerboseLevel(2);
+  
   LXeDetectorConstruction* det = new LXeDetectorConstruction();
   runManager->SetUserInitialization(det);
 
@@ -163,6 +167,7 @@ int main(int argc, char** argv)
   // job termination
   delete visManager;
   delete runManager;
+  delete scManager;
   return 0;
 }
 

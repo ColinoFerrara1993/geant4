@@ -6,15 +6,26 @@
 
 /run/verbose 1
 /control/verbose 1
-
-
 /run/initialize
-
-/run/printProgress 100000000
-
+/run/printProgress 100000
+/tracking/storeTrajectory 1
+/LXe/pmtThreshold 1
 /vis/disable
 
-/LXe/pmtThreshold 1
+/score/create/boxMesh boxMesh_1
+/score/mesh/boxSize 4. 4. 0.04 cm
+/score/mesh/nBin 100 100 100
+/score/mesh/translate/xyz 0. 0. -169.25 cm
+/score/quantity/flatSurfaceCurrent flux1
+/score/filter/particle filter_neutron neutron
+/score/quantity/doseDeposit dose1
+/score/filter/particle filter_proton proton
+/score/close
+
 /electricfield/update
 /field/update
-/run/beamOn 1000000000
+
+/run/beamOn 10000000
+
+/score/dumpQuantityToFile boxMesh_1 flux1 flux_file_1
+/score/dumpQuantityToFile boxMesh_1 dose1 dose_file_1

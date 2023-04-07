@@ -36,7 +36,7 @@
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
 LXeHistoManager::LXeHistoManager()
-  : fFileName("lxe")
+  : fFileName("lxe11")
 {
   Book();
 }
@@ -65,7 +65,7 @@ void LXeHistoManager::Book()
   G4double vmax = 100.;
 
   // 0
-  analysisManager->CreateH1("E kin neutrons in Module0", "Neutron spectrum in Module0", nbins, vmin, 10.);
+  analysisManager->CreateH1("E kin neutrons in Module0", "Neutron spectrum in Module0", nbins, vmin, 6.);
   // 1
   analysisManager->CreateH1("hits per event", "hits per event", nbins, vmin, 10000.);
   // 2
@@ -81,15 +81,15 @@ void LXeHistoManager::Book()
   // 7
   analysisManager->CreateH1("E dep", "energy deposition in scintillator per event", nbins, vmin, 3.);  
   // 8
-  analysisManager->CreateH1("E kin protons in cavities", "Proton spectrum in cavities - Kinetic Energy ", nbins, vmin, 10.);
+  analysisManager->CreateH1("Bragg Peak of protons", "Proton Bragg peak in target - Energy to x", nbins, -1693., -1692.);
   // 9
-  analysisManager->CreateH1("E kin neutrons in moderator", "Neutron spectrum in moderator - Kinetic Energy ", nbins, vmin, 1.);
+  analysisManager->CreateH1("E kin neutrons in moderator", "Neutron spectrum in moderator - Kinetic Energy ", nbins, vmin, 3.);
   // 10
-  analysisManager->CreateH1("E kin neutrons in exp Hall", "Neutron spectrum in exp Hall - Kinetic Energy ", 200, vmin, 10.);
+  analysisManager->CreateH1("E kin neutrons in exp Hall", "Neutron spectrum in exp Hall - Kinetic Energy ", nbins, vmin, 7.);
   // 11
-  analysisManager->CreateH1("Z position of protons in target volume", "Proton position in target - Z Pos", 1000, -1692.9, -1692.1);
+  analysisManager->CreateH1("E kin protons in all other volumes", "Proton spectrum in all other volumes - Kinetic Energy ", nbins, 2., 8.);
   // 12
-  analysisManager->CreateH1("Angle distribution of neutron from target", "Angle distribution of neutron from target", 60, -180., +180.);
+  analysisManager->CreateH1("Angle distribution of neutron from target", "Angle distribution of neutron from target", 120, -90., +90.);
 
   // Create all histograms as inactivated
   for(G4int i = 0; i < analysisManager->GetNofH1s(); ++i)

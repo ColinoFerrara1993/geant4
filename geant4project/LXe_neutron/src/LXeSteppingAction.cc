@@ -74,18 +74,17 @@ LXeSteppingAction::~LXeSteppingAction() { delete fSteppingMessenger; }
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
 void LXeSteppingAction::UserSteppingAction(const G4Step* theStep)
-{
+{  
   //measure energy deposition in scoring volume
   if (!fScoringVolume) { 
     const LXeDetectorConstruction* detectorConstruction
       = static_cast<const LXeDetectorConstruction*>
         (G4RunManager::GetRunManager()->GetUserDetectorConstruction());
-    fScoringVolume = detectorConstruction->GetScoringVolume();   
+    fScoringVolume = detectorConstruction->GetScoringVolume();
   }
 
   // get volume of the current step
-  G4LogicalVolume* volume 
-    = theStep->GetPreStepPoint()->GetTouchableHandle()
+  G4LogicalVolume* volume = theStep->GetPreStepPoint()->GetTouchableHandle()
       ->GetVolume()->GetLogicalVolume();
 
   G4StepPoint* prePoint    = theStep->GetPreStepPoint();
@@ -94,11 +93,13 @@ void LXeSteppingAction::UserSteppingAction(const G4Step* theStep)
   G4StepPoint* postPoint  = theStep->GetPostStepPoint();
   G4VPhysicalVolume* postPV = postPoint->GetPhysicalVolume();
   
+  G4double edepStep = theStep->GetTotalEnergyDeposit();
+  
   // check if we are in scoring volume
   if (prePV->GetName() == "housing1") {
 
     // collect energy deposited in this step
-    G4double edepStep = theStep->GetTotalEnergyDeposit();
+    //G4double edepStep = theStep->GetTotalEnergyDeposit();
     fEventAction->AddEdep(edepStep);
   
     //Retrieve from step the track
@@ -161,7 +162,7 @@ void LXeSteppingAction::UserSteppingAction(const G4Step* theStep)
   
      if (particleName2 == "neutron") {
      
-       if (track2->GetParentID() > 0) {
+       if (track2->GetParentID()==1) {
   
          //Analysis
          auto analysisManager = G4AnalysisManager::Instance();
@@ -192,40 +193,38 @@ void LXeSteppingAction::UserSteppingAction(const G4Step* theStep)
   
         if (particleName3 == "neutron") {
      
-              if (postPV->GetName() == "expHall") {
+              if ((postPV->GetName() == "expHall") && (track3->GetParentID() == 1)) {
               
                 //Get angle
                 G4double _x = track3->GetMomentumDirection().x();
                 G4double _y = track3->GetMomentumDirection().y();
                 G4double _z = track3->GetMomentumDirection().z();
-                G4double ang = std::atan(std::sqrt((_x)*(_x) + (_y)*(_y))/(_z));
+                
+                G4double ang = std::atan((_z)/(std::sqrt((_x)*(_x) + (_y)*(_y))));
+                
+                G4double jacob = std::abs(2*(std::sin(ang))*(std::cos(ang)));
   
                 //Analysis
                 auto analysisManager = G4AnalysisManager::Instance();
-  
                 //fill
                 analysisManager->FillH1(10, kinEnergy3);
-                //fill
-                analysisManager->FillH1(12, ang*180./(pi));
+                analysisManager->FillH1(12, ang*180./(pi), 1/(jacob));
        
               }
         
         } else if (particleName3 == "proton") {
-
-                 // Analysis
-                 auto analysisManager = G4AnalysisManager::Instance();
-
-                 // Position
-                 G4double z_p = track3->GetPosition().z();
-
-                 // check
-                 //std::cout << "Z =" << "   " << z_p << std::endl;
-
-                 // Fill
-                 analysisManager->FillH1(11, z_p);
-                
-               }
-      } else {
+        
+                 G4double xmax = 0.08 * cm;
+                 G4double x1 = prePoint->GetPosition().z();
+                 G4double x2 = postPoint->GetPosition().z();        
+                 G4double x  = x1 + G4UniformRand()*(x2-x1);
+                 if (theStep->GetTrack()->GetDefinition()->GetPDGCharge() == 0.) x = x2;
+                 G4AnalysisManager* analysisManager = G4AnalysisManager::Instance();
+                 analysisManager->FillH1(8, x, edepStep);
+    
+        }
+      
+    } else {
     
             //Retrieve from step the track
             G4Track* track4 = theStep->GetTrack();
@@ -267,9 +266,11 @@ void LXeSteppingAction::UserSteppingAction(const G4Step* theStep)
                     auto analysisManager = G4AnalysisManager::Instance();
   
                     //fill
-                    analysisManager->FillH1(8, kinEnergy4);
+                    analysisManager->FillH1(11, kinEnergy4);
                     
                   //}
+                  
+
                 
                 }
        

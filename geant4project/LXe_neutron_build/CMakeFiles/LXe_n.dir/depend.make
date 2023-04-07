@@ -151,6 +151,7 @@ CMakeFiles/LXe_n.dir/LXe.cc.o: /lustrehome/daymos93/programs/Geant4/geant4-insta
 CMakeFiles/LXe_n.dir/LXe.cc.o: /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/G4Scene.icc
 CMakeFiles/LXe_n.dir/LXe.cc.o: /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/G4SceneHandlerList.hh
 CMakeFiles/LXe_n.dir/LXe.cc.o: /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/G4SceneList.hh
+CMakeFiles/LXe_n.dir/LXe.cc.o: /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/G4ScoringManager.hh
 CMakeFiles/LXe_n.dir/LXe.cc.o: /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/G4SmartTrackStack.hh
 CMakeFiles/LXe_n.dir/LXe.cc.o: /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/G4SmartVoxelHeader.hh
 CMakeFiles/LXe_n.dir/LXe.cc.o: /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/G4SmartVoxelHeader.icc
@@ -160,6 +161,7 @@ CMakeFiles/LXe_n.dir/LXe.cc.o: /lustrehome/daymos93/programs/Geant4/geant4-insta
 CMakeFiles/LXe_n.dir/LXe.cc.o: /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/G4SmartVoxelProxy.icc
 CMakeFiles/LXe_n.dir/LXe.cc.o: /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/G4StackManager.hh
 CMakeFiles/LXe_n.dir/LXe.cc.o: /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/G4StackedTrack.hh
+CMakeFiles/LXe_n.dir/LXe.cc.o: /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/G4StatDouble.hh
 CMakeFiles/LXe_n.dir/LXe.cc.o: /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/G4Step.hh
 CMakeFiles/LXe_n.dir/LXe.cc.o: /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/G4Step.icc
 CMakeFiles/LXe_n.dir/LXe.cc.o: /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/G4StepPoint.hh
@@ -241,6 +243,8 @@ CMakeFiles/LXe_n.dir/LXe.cc.o: /lustrehome/daymos93/programs/Geant4/geant4-insta
 CMakeFiles/LXe_n.dir/LXe.cc.o: /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/G4VRML2File.hh
 CMakeFiles/LXe_n.dir/LXe.cc.o: /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/G4VSceneHandler.hh
 CMakeFiles/LXe_n.dir/LXe.cc.o: /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/G4VSceneHandler.icc
+CMakeFiles/LXe_n.dir/LXe.cc.o: /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/G4VScoreWriter.hh
+CMakeFiles/LXe_n.dir/LXe.cc.o: /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/G4VScoringMesh.hh
 CMakeFiles/LXe_n.dir/LXe.cc.o: /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/G4VSolid.hh
 CMakeFiles/LXe_n.dir/LXe.cc.o: /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/G4VSolid.icc
 CMakeFiles/LXe_n.dir/LXe.cc.o: /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/G4VStateDependent.hh

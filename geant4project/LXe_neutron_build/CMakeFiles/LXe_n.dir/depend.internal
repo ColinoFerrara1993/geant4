@@ -152,6 +152,7 @@ CMakeFiles/LXe_n.dir/LXe.cc.o
  /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/G4Scene.icc
  /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/G4SceneHandlerList.hh
  /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/G4SceneList.hh
+ /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/G4ScoringManager.hh
  /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/G4SmartTrackStack.hh
  /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/G4SmartVoxelHeader.hh
  /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/G4SmartVoxelHeader.icc
@@ -161,6 +162,7 @@ CMakeFiles/LXe_n.dir/LXe.cc.o
  /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/G4SmartVoxelProxy.icc
  /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/G4StackManager.hh
  /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/G4StackedTrack.hh
+ /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/G4StatDouble.hh
  /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/G4Step.hh
  /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/G4Step.icc
  /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/G4StepPoint.hh
@@ -242,6 +244,8 @@ CMakeFiles/LXe_n.dir/LXe.cc.o
  /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/G4VRML2File.hh
  /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/G4VSceneHandler.hh
  /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/G4VSceneHandler.icc
+ /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/G4VScoreWriter.hh
+ /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/G4VScoringMesh.hh
  /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/G4VSolid.hh
  /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/G4VSolid.icc
  /lustrehome/daymos93/programs/Geant4/geant4-install/include/Geant4/G4VStateDependent.hh

@@ -205,7 +205,7 @@ void LXeDetectorConstruction::DefineMaterials()
   fPb = new G4Element("Pb", "Pb", z = 82., a = 207.2 * g / mole);
   fSr = new G4Element("Sr", "Sr", z = 38., a = 87.62 * g / mole);
   
-  fIsoBe = new G4Isotope("_Be_", z = 4., a = 9., 9.01 * g / mole);
+  fIsoBe = new G4Isotope("_Be", z = 4., a = 9., 9.01 * g / mole);
   fBe = new G4Element("Be", "Be", 1);
   fBe->AddIsotope(fIsoBe, 100. * perCent);
 
@@ -277,6 +277,7 @@ void LXeDetectorConstruction::DefineMaterials()
   fConcrete->AddElement(fSr, 0.04 * perCent);
   
   // Berillium/Lithium material
+  
   fBerillium = new G4Material("Berillium", density = 1.848 * g / cm3, 1);
   fBerillium->AddElement(fBe, 100. * perCent);
 

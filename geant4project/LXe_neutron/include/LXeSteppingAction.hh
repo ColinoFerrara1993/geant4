@@ -59,7 +59,6 @@ class LXeSteppingAction : public G4UserSteppingAction
   LXeEventAction* fEventAction;
   G4LogicalVolume* fScoringVolume;
   G4double fkinEnergy;
-
   G4OpBoundaryProcessStatus fExpectedNextStatus;
 };
 

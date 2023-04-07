@@ -236,12 +236,19 @@ void LXeEventAction::EndOfEventAction(const G4Event* anEvent)
     }
     pmtHC->DrawAllHits();
   }
+  
+  // Fill Histo
 
   G4AnalysisManager::Instance()->FillH1(3, fPhotonCount_Scint);
   G4AnalysisManager::Instance()->FillH1(4, fPhotonCount_Ceren);
   G4AnalysisManager::Instance()->FillH1(5, fAbsorptionCount);
   G4AnalysisManager::Instance()->FillH1(6, fBoundaryAbsorptionCount);
-
+  
+  // Fill Ntuple
+  
+  //G4AnalysisManager::Instance()->FillNtupleDColumn(3, fPhotonCount_Scint);
+  //G4AnalysisManager::Instance()->FillNtupleDColumn(4, fPhotonCount_Ceren);
+  
   if(fVerbose > 0)
   {
     // End of event output. later to be controlled by a verbose level

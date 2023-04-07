@@ -166,8 +166,8 @@ class LXeDetectorConstruction : public G4VUserDetectorConstruction
   G4Material* fGlassSci;
   G4Material* fConcrete;
   G4Element* fBe;
-  G4Material* fBerillium;
   G4Isotope* fIsoBe;
+  G4Material* fBerillium;
 
   // Geometry
   G4double fScint_x;
