@@ -7,7 +7,7 @@
 /run/verbose 1
 /control/verbose 1
 /run/initialize
-/run/printProgress 100000
+/run/printProgress 100000000
 /tracking/storeTrajectory 1
 /LXe/pmtThreshold 1
 /vis/disable
@@ -25,7 +25,7 @@
 /electricfield/update
 /field/update
 
-/run/beamOn 10000000
+/run/beamOn 1000000000
 
 /score/dumpQuantityToFile boxMesh_1 flux1 flux_file_1
 /score/dumpQuantityToFile boxMesh_1 dose1 dose_file_1
