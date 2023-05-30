@@ -25,7 +25,7 @@
 /electricfield/update
 /field/update
 
-/run/beamOn 1000000000
+/run/beamOn 1000000
 
 /score/dumpQuantityToFile boxMesh_1 flux1 flux_file_1
 /score/dumpQuantityToFile boxMesh_1 dose1 dose_file_1
